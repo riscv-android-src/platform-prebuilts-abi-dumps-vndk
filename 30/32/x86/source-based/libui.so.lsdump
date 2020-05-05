@@ -2,6 +2,14 @@
  "array_types" :
  [
   {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIA0_c",
+   "name" : "char [0]",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA0_c",
+   "source_file" : "/system/core/liblog/include/log/log_read.h"
+  },
+  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIA0_i",
    "name" : "int [0]",
@@ -4724,7 +4732,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android13GraphicBuffer13$USAGE_CURSORE",
-   "name" : "android::GraphicBuffer::(anonymous enum at frameworks/native/libs/ui/include/ui/GraphicBuffer.h:56:5)",
+   "name" : "android::GraphicBuffer::(anonymous enum at frameworks/native/libs/ui/include/ui/GraphicBuffer.h:60:5)",
    "referenced_type" : "_ZTIN7android13GraphicBuffer13$USAGE_CURSORE",
    "self_type" : "_ZTIN7android13GraphicBuffer13$USAGE_CURSORE",
    "size" : 4,
@@ -4779,7 +4787,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android13GraphicBuffer8$ownDataE",
-   "name" : "android::GraphicBuffer::(anonymous enum at frameworks/native/libs/ui/include/ui/GraphicBuffer.h:221:5)",
+   "name" : "android::GraphicBuffer::(anonymous enum at frameworks/native/libs/ui/include/ui/GraphicBuffer.h:236:5)",
    "referenced_type" : "_ZTIN7android13GraphicBuffer8$ownDataE",
    "self_type" : "_ZTIN7android13GraphicBuffer8$ownDataE",
    "size" : 4,
@@ -23076,7 +23084,7 @@
    "name" : "const android::GraphicBuffer",
    "referenced_type" : "_ZTIN7android13GraphicBufferE",
    "self_type" : "_ZTIKN7android13GraphicBufferE",
-   "size" : 148,
+   "size" : 152,
    "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBuffer.h"
   },
   {
@@ -25026,6 +25034,11 @@
      "field_name" : "uid",
      "field_offset" : 192,
      "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "msg",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIA0_c"
     }
    ],
    "linker_set_key" : "_ZTI12logger_entry",
@@ -27187,14 +27200,20 @@
     },
     {
      "access" : "private",
-     "field_name" : "mGenerationNumber",
+     "field_name" : "mBufferId",
      "field_offset" : 1056,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mGenerationNumber",
+     "field_offset" : 1088,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
      "field_name" : "mDeathCallbacks",
-     "field_offset" : 1088,
+     "field_offset" : 1120,
      "referenced_type" : "_ZTINSt3__16vectorINS_4pairINS_8functionIFvPvyEEES3_EENS_9allocatorIS6_EEEE"
     }
    ],
@@ -27203,7 +27222,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android13GraphicBufferE",
    "self_type" : "_ZTIN7android13GraphicBufferE",
-   "size" : 148,
+   "size" : 152,
    "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBuffer.h",
    "vtable_components" :
    [
@@ -36290,7 +36309,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7log_msgUt_E",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include_vndk/log/log_read.h:77:3)",
+   "name" : "log_msg::(anonymous union at system/core/liblog/include_vndk/log/log_read.h:81:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7log_msgUt_E",
    "self_type" : "_ZTIN7log_msgUt_E",

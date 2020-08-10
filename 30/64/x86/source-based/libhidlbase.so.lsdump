@@ -2473,6 +2473,9 @@
    "name" : "_ZN7android8hardware7details14onRegistrationERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_SA_"
   },
   {
+   "name" : "_ZN7android8hardware7details15getVndkSpHwPathEPKc"
+  },
+  {
    "name" : "_ZN7android8hardware7details15handleCastErrorERKNS0_6ReturnIbEERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEESE_"
   },
   {
@@ -2523,9 +2526,6 @@
   {
    "binding" : "weak",
    "name" : "_ZN7android8hardware7details17SynchronizedQueueINSt3__18functionIFvvEEEE8wait_popEv"
-  },
-  {
-   "name" : "_ZN7android8hardware7details17getVndkVersionStrEv"
   },
   {
    "binding" : "weak",
@@ -9284,7 +9284,7 @@
    "referenced_type" : "_ZTIFvPKvPvS1_E",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvPKvPvS1_E",
-   "source_file" : "/system/libhwbinder/include/hwbinder/BpHwBinder.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/Binder.h"
   },
   {
    "alignment" : 4,
@@ -19921,6 +19921,19 @@
    "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
   },
   {
+   "function_name" : "android::hardware::details::getVndkSpHwPath",
+   "linker_set_key" : "_ZN7android8hardware7details15getVndkSpHwPathEPKc",
+   "parameters" :
+   [
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
+  },
+  {
    "function_name" : "android::hardware::details::wrapPassthrough",
    "linker_set_key" : "_ZN7android8hardware7details15wrapPassthroughINS_4hidl4base4V1_05IBaseEvEENS_2spIT_EES9_",
    "parameters" :
@@ -20127,12 +20140,6 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "/system/libhidl/transport/include/hidl/ServiceManagement.h"
-  },
-  {
-   "function_name" : "android::hardware::details::getVndkVersionStr",
-   "linker_set_key" : "_ZN7android8hardware7details17getVndkVersionStrEv",
-   "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
   },
   {
    "function_name" : "android::hardware::details::getServiceInternal",
@@ -24434,7 +24441,7 @@
    "referenced_type" : "_ZTIKN7android2spINS_8hardware7IBinderEEE",
    "self_type" : "_ZTIRKN7android2spINS_8hardware7IBinderEEE",
    "size" : 4,
-   "source_file" : "/system/libhwbinder/include/hwbinder/ProcessState.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/Binder.h"
   },
   {
    "alignment" : 4,
@@ -24596,7 +24603,7 @@
    "referenced_type" : "_ZTIKN7android8hardware6ParcelE",
    "self_type" : "_ZTIRKN7android8hardware6ParcelE",
    "size" : 4,
-   "source_file" : "/system/libhwbinder/include/hwbinder/Parcel.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/Binder.h"
   },
   {
    "alignment" : 4,
@@ -25623,7 +25630,7 @@
    "referenced_type" : "_ZTIFvPKvPvS1_E",
    "self_type" : "_ZTIPFvPKvPvS1_E",
    "size" : 4,
-   "source_file" : "/system/libhwbinder/include/hwbinder/BpHwBinder.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/Binder.h"
   },
   {
    "alignment" : 4,
@@ -25981,6 +25988,15 @@
    "linker_set_key" : "_ZTIPKN7android2wpINS_8hardware7IBinderEEE",
    "name" : "const android::wp<android::hardware::IBinder> *",
    "referenced_type" : "_ZTIKN7android2wpINS_8hardware7IBinderEEE",
+   "self_type" : "_ZTIPKN7android2wpINS_8hardware7IBinderEEE",
+   "size" : 4,
+   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android2wpINS_8hardware7IBinderEEE",
+   "name" : "const android::wp<android::hardware::IBinder> *",
+   "referenced_type" : "_ZTIKN7android2wpINS_8hardware7IBinderEEE#ODR:out/soong/.intermediates/system/libhwbinder/libhwbinder-impl-internal/android_vendor.30_x86_static/obj/system/libhwbinder/Parcel.sdump",
    "self_type" : "_ZTIPKN7android2wpINS_8hardware7IBinderEEE",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
@@ -26523,7 +26539,7 @@
    "referenced_type" : "_ZTIKN7android8hardware7IBinderE",
    "self_type" : "_ZTIPKN7android8hardware7IBinderE",
    "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/IBinder.h"
   },
   {
    "alignment" : 4,
@@ -27549,7 +27565,7 @@
    "referenced_type" : "_ZTIN7android7RefBase12weakref_typeE",
    "self_type" : "_ZTIPN7android7RefBase12weakref_typeE",
    "size" : 4,
-   "source_file" : "/system/libhwbinder/include/hwbinder/ProcessState.h"
+   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
   {
    "alignment" : 4,
@@ -27603,7 +27619,7 @@
    "referenced_type" : "_ZTIN7android8hardware10BpHwBinderE",
    "self_type" : "_ZTIPN7android8hardware10BpHwBinderE",
    "size" : 4,
-   "source_file" : "/system/libhwbinder/include/hwbinder/IPCThreadState.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/IBinder.h"
   },
   {
    "alignment" : 4,
@@ -27909,7 +27925,7 @@
    "referenced_type" : "_ZTIN7android8hardware6ParcelE",
    "self_type" : "_ZTIPN7android8hardware6ParcelE",
    "size" : 4,
-   "source_file" : "/system/libhwbinder/include/hwbinder/Parcel.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/Binder.h"
   },
   {
    "alignment" : 4,
@@ -28026,7 +28042,7 @@
    "referenced_type" : "_ZTIN7android8hardware7IBinderE",
    "self_type" : "_ZTIPN7android8hardware7IBinderE",
    "size" : 4,
-   "source_file" : "/system/libhwbinder/include/hwbinder/ProcessState.h"
+   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
   {
    "alignment" : 4,
@@ -28242,7 +28258,7 @@
    "referenced_type" : "_ZTIN7android8hardware9BHwBinderE",
    "self_type" : "_ZTIPN7android8hardware9BHwBinderE",
    "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/IBinder.h"
   },
   {
    "alignment" : 4,
@@ -28449,7 +28465,7 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
    "size" : 4,
-   "source_file" : "/system/core/libsystem/include/system/graphics.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/Binder.h"
   },
   {
    "alignment" : 4,
@@ -29039,12 +29055,14 @@
    "source_file" : "/system/libhwbinder/include/hwbinder/Binder.h"
   },
   {
+   "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android2spINS_8hardware7IBinderEEE",
    "name" : "const android::sp<android::hardware::IBinder>",
    "referenced_type" : "_ZTIN7android2spINS_8hardware7IBinderEEE",
    "self_type" : "_ZTIKN7android2spINS_8hardware7IBinderEEE",
-   "source_file" : "/system/libhwbinder/include/hwbinder/ProcessState.h"
+   "size" : 4,
+   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
   {
    "alignment" : 4,
@@ -29634,7 +29652,7 @@
    "referenced_type" : "_ZTIN7android8hardware6ParcelE",
    "self_type" : "_ZTIKN7android8hardware6ParcelE",
    "size" : 68,
-   "source_file" : "/system/libhwbinder/include/hwbinder/Parcel.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/Binder.h"
   },
   {
    "alignment" : 4,
@@ -29764,7 +29782,7 @@
    "referenced_type" : "_ZTIN7android8hardware7IBinderE",
    "self_type" : "_ZTIKN7android8hardware7IBinderE",
    "size" : 12,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/IBinder.h"
   },
   {
    "alignment" : 4,
@@ -30330,7 +30348,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIVi",
    "size" : 4,
-   "source_file" : "/system/libhwbinder/include/hwbinder/ProcessState.h"
+   "source_file" : "/system/libhwbinder/include/hwbinder/BpHwBinder.h"
   }
  ],
  "record_types" :
@@ -42058,7 +42076,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerI13native_handleEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
+   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:114:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerI13native_handleEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerI13native_handleEUt_E",
@@ -42098,7 +42116,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIK13native_handleEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
+   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:114:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIK13native_handleEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIK13native_handleEUt_E",
@@ -42138,7 +42156,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIKcEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
+   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:114:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIKcEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIKcEUt_E",
@@ -42178,7 +42196,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_10hidl_arrayIhLj32EJEEEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<hidl_array<unsigned char, 32> >::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
+   "name" : "android::hardware::details::hidl_pointer<hidl_array<unsigned char, 32> >::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:114:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_10hidl_arrayIhLj32EJEEEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_10hidl_arrayIhLj32EJEEEEUt_E",
@@ -42218,7 +42236,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_11hidl_stringEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<hidl_string>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
+   "name" : "android::hardware::details::hidl_pointer<hidl_string>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:114:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_11hidl_stringEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_11hidl_stringEEUt_E",
@@ -42258,7 +42276,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_17GrantorDescriptorEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
+   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:114:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_17GrantorDescriptorEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_17GrantorDescriptorEEUt_E",
@@ -42301,7 +42319,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS_4hidl7manager4V1_015IServiceManager17InstanceDebugInfoEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<InstanceDebugInfo>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
+   "name" : "android::hardware::details::hidl_pointer<InstanceDebugInfo>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:114:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS_4hidl7manager4V1_015IServiceManager17InstanceDebugInfoEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS_4hidl7manager4V1_015IServiceManager17InstanceDebugInfoEEUt_E",
@@ -42341,7 +42359,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIcEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
+   "name" : "android::hardware::details::hidl_pointer<char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:114:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIcEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIcEUt_E",
@@ -42381,7 +42399,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIiEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<int>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
+   "name" : "android::hardware::details::hidl_pointer<int>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:114:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIiEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIiEUt_E",

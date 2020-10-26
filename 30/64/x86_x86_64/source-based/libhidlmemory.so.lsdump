@@ -1432,7 +1432,7 @@
    "referenced_type" : "_ZTIN7android4base11LogSeverityE",
    "self_type" : "_ZTIN7android4base11LogSeverityE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -1465,7 +1465,7 @@
    "referenced_type" : "_ZTIN7android4base5LogIdE",
    "self_type" : "_ZTIN7android4base5LogIdE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -2055,7 +2055,7 @@
    "referenced_type" : "_ZTINSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
    "self_type" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2184,7 +2184,7 @@
    "referenced_type" : "_ZTIKN7android4base13ErrnoRestorerE",
    "self_type" : "_ZTIPKN7android4base13ErrnoRestorerE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/errno_restorer.h"
+   "source_file" : "/system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 4,
@@ -2292,7 +2292,7 @@
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2301,7 +2301,7 @@
    "referenced_type" : "_ZTIKa",
    "self_type" : "_ZTIPKa",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2319,7 +2319,7 @@
    "referenced_type" : "_ZTIKh",
    "self_type" : "_ZTIPKh",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2400,7 +2400,7 @@
    "referenced_type" : "_ZTIN7android4base13ErrnoRestorerE",
    "self_type" : "_ZTIPN7android4base13ErrnoRestorerE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/errno_restorer.h"
+   "source_file" : "/system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 4,
@@ -2409,7 +2409,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKaPaEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKaPaEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2418,7 +2418,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKaS3_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKaS3_EE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2427,7 +2427,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKcPcEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKcPcEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2436,7 +2436,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKcS3_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKcS3_EE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2445,7 +2445,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKhPhEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKhPhEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2454,7 +2454,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKhS3_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKhS3_EE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2463,7 +2463,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPaPKaEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPaPKaEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2472,7 +2472,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPaS2_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPaS2_EE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2481,7 +2481,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPcPKcEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPcPKcEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2490,7 +2490,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPcS2_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPcS2_EE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2499,7 +2499,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPhPKhEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPhPKhEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2508,7 +2508,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPhS2_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPhS2_EE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2679,7 +2679,7 @@
    "referenced_type" : "_ZTIa",
    "self_type" : "_ZTIPa",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2688,7 +2688,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2697,7 +2697,7 @@
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIPh",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   }
  ],
  "qualified_types" :
@@ -2810,7 +2810,7 @@
    "referenced_type" : "_ZTIN7android4base13ErrnoRestorerE",
    "self_type" : "_ZTIKN7android4base13ErrnoRestorerE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/errno_restorer.h"
+   "source_file" : "/system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 4,
@@ -2968,7 +2968,7 @@
    "referenced_type" : "_ZTINSt3__110unique_ptrIN7android4base14LogMessageDataENS_14default_deleteIS3_EEEE",
    "self_type" : "_ZTIKNSt3__110unique_ptrIN7android4base14LogMessageDataENS_14default_deleteIS3_EEEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -2978,7 +2978,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 12,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -4166,7 +4166,7 @@
    "referenced_type" : "_ZTIN7android4base10LogMessageE",
    "self_type" : "_ZTIN7android4base10LogMessageE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -4184,7 +4184,7 @@
    "referenced_type" : "_ZTIN7android4base10LogdLoggerE",
    "self_type" : "_ZTIN7android4base10LogdLoggerE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -4202,7 +4202,7 @@
    "referenced_type" : "_ZTIN7android4base13ErrnoRestorerE",
    "self_type" : "_ZTIN7android4base13ErrnoRestorerE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/errno_restorer.h"
+   "source_file" : "/system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 4,
@@ -4223,7 +4223,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKaPaEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKaPaEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKa", "_ZTIPa" ]
   },
   {
@@ -4245,7 +4245,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKaS3_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKaS3_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKa", "_ZTIPKa" ]
   },
   {
@@ -4267,7 +4267,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKcPcEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKcPcEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKc", "_ZTIPc" ]
   },
   {
@@ -4289,7 +4289,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKcS3_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKcS3_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKc", "_ZTIPKc" ]
   },
   {
@@ -4311,7 +4311,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKhPhEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKhPhEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKh", "_ZTIPh" ]
   },
   {
@@ -4333,7 +4333,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKhS3_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKhS3_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKh", "_ZTIPKh" ]
   },
   {
@@ -4355,7 +4355,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPaPKaEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPaPKaEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPa", "_ZTIPKa" ]
   },
   {
@@ -4377,7 +4377,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPaS2_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPaS2_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPa", "_ZTIPa" ]
   },
   {
@@ -4399,7 +4399,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPcPKcEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPcPKcEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPc", "_ZTIPKc" ]
   },
   {
@@ -4421,7 +4421,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPcS2_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPcS2_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPc", "_ZTIPc" ]
   },
   {
@@ -4443,7 +4443,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPhPKhEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPhPKhEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPh", "_ZTIPKh" ]
   },
   {
@@ -4465,7 +4465,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPhS2_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPhS2_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPh", "_ZTIPh" ]
   },
   {
@@ -4484,7 +4484,7 @@
    "referenced_type" : "_ZTIN7android4base17ScopedLogSeverityE",
    "self_type" : "_ZTIN7android4base17ScopedLogSeverityE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,

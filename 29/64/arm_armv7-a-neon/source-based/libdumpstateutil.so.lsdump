@@ -8,7 +8,7 @@
    "referenced_type" : "type-5",
    "self_type" : "type-4",
    "size" : 1024,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   }
  ],
  "builtin_types" :
@@ -876,7 +876,7 @@
    "referenced_type" : "type-51",
    "self_type" : "type-50",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -885,7 +885,7 @@
    "referenced_type" : "type-3",
    "self_type" : "type-2",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "alignment" : 4,
@@ -894,7 +894,7 @@
    "referenced_type" : "type-46",
    "self_type" : "type-45",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "alignment" : 4,
@@ -903,7 +903,7 @@
    "referenced_type" : "type-44",
    "self_type" : "type-43",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -912,7 +912,7 @@
    "referenced_type" : "type-38",
    "self_type" : "type-40",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -948,7 +948,7 @@
    "referenced_type" : "type-41",
    "self_type" : "type-42",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -966,7 +966,7 @@
    "referenced_type" : "type-48",
    "self_type" : "type-49",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -975,7 +975,7 @@
    "referenced_type" : "type-35",
    "self_type" : "type-37",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   }
  ],
  "qualified_types" :
@@ -988,7 +988,7 @@
    "referenced_type" : "type-38",
    "self_type" : "type-41",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -1018,7 +1018,7 @@
    "referenced_type" : "type-5",
    "self_type" : "type-48",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -1084,7 +1084,7 @@
    "referenced_type" : "type-3",
    "self_type" : "type-3",
    "size" : 1025,
-   "source_file" : "/system/core/base/include/android-base/file.h",
+   "source_file" : "/system/libbase/include/android-base/file.h",
    "unique_id" : "_ZTS12TemporaryDir"
   },
   {
@@ -1113,7 +1113,7 @@
    "referenced_type" : "type-46",
    "self_type" : "type-46",
    "size" : 1032,
-   "source_file" : "/system/core/base/include/android-base/file.h",
+   "source_file" : "/system/libbase/include/android-base/file.h",
    "unique_id" : "_ZTS13TemporaryFile"
   },
   {
@@ -1123,7 +1123,7 @@
    "referenced_type" : "type-36",
    "self_type" : "type-36",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h",
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h",
    "unique_id" : "_ZTSN7android4base13DefaultCloserE"
   },
   {
@@ -1142,7 +1142,7 @@
    "referenced_type" : "type-38",
    "self_type" : "type-38",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h",
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h",
    "template_args" : [ "type-36" ],
    "unique_id" : "_ZTSN7android4base14unique_fd_implINS0_13DefaultCloserEEE"
   },
@@ -1249,7 +1249,7 @@
    "referenced_type" : "type-38",
    "self_type" : "type-47",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   }
  ]
 }

@@ -8,7 +8,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA1024_c",
    "size" : 1024,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "alignment" : 4,
@@ -224,7 +224,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA92_c",
    "size" : 92,
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "linker_set_key" : "_ZTIA_c",
@@ -1862,7 +1862,7 @@
    "referenced_type" : "_ZTIN7android4base11LogSeverityE",
    "self_type" : "_ZTIN7android4base11LogSeverityE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -1887,7 +1887,7 @@
    "referenced_type" : "_ZTIN7android4base15ParseBoolResultE",
    "self_type" : "_ZTIN7android4base15ParseBoolResultE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/parsebool.h",
+   "source_file" : "/system/libbase/include/android-base/parsebool.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -1920,7 +1920,7 @@
    "referenced_type" : "_ZTIN7android4base5LogIdE",
    "self_type" : "_ZTIN7android4base5LogIdE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -2381,7 +2381,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryDir::TemporaryDir",
@@ -2394,7 +2394,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryDir::TemporaryDir",
@@ -2407,7 +2407,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryDir::~TemporaryDir",
@@ -2420,7 +2420,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryDir::~TemporaryDir",
@@ -2433,7 +2433,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "CapturedStdFd::str",
@@ -2446,7 +2446,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "function_name" : "CapturedStdFd::Stop",
@@ -2459,7 +2459,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "function_name" : "CapturedStdFd::Reset",
@@ -2472,7 +2472,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "function_name" : "CapturedStdFd::Start",
@@ -2485,7 +2485,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "function_name" : "CapturedStdFd::CapturedStdFd",
@@ -2501,7 +2501,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "function_name" : "CapturedStdFd::CapturedStdFd",
@@ -2517,7 +2517,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "function_name" : "CapturedStdFd::~CapturedStdFd",
@@ -2530,7 +2530,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "function_name" : "CapturedStdFd::~CapturedStdFd",
@@ -2543,7 +2543,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "access" : "private",
@@ -2560,7 +2560,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryFile::release",
@@ -2573,7 +2573,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryFile::TemporaryFile",
@@ -2589,7 +2589,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryFile::TemporaryFile",
@@ -2602,7 +2602,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryFile::TemporaryFile",
@@ -2618,7 +2618,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryFile::TemporaryFile",
@@ -2631,7 +2631,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryFile::~TemporaryFile",
@@ -2644,7 +2644,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "TemporaryFile::~TemporaryFile",
@@ -2657,7 +2657,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "fmt::v6::format_error::~format_error",
@@ -3446,8 +3446,8 @@
      "referenced_type" : "_ZTIPN7android4base10LogMessageE"
     }
    ],
-   "return_type" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/logging.sdump",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "return_type" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/logging.sdump",
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogMessage::LogLine",
@@ -3471,7 +3471,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogMessage::LogMessage",
@@ -3499,7 +3499,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogMessage::LogMessage",
@@ -3530,7 +3530,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogMessage::LogMessage",
@@ -3558,7 +3558,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogMessage::LogMessage",
@@ -3589,7 +3589,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogMessage::~LogMessage",
@@ -3602,7 +3602,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogMessage::~LogMessage",
@@ -3615,7 +3615,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogdLogger::LogdLogger",
@@ -3632,7 +3632,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogdLogger::LogdLogger",
@@ -3649,7 +3649,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::LogdLogger::operator()",
@@ -3680,7 +3680,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::MappedFile::FromOsHandle",
@@ -3701,7 +3701,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__110unique_ptrIN7android4base10MappedFileENS_14default_deleteIS3_EEEE",
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "access" : "private",
@@ -3715,7 +3715,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "function_name" : "android::base::MappedFile::FromFd",
@@ -3736,7 +3736,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__110unique_ptrIN7android4base10MappedFileENS_14default_deleteIS3_EEEE",
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "function_name" : "android::base::MappedFile::MappedFile",
@@ -3752,7 +3752,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "function_name" : "android::base::MappedFile::MappedFile",
@@ -3768,7 +3768,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "function_name" : "android::base::MappedFile::~MappedFile",
@@ -3781,7 +3781,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "function_name" : "android::base::MappedFile::~MappedFile",
@@ -3794,7 +3794,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "function_name" : "android::base::MappedFile::operator=",
@@ -3810,7 +3810,7 @@
     }
    ],
    "return_type" : "_ZTIRN7android4base10MappedFileE",
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "function_name" : "android::base::SetAborter",
@@ -3822,7 +3822,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::StartsWith",
@@ -3837,7 +3837,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "function_name" : "android::base::StartsWith",
@@ -3852,7 +3852,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "function_name" : "android::base::WriteFully",
@@ -3870,13 +3870,13 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::boot_clock::now",
    "linker_set_key" : "_ZN7android4base10boot_clock3nowEv",
    "return_type" : "_ZTINSt3__16chrono10time_pointIN7android4base10boot_clockENS0_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE",
-   "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
+   "source_file" : "/system/libbase/include/android-base/chrono_utils.h"
   },
   {
    "function_name" : "android::base::GetProperty",
@@ -3884,20 +3884,20 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump"
     },
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump"
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "function_name" : "android::base::GetThreadId",
    "linker_set_key" : "_ZN7android4base11GetThreadIdEv",
    "return_type" : "_ZTIm",
-   "source_file" : "/system/core/base/include/android-base/threads.h"
+   "source_file" : "/system/libbase/include/android-base/threads.h"
   },
   {
    "function_name" : "android::base::InitLogging",
@@ -3917,7 +3917,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::SetProperty",
@@ -3925,14 +3925,14 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump"
     },
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump"
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "function_name" : "android::base::StdioLogger",
@@ -3959,7 +3959,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::KernelLogger",
@@ -3986,7 +3986,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::StderrLogger",
@@ -4013,7 +4013,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::StringPrintf",
@@ -4025,7 +4025,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/stringprintf.h"
+   "source_file" : "/system/libbase/include/android-base/stringprintf.h"
   },
   {
    "function_name" : "android::base::SetDefaultTag",
@@ -4033,11 +4033,11 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/logging.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/logging.sdump"
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::StringAppendF",
@@ -4045,14 +4045,14 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/stringprintf.sdump"
+     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/stringprintf.sdump"
     },
     {
      "referenced_type" : "_ZTIPKc"
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/stringprintf.h"
+   "source_file" : "/system/libbase/include/android-base/stringprintf.h"
   },
   {
    "function_name" : "android::base::StringAppendV",
@@ -4060,7 +4060,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/stringprintf.sdump"
+     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/stringprintf.sdump"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -4070,7 +4070,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/stringprintf.h"
+   "source_file" : "/system/libbase/include/android-base/stringprintf.h"
   },
   {
    "function_name" : "android::base::StringReplace",
@@ -4091,7 +4091,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "function_name" : "android::base::CachedProperty::Get",
@@ -4108,7 +4108,7 @@
     }
    ],
    "return_type" : "_ZTIPKc",
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "function_name" : "android::base::CachedProperty::CachedProperty",
@@ -4124,7 +4124,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "function_name" : "android::base::CachedProperty::CachedProperty",
@@ -4140,7 +4140,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "function_name" : "android::base::DefaultAborter",
@@ -4152,7 +4152,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::ReadFdToString",
@@ -4167,7 +4167,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::GetBoolProperty",
@@ -4175,14 +4175,14 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump"
     },
     {
      "referenced_type" : "_ZTIb"
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "function_name" : "android::base::ParseNetAddress",
@@ -4190,23 +4190,23 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/parsenetaddress.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/parsenetaddress.sdump"
     },
     {
-     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/parsenetaddress.sdump"
+     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/parsenetaddress.sdump"
     },
     {
      "referenced_type" : "_ZTIPi"
     },
     {
-     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/parsenetaddress.sdump"
+     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/parsenetaddress.sdump"
     },
     {
-     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/parsenetaddress.sdump"
+     "referenced_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/parsenetaddress.sdump"
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
+   "source_file" : "/system/libbase/include/android-base/parsenetaddress.h"
   },
   {
    "function_name" : "android::base::WaitForProperty",
@@ -4214,10 +4214,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump"
     },
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump"
     },
     {
      "default_arg" : true,
@@ -4225,7 +4225,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "function_name" : "android::base::WriteStringToFd",
@@ -4240,7 +4240,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::EqualsIgnoreCase",
@@ -4255,7 +4255,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "function_name" : "android::base::ReadFileToString",
@@ -4274,13 +4274,13 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::GetExecutablePath",
    "linker_set_key" : "_ZN7android4base17GetExecutablePathEv",
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::ReadFullyAtOffset",
@@ -4301,7 +4301,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::ScopedLogSeverity::ScopedLogSeverity",
@@ -4317,7 +4317,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::ScopedLogSeverity::ScopedLogSeverity",
@@ -4333,7 +4333,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::ScopedLogSeverity::~ScopedLogSeverity",
@@ -4346,7 +4346,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::ScopedLogSeverity::~ScopedLogSeverity",
@@ -4359,7 +4359,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::WriteStringToFile",
@@ -4378,7 +4378,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::WriteStringToFile",
@@ -4406,7 +4406,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::EndsWithIgnoreCase",
@@ -4421,7 +4421,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "function_name" : "android::base::RemoveFileIfExists",
@@ -4437,7 +4437,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::StartsWithIgnoreCase",
@@ -4452,13 +4452,13 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "function_name" : "android::base::GetMinimumLogSeverity",
    "linker_set_key" : "_ZN7android4base21GetMinimumLogSeverityEv",
    "return_type" : "_ZTIN7android4base11LogSeverityE",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::SetMinimumLogSeverity",
@@ -4470,13 +4470,13 @@
     }
    ],
    "return_type" : "_ZTIN7android4base11LogSeverityE",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::GetExecutableDirectory",
    "linker_set_key" : "_ZN7android4base22GetExecutableDirectoryEv",
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::SystemErrorCodeToString",
@@ -4488,7 +4488,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/errors.h"
+   "source_file" : "/system/libbase/include/android-base/errors.h"
   },
   {
    "function_name" : "android::base::WaitForPropertyCreation",
@@ -4496,7 +4496,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump"
     },
     {
      "default_arg" : true,
@@ -4504,7 +4504,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "function_name" : "android::base::SendFileDescriptorVector",
@@ -4525,7 +4525,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/system/core/base/include/android-base/cmsg.h"
+   "source_file" : "/system/libbase/include/android-base/cmsg.h"
   },
   {
    "function_name" : "android::base::ReceiveFileDescriptorVector",
@@ -4549,7 +4549,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/system/core/base/include/android-base/cmsg.h"
+   "source_file" : "/system/libbase/include/android-base/cmsg.h"
   },
   {
    "function_name" : "android::base::Join",
@@ -4560,15 +4560,15 @@
      "referenced_type" : "_ZTIRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE"
     },
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/strings.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/strings.sdump"
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/strings.h",
+   "source_file" : "/system/libbase/include/android-base/strings.h",
    "template_args" :
    [
     "_ZTINSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
-    "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/strings.sdump"
+    "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/strings.sdump"
    ]
   },
   {
@@ -4584,7 +4584,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/strings.h",
+   "source_file" : "/system/libbase/include/android-base/strings.h",
    "template_args" :
    [
     "_ZTINSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
@@ -4600,15 +4600,15 @@
      "referenced_type" : "_ZTIRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEE"
     },
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/strings.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/strings.sdump"
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/strings.h",
+   "source_file" : "/system/libbase/include/android-base/strings.h",
    "template_args" :
    [
     "_ZTINSt3__16vectorIPKcNS_9allocatorIS2_EEEE",
-    "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/strings.sdump"
+    "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/strings.sdump"
    ]
   },
   {
@@ -4624,7 +4624,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/strings.h",
+   "source_file" : "/system/libbase/include/android-base/strings.h",
    "template_args" : [ "_ZTINSt3__16vectorIPKcNS_9allocatorIS2_EEEE", "_ZTIc" ]
   },
   {
@@ -4633,11 +4633,11 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/strings.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/strings.sdump"
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "function_name" : "android::base::Split",
@@ -4645,14 +4645,14 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/strings.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/strings.sdump"
     },
     {
-     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/strings.sdump"
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/strings.sdump"
     }
    ],
    "return_type" : "_ZTINSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "access" : "private",
@@ -4666,7 +4666,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/process.h"
+   "source_file" : "/system/libbase/include/android-base/process.h"
   },
   {
    "function_name" : "android::base::Dirname",
@@ -4678,7 +4678,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::Basename",
@@ -4690,7 +4690,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::EndsWith",
@@ -4705,7 +4705,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "function_name" : "android::base::EndsWith",
@@ -4720,7 +4720,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "function_name" : "android::base::Readlink",
@@ -4735,7 +4735,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::Realpath",
@@ -4750,7 +4750,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::ParseBool",
@@ -4762,7 +4762,7 @@
     }
    ],
    "return_type" : "_ZTIN7android4base15ParseBoolResultE",
-   "source_file" : "/system/core/base/include/android-base/parsebool.h"
+   "source_file" : "/system/libbase/include/android-base/parsebool.h"
   },
   {
    "function_name" : "android::base::ParseUint",
@@ -4785,7 +4785,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/parseint.h",
+   "source_file" : "/system/libbase/include/android-base/parseint.h",
    "template_args" : [ "_ZTIh" ]
   },
   {
@@ -4809,7 +4809,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/parseint.h",
+   "source_file" : "/system/libbase/include/android-base/parseint.h",
    "template_args" : [ "_ZTIt" ]
   },
   {
@@ -4828,7 +4828,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "function_name" : "android::base::SetLogger",
@@ -4840,7 +4840,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::ShouldLog",
@@ -4855,7 +4855,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "function_name" : "android::base::operator<<",
@@ -4870,7 +4870,7 @@
     }
    ],
    "return_type" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
-   "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
+   "source_file" : "/system/libbase/include/android-base/chrono_utils.h"
   },
   {
    "access" : "private",
@@ -4884,7 +4884,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "function_name" : "fmt::v6::internal::locale_ref::get",
@@ -5201,7 +5201,7 @@
    "referenced_type" : "_ZTIKN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "self_type" : "_ZTIRKN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -5210,7 +5210,7 @@
    "referenced_type" : "_ZTIKN7android4base5TimerE",
    "self_type" : "_ZTIRKN7android4base5TimerE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
+   "source_file" : "/system/libbase/include/android-base/chrono_utils.h"
   },
   {
    "alignment" : 8,
@@ -5219,7 +5219,7 @@
    "referenced_type" : "_ZTIKN7android4base7AllPids11PidIteratorE",
    "self_type" : "_ZTIRKN7android4base7AllPids11PidIteratorE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/process.h"
+   "source_file" : "/system/libbase/include/android-base/process.h"
   },
   {
    "alignment" : 8,
@@ -5234,46 +5234,46 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/file.sdump",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/file.sdump",
    "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/logging.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/logging.sdump",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/logging.sdump",
+   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/logging.sdump",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/parsenetaddress.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/parsenetaddress.sdump",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/parsenetaddress.sdump",
+   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/parsenetaddress.sdump",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
+   "source_file" : "/system/libbase/include/android-base/parsenetaddress.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/properties.sdump",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump",
+   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/properties.sdump",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/strings.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/strings.sdump",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/strings.sdump",
+   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/strings.sdump",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "alignment" : 8,
@@ -5300,7 +5300,7 @@
    "referenced_type" : "_ZTIKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "alignment" : 8,
@@ -5309,7 +5309,7 @@
    "referenced_type" : "_ZTIKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE#ODR:",
    "self_type" : "_ZTIRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE#ODR:",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "alignment" : 8,
@@ -5318,7 +5318,7 @@
    "referenced_type" : "_ZTIKNSt3__16vectorIPKcNS_9allocatorIS2_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "alignment" : 8,
@@ -5327,7 +5327,7 @@
    "referenced_type" : "_ZTIKNSt3__16vectorIPKcNS_9allocatorIS2_EEEE#ODR:",
    "self_type" : "_ZTIRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEE#ODR:",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "alignment" : 8,
@@ -5336,7 +5336,7 @@
    "referenced_type" : "_ZTIKNSt3__16vectorIiNS_9allocatorIiEEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/cmsg.h"
+   "source_file" : "/system/libbase/include/android-base/cmsg.h"
   },
   {
    "alignment" : 8,
@@ -5345,16 +5345,16 @@
    "referenced_type" : "_ZTIKNSt3__16vectorIiNS_9allocatorIiEEEE#ODR:",
    "self_type" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE#ODR:",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/cmsg.h"
+   "source_file" : "/system/libbase/include/android-base/cmsg.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE",
    "name" : "const std::vector<int, std::allocator<int> > &",
-   "referenced_type" : "_ZTIKNSt3__16vectorIiNS_9allocatorIiEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/cmsg.sdump",
-   "self_type" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/cmsg.sdump",
+   "referenced_type" : "_ZTIKNSt3__16vectorIiNS_9allocatorIiEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/cmsg.sdump",
+   "self_type" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/cmsg.sdump",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/cmsg.h"
+   "source_file" : "/system/libbase/include/android-base/cmsg.h"
   },
   {
    "alignment" : 8,
@@ -5939,7 +5939,7 @@
    "referenced_type" : "_ZTIN7android4base10MappedFileE",
    "self_type" : "_ZTIRN7android4base10MappedFileE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "alignment" : 8,
@@ -5948,7 +5948,7 @@
    "referenced_type" : "_ZTIN7android4base7AllPids11PidIteratorE",
    "self_type" : "_ZTIRN7android4base7AllPids11PidIteratorE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/process.h"
+   "source_file" : "/system/libbase/include/android-base/process.h"
   },
   {
    "alignment" : 8,
@@ -5957,7 +5957,7 @@
    "referenced_type" : "_ZTINSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
    "self_type" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
+   "source_file" : "/system/libbase/include/android-base/chrono_utils.h"
   },
   {
    "alignment" : 8,
@@ -6068,7 +6068,7 @@
    "referenced_type" : "_ZTI12TemporaryDir",
    "self_type" : "_ZTIP12TemporaryDir",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "alignment" : 8,
@@ -6077,7 +6077,7 @@
    "referenced_type" : "_ZTI13CapturedStdFd",
    "self_type" : "_ZTIP13CapturedStdFd",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "alignment" : 8,
@@ -6086,7 +6086,7 @@
    "referenced_type" : "_ZTI13TemporaryFile",
    "self_type" : "_ZTIP13TemporaryFile",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "alignment" : 8,
@@ -6095,7 +6095,7 @@
    "referenced_type" : "_ZTI14CapturedStderr",
    "self_type" : "_ZTIP14CapturedStderr",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "alignment" : 8,
@@ -6104,7 +6104,7 @@
    "referenced_type" : "_ZTI14CapturedStdout",
    "self_type" : "_ZTIP14CapturedStdout",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "alignment" : 8,
@@ -6113,7 +6113,7 @@
    "referenced_type" : "_ZTI3DIR",
    "self_type" : "_ZTIP3DIR",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -6122,7 +6122,7 @@
    "referenced_type" : "_ZTI7__sFILE",
    "self_type" : "_ZTIP7__sFILE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -6158,7 +6158,7 @@
    "referenced_type" : "_ZTIK13CapturedStdFd",
    "self_type" : "_ZTIPK13CapturedStdFd",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "alignment" : 8,
@@ -6167,7 +6167,7 @@
    "referenced_type" : "_ZTIK9prop_info",
    "self_type" : "_ZTIPK9prop_info",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "alignment" : 8,
@@ -6176,7 +6176,7 @@
    "referenced_type" : "_ZTIK9prop_info#ODR:",
    "self_type" : "_ZTIPK9prop_info#ODR:",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "alignment" : 8,
@@ -8093,7 +8093,7 @@
    "referenced_type" : "_ZTIKN7android4base10MappedFileE",
    "self_type" : "_ZTIPKN7android4base10MappedFileE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "alignment" : 8,
@@ -8102,7 +8102,7 @@
    "referenced_type" : "_ZTIKN7android4base11borrowed_fdE",
    "self_type" : "_ZTIPKN7android4base11borrowed_fdE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -8111,7 +8111,7 @@
    "referenced_type" : "_ZTIKN7android4base13ErrnoRestorerE",
    "self_type" : "_ZTIPKN7android4base13ErrnoRestorerE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/errno_restorer.h"
+   "source_file" : "/system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 8,
@@ -8120,7 +8120,7 @@
    "referenced_type" : "_ZTIKN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "self_type" : "_ZTIPKN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -8129,7 +8129,7 @@
    "referenced_type" : "_ZTIKN7android4base5TimerE",
    "self_type" : "_ZTIPKN7android4base5TimerE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
+   "source_file" : "/system/libbase/include/android-base/chrono_utils.h"
   },
   {
    "alignment" : 8,
@@ -8138,7 +8138,7 @@
    "referenced_type" : "_ZTIKN7android4base7AllPids11PidIteratorE",
    "self_type" : "_ZTIPKN7android4base7AllPids11PidIteratorE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/process.h"
+   "source_file" : "/system/libbase/include/android-base/process.h"
   },
   {
    "alignment" : 8,
@@ -8147,7 +8147,7 @@
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -8156,43 +8156,43 @@
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:",
    "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/cmsg.sdump",
-   "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/cmsg.sdump",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/cmsg.sdump",
+   "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/cmsg.sdump",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/file.sdump",
-   "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/file.sdump",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/file.sdump",
+   "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/file.sdump",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/logging.sdump",
-   "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/logging.sdump",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/logging.sdump",
+   "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/logging.sdump",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/test_utils.sdump",
-   "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/base/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/core/base/test_utils.sdump",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/test_utils.sdump",
+   "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/libbase/libbase/android_vendor.R_arm64_armv8-a_static/obj/system/libbase/test_utils.sdump",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -8201,7 +8201,7 @@
    "referenced_type" : "_ZTIKa",
    "self_type" : "_ZTIPKa",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -8210,7 +8210,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -8219,7 +8219,7 @@
    "referenced_type" : "_ZTIKh",
    "self_type" : "_ZTIPKh",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -8237,7 +8237,7 @@
    "referenced_type" : "_ZTIKv",
    "self_type" : "_ZTIPKv",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/cmsg.h"
+   "source_file" : "/system/libbase/include/android-base/cmsg.h"
   },
   {
    "alignment" : 8,
@@ -9218,7 +9218,7 @@
    "referenced_type" : "_ZTIN7android4base10LogMessageE",
    "self_type" : "_ZTIPN7android4base10LogMessageE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9227,7 +9227,7 @@
    "referenced_type" : "_ZTIN7android4base10LogdLoggerE",
    "self_type" : "_ZTIPN7android4base10LogdLoggerE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9236,7 +9236,7 @@
    "referenced_type" : "_ZTIN7android4base10MappedFileE",
    "self_type" : "_ZTIPN7android4base10MappedFileE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "alignment" : 8,
@@ -9245,7 +9245,7 @@
    "referenced_type" : "_ZTIN7android4base11borrowed_fdE",
    "self_type" : "_ZTIPN7android4base11borrowed_fdE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -9254,7 +9254,7 @@
    "referenced_type" : "_ZTIN7android4base13ErrnoRestorerE",
    "self_type" : "_ZTIPN7android4base13ErrnoRestorerE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/errno_restorer.h"
+   "source_file" : "/system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 8,
@@ -9263,7 +9263,7 @@
    "referenced_type" : "_ZTIN7android4base14CachedPropertyE",
    "self_type" : "_ZTIPN7android4base14CachedPropertyE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "alignment" : 8,
@@ -9272,7 +9272,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKaPaEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKaPaEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9281,7 +9281,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKaS3_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKaS3_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9290,7 +9290,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKcPcEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKcPcEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9299,7 +9299,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKcS3_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKcS3_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9308,7 +9308,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKhPhEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKhPhEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9317,7 +9317,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKhS3_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPKhS3_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9326,7 +9326,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPaPKaEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPaPKaEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9335,7 +9335,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPaS2_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPaS2_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9344,7 +9344,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPcPKcEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPcPKcEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9353,7 +9353,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPcS2_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPcS2_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9362,7 +9362,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPhPKhEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPhPKhEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9371,7 +9371,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPhS2_EE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIPhS2_EE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9380,7 +9380,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIiiEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIiiEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9389,7 +9389,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIilEE",
    "self_type" : "_ZTIPN7android4base14EagerEvaluatorIilEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9398,7 +9398,7 @@
    "referenced_type" : "_ZTIN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "self_type" : "_ZTIPN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -9407,7 +9407,7 @@
    "referenced_type" : "_ZTIN7android4base17ScopedLogSeverityE",
    "self_type" : "_ZTIPN7android4base17ScopedLogSeverityE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9416,7 +9416,7 @@
    "referenced_type" : "_ZTIN7android4base5TimerE",
    "self_type" : "_ZTIPN7android4base5TimerE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
+   "source_file" : "/system/libbase/include/android-base/chrono_utils.h"
   },
   {
    "alignment" : 8,
@@ -9425,7 +9425,7 @@
    "referenced_type" : "_ZTIN7android4base7AllPids11PidIteratorE",
    "self_type" : "_ZTIPN7android4base7AllPids11PidIteratorE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/process.h"
+   "source_file" : "/system/libbase/include/android-base/process.h"
   },
   {
    "alignment" : 8,
@@ -9434,7 +9434,7 @@
    "referenced_type" : "_ZTIN7android4base7AllPidsE",
    "self_type" : "_ZTIPN7android4base7AllPidsE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/process.h"
+   "source_file" : "/system/libbase/include/android-base/process.h"
   },
   {
    "alignment" : 8,
@@ -9443,7 +9443,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "alignment" : 8,
@@ -9452,7 +9452,7 @@
    "referenced_type" : "_ZTINSt3__117basic_string_viewIcNS_11char_traitsIcEEEE",
    "self_type" : "_ZTIPNSt3__117basic_string_viewIcNS_11char_traitsIcEEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "alignment" : 8,
@@ -9461,7 +9461,7 @@
    "referenced_type" : "_ZTINSt3__16vectorIN7android4base14unique_fd_implINS2_13DefaultCloserEEENS_9allocatorIS5_EEEE",
    "self_type" : "_ZTIPNSt3__16vectorIN7android4base14unique_fd_implINS2_13DefaultCloserEEENS_9allocatorIS5_EEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/cmsg.h"
+   "source_file" : "/system/libbase/include/android-base/cmsg.h"
   },
   {
    "alignment" : 8,
@@ -9470,7 +9470,7 @@
    "referenced_type" : "_ZTIPc",
    "self_type" : "_ZTIPPc",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9479,7 +9479,7 @@
    "referenced_type" : "_ZTIa",
    "self_type" : "_ZTIPa",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9488,7 +9488,7 @@
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIPb",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "alignment" : 8,
@@ -9497,7 +9497,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "alignment" : 8,
@@ -9506,7 +9506,7 @@
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIPh",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -9515,7 +9515,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIPi",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/parseint.h"
+   "source_file" : "/system/libbase/include/android-base/parseint.h"
   },
   {
    "alignment" : 8,
@@ -9524,7 +9524,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIPj",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/parseint.h"
+   "source_file" : "/system/libbase/include/android-base/parseint.h"
   },
   {
    "alignment" : 8,
@@ -9533,7 +9533,7 @@
    "referenced_type" : "_ZTIl",
    "self_type" : "_ZTIPl",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/parseint.h"
+   "source_file" : "/system/libbase/include/android-base/parseint.h"
   },
   {
    "alignment" : 8,
@@ -9542,7 +9542,7 @@
    "referenced_type" : "_ZTIm",
    "self_type" : "_ZTIPm",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/parseint.h"
+   "source_file" : "/system/libbase/include/android-base/parseint.h"
   },
   {
    "alignment" : 8,
@@ -9551,7 +9551,7 @@
    "referenced_type" : "_ZTIs",
    "self_type" : "_ZTIPs",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/parseint.h"
+   "source_file" : "/system/libbase/include/android-base/parseint.h"
   },
   {
    "alignment" : 8,
@@ -9560,7 +9560,7 @@
    "referenced_type" : "_ZTIt",
    "self_type" : "_ZTIPt",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/parseint.h"
+   "source_file" : "/system/libbase/include/android-base/parseint.h"
   },
   {
    "alignment" : 8,
@@ -9569,7 +9569,7 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -9753,7 +9753,7 @@
    "referenced_type" : "_ZTI13CapturedStdFd",
    "self_type" : "_ZTIK13CapturedStdFd",
    "size" : 1040,
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "is_const" : true,
@@ -9761,7 +9761,7 @@
    "name" : "const prop_info",
    "referenced_type" : "_ZTI9prop_info",
    "self_type" : "_ZTIK9prop_info",
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "alignment" : 8,
@@ -11953,7 +11953,7 @@
    "referenced_type" : "_ZTIN7android4base10MappedFileE",
    "self_type" : "_ZTIKN7android4base10MappedFileE",
    "size" : 24,
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "alignment" : 4,
@@ -11963,7 +11963,7 @@
    "referenced_type" : "_ZTIN7android4base11borrowed_fdE",
    "self_type" : "_ZTIKN7android4base11borrowed_fdE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -11973,7 +11973,7 @@
    "referenced_type" : "_ZTIN7android4base13ErrnoRestorerE",
    "self_type" : "_ZTIKN7android4base13ErrnoRestorerE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/errno_restorer.h"
+   "source_file" : "/system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 4,
@@ -11983,7 +11983,7 @@
    "referenced_type" : "_ZTIN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "self_type" : "_ZTIKN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -11993,7 +11993,7 @@
    "referenced_type" : "_ZTIN7android4base5TimerE",
    "self_type" : "_ZTIKN7android4base5TimerE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
+   "source_file" : "/system/libbase/include/android-base/chrono_utils.h"
   },
   {
    "alignment" : 8,
@@ -12003,7 +12003,7 @@
    "referenced_type" : "_ZTIN7android4base7AllPids11PidIteratorE",
    "self_type" : "_ZTIKN7android4base7AllPids11PidIteratorE",
    "size" : 24,
-   "source_file" : "/system/core/base/include/android-base/process.h"
+   "source_file" : "/system/libbase/include/android-base/process.h"
   },
   {
    "alignment" : 8,
@@ -12013,7 +12013,7 @@
    "referenced_type" : "_ZTINSt3__110unique_ptrIN7android4base14LogMessageDataENS_14default_deleteIS3_EEEE",
    "self_type" : "_ZTIKNSt3__110unique_ptrIN7android4base14LogMessageDataENS_14default_deleteIS3_EEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -12023,7 +12023,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 24,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -12043,7 +12043,7 @@
    "referenced_type" : "_ZTINSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE",
    "size" : 24,
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "alignment" : 8,
@@ -12053,7 +12053,7 @@
    "referenced_type" : "_ZTINSt3__16vectorIPKcNS_9allocatorIS2_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorIPKcNS_9allocatorIS2_EEEE",
    "size" : 24,
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/libbase/include/android-base/strings.h"
   },
   {
    "alignment" : 8,
@@ -12063,7 +12063,7 @@
    "referenced_type" : "_ZTINSt3__16vectorIiNS_9allocatorIiEEEE",
    "self_type" : "_ZTIKNSt3__16vectorIiNS_9allocatorIiEEEE",
    "size" : 24,
-   "source_file" : "/system/core/base/include/android-base/cmsg.h"
+   "source_file" : "/system/libbase/include/android-base/cmsg.h"
   },
   {
    "alignment" : 1,
@@ -12123,7 +12123,7 @@
    "referenced_type" : "_ZTIa",
    "self_type" : "_ZTIKa",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 1,
@@ -12133,7 +12133,7 @@
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIKb",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 1,
@@ -12143,7 +12143,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -12163,7 +12163,7 @@
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIKh",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -12173,7 +12173,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIKi",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/errno_restorer.h"
+   "source_file" : "/system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 4,
@@ -12201,7 +12201,7 @@
    "name" : "const void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIKv",
-   "source_file" : "/system/core/base/include/android-base/cmsg.h"
+   "source_file" : "/system/libbase/include/android-base/cmsg.h"
   },
   {
    "alignment" : 4,
@@ -12247,7 +12247,7 @@
    "referenced_type" : "_ZTI12TemporaryDir",
    "self_type" : "_ZTI12TemporaryDir",
    "size" : 1025,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "alignment" : 4,
@@ -12277,7 +12277,7 @@
    "referenced_type" : "_ZTI13CapturedStdFd",
    "self_type" : "_ZTI13CapturedStdFd",
    "size" : 1040,
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "alignment" : 4,
@@ -12305,7 +12305,7 @@
    "referenced_type" : "_ZTI13TemporaryFile",
    "self_type" : "_ZTI13TemporaryFile",
    "size" : 1032,
-   "source_file" : "/system/core/base/include/android-base/file.h"
+   "source_file" : "/system/libbase/include/android-base/file.h"
   },
   {
    "alignment" : 4,
@@ -12321,7 +12321,7 @@
    "referenced_type" : "_ZTI14CapturedStderr",
    "self_type" : "_ZTI14CapturedStderr",
    "size" : 1040,
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "alignment" : 4,
@@ -12337,7 +12337,7 @@
    "referenced_type" : "_ZTI14CapturedStdout",
    "self_type" : "_ZTI14CapturedStdout",
    "size" : 1040,
-   "source_file" : "/system/core/base/include/android-base/test_utils.h"
+   "source_file" : "/system/libbase/include/android-base/test_utils.h"
   },
   {
    "alignment" : 8,
@@ -22031,7 +22031,7 @@
    "referenced_type" : "_ZTIN7android4base10LogMessageE",
    "self_type" : "_ZTIN7android4base10LogMessageE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -22049,7 +22049,7 @@
    "referenced_type" : "_ZTIN7android4base10LogdLoggerE",
    "self_type" : "_ZTIN7android4base10LogdLoggerE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -22079,7 +22079,7 @@
    "referenced_type" : "_ZTIN7android4base10MappedFileE",
    "self_type" : "_ZTIN7android4base10MappedFileE",
    "size" : 24,
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "alignment" : 1,
@@ -22089,7 +22089,7 @@
    "referenced_type" : "_ZTIN7android4base10boot_clockE",
    "self_type" : "_ZTIN7android4base10boot_clockE",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
+   "source_file" : "/system/libbase/include/android-base/chrono_utils.h"
   },
   {
    "alignment" : 4,
@@ -22106,7 +22106,7 @@
    "referenced_type" : "_ZTIN7android4base11borrowed_fdE",
    "self_type" : "_ZTIN7android4base11borrowed_fdE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 1,
@@ -22115,7 +22115,7 @@
    "referenced_type" : "_ZTIN7android4base13DefaultCloserE",
    "self_type" : "_ZTIN7android4base13DefaultCloserE",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -22133,7 +22133,7 @@
    "referenced_type" : "_ZTIN7android4base13ErrnoRestorerE",
    "self_type" : "_ZTIN7android4base13ErrnoRestorerE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/errno_restorer.h"
+   "source_file" : "/system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 8,
@@ -22187,7 +22187,7 @@
    "referenced_type" : "_ZTIN7android4base14CachedPropertyE",
    "self_type" : "_ZTIN7android4base14CachedPropertyE",
    "size" : 152,
-   "source_file" : "/system/core/base/include/android-base/properties.h"
+   "source_file" : "/system/libbase/include/android-base/properties.h"
   },
   {
    "alignment" : 8,
@@ -22208,7 +22208,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKaPaEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKaPaEE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKa", "_ZTIPa" ]
   },
   {
@@ -22230,7 +22230,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKaS3_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKaS3_EE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKa", "_ZTIPKa" ]
   },
   {
@@ -22252,7 +22252,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKcPcEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKcPcEE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKc", "_ZTIPc" ]
   },
   {
@@ -22274,7 +22274,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKcS3_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKcS3_EE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKc", "_ZTIPKc" ]
   },
   {
@@ -22296,7 +22296,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKhPhEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKhPhEE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKh", "_ZTIPh" ]
   },
   {
@@ -22318,7 +22318,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPKhS3_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPKhS3_EE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPKh", "_ZTIPKh" ]
   },
   {
@@ -22340,7 +22340,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPaPKaEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPaPKaEE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPa", "_ZTIPKa" ]
   },
   {
@@ -22362,7 +22362,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPaS2_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPaS2_EE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPa", "_ZTIPa" ]
   },
   {
@@ -22384,7 +22384,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPcPKcEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPcPKcEE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPc", "_ZTIPKc" ]
   },
   {
@@ -22406,7 +22406,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPcS2_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPcS2_EE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPc", "_ZTIPc" ]
   },
   {
@@ -22428,7 +22428,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPhPKhEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPhPKhEE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPh", "_ZTIPKh" ]
   },
   {
@@ -22450,7 +22450,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIPhS2_EE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIPhS2_EE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIPh", "_ZTIPh" ]
   },
   {
@@ -22472,7 +22472,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIiiEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIiiEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIi", "_ZTIi" ]
   },
   {
@@ -22494,7 +22494,7 @@
    "referenced_type" : "_ZTIN7android4base14EagerEvaluatorIilEE",
    "self_type" : "_ZTIN7android4base14EagerEvaluatorIilEE",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "_ZTIi", "_ZTIl" ]
   },
   {
@@ -22513,7 +22513,7 @@
    "referenced_type" : "_ZTIN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "self_type" : "_ZTIN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h",
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h",
    "template_args" : [ "_ZTIN7android4base13DefaultCloserE" ]
   },
   {
@@ -22532,7 +22532,7 @@
    "referenced_type" : "_ZTIN7android4base17ScopedLogSeverityE",
    "self_type" : "_ZTIN7android4base17ScopedLogSeverityE",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -22550,7 +22550,7 @@
    "referenced_type" : "_ZTIN7android4base5TimerE",
    "self_type" : "_ZTIN7android4base5TimerE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
+   "source_file" : "/system/libbase/include/android-base/chrono_utils.h"
   },
   {
    "access" : "private",
@@ -22575,7 +22575,7 @@
    "referenced_type" : "_ZTIN7android4base7AllPids11PidIteratorE",
    "self_type" : "_ZTIN7android4base7AllPids11PidIteratorE",
    "size" : 24,
-   "source_file" : "/system/core/base/include/android-base/process.h"
+   "source_file" : "/system/libbase/include/android-base/process.h"
   },
   {
    "alignment" : 1,
@@ -22585,7 +22585,7 @@
    "referenced_type" : "_ZTIN7android4base7AllPidsE",
    "self_type" : "_ZTIN7android4base7AllPidsE",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/process.h"
+   "source_file" : "/system/libbase/include/android-base/process.h"
   },
   {
    "alignment" : 8,
@@ -23683,7 +23683,7 @@
    "referenced_type" : "_ZTIN7android4base10MappedFileE",
    "self_type" : "_ZTION7android4base10MappedFileE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/mapped_file.h"
+   "source_file" : "/system/libbase/include/android-base/mapped_file.h"
   },
   {
    "alignment" : 8,
@@ -23692,7 +23692,7 @@
    "referenced_type" : "_ZTIN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "self_type" : "_ZTION7android4base14unique_fd_implINS0_13DefaultCloserEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -23701,7 +23701,7 @@
    "referenced_type" : "_ZTINSt3__18functionIFvN7android4base5LogIdENS2_11LogSeverityEPKcS6_jS6_EEE",
    "self_type" : "_ZTIONSt3__18functionIFvN7android4base5LogIdENS2_11LogSeverityEPKcS6_jS6_EEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -23710,7 +23710,7 @@
    "referenced_type" : "_ZTINSt3__18functionIFvPKcEEE",
    "self_type" : "_ZTIONSt3__18functionIFvPKcEEE",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,

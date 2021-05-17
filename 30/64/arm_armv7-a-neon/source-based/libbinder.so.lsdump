@@ -829,6 +829,10 @@
    "name" : "_ZN7android14IPCThreadState20getAndExecuteCommandEv"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZN7android14IPCThreadState20getProcessFreezeInfoEiPbS1_"
+  },
+  {
    "name" : "_ZN7android14IPCThreadState20handlePolledCommandsEv"
   },
   {
@@ -881,6 +885,10 @@
   },
   {
    "name" : "_ZN7android14IPCThreadState4selfEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android14IPCThreadState6freezeEibj"
   },
   {
    "name" : "_ZN7android14IPCThreadState7processEv"
@@ -1768,6 +1776,18 @@
   },
   {
    "name" : "_ZN7android7BBinder17getOrCreateExtrasEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android7BBinder21getMinSchedulerPolicyEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android7BBinder21setMinSchedulerPolicyEii"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android7BBinder23getMinSchedulerPriorityEv"
   },
   {
    "name" : "_ZN7android7BBinder4dumpEiRKNS_6VectorINS_8String16EEE"
@@ -10661,6 +10681,24 @@
    "source_file" : "/frameworks/native/libs/binder/include/binder/IPCThreadState.h"
   },
   {
+   "function_name" : "android::IPCThreadState::getProcessFreezeInfo",
+   "linker_set_key" : "_ZN7android14IPCThreadState20getProcessFreezeInfoEiPbS1_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPb"
+    },
+    {
+     "referenced_type" : "_ZTIPb"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "/frameworks/native/libs/binder/include/binder/IPCThreadState.h"
+  },
+  {
    "function_name" : "android::IPCThreadState::handlePolledCommands",
    "linker_set_key" : "_ZN7android14IPCThreadState20handlePolledCommandsEv",
    "parameters" :
@@ -10935,6 +10973,24 @@
    "function_name" : "android::IPCThreadState::self",
    "linker_set_key" : "_ZN7android14IPCThreadState4selfEv",
    "return_type" : "_ZTIPN7android14IPCThreadStateE",
+   "source_file" : "/frameworks/native/libs/binder/include/binder/IPCThreadState.h"
+  },
+  {
+   "function_name" : "android::IPCThreadState::freeze",
+   "linker_set_key" : "_ZN7android14IPCThreadState6freezeEibj",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/binder/include/binder/IPCThreadState.h"
   },
   {
@@ -14542,6 +14598,51 @@
     }
    ],
    "return_type" : "_ZTIPN7android7BBinder6ExtrasE",
+   "source_file" : "/frameworks/native/libs/binder/include/binder/Binder.h"
+  },
+  {
+   "function_name" : "android::BBinder::getMinSchedulerPolicy",
+   "linker_set_key" : "_ZN7android7BBinder21getMinSchedulerPolicyEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android7BBinderE"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "/frameworks/native/libs/binder/include/binder/Binder.h"
+  },
+  {
+   "function_name" : "android::BBinder::setMinSchedulerPolicy",
+   "linker_set_key" : "_ZN7android7BBinder21setMinSchedulerPolicyEii",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android7BBinderE"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "/frameworks/native/libs/binder/include/binder/Binder.h"
+  },
+  {
+   "function_name" : "android::BBinder::getMinSchedulerPriority",
+   "linker_set_key" : "_ZN7android7BBinder23getMinSchedulerPriorityEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android7BBinderE"
+    }
+   ],
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/binder/include/binder/Binder.h"
   },
   {
@@ -34384,6 +34485,32 @@
    "source_file" : "/system/core/libutils/include/utils/Debug.h"
   },
   {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "pid",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "enable",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "timeout_ms",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18binder_freeze_infoE",
+   "name" : "android::binder_freeze_info",
+   "referenced_type" : "_ZTIN7android18binder_freeze_infoE",
+   "self_type" : "_ZTIN7android18binder_freeze_infoE",
+   "size" : 12,
+   "source_file" : "/frameworks/native/libs/binder/include/private/binder/binder_module.h"
+  },
+  {
    "alignment" : 1,
    "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_12ProcessState12handle_entryEEE",
    "name" : "android::trait_trivial_copy<android::ProcessState::handle_entry>",
@@ -35530,6 +35657,32 @@
      "mangled_component_name" : "_ZN7android19VirtualLightRefBaseD0Ev"
     }
    ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "pid",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "sync_recv",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "async_recv",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android25binder_frozen_status_infoE",
+   "name" : "android::binder_frozen_status_info",
+   "referenced_type" : "_ZTIN7android25binder_frozen_status_infoE",
+   "self_type" : "_ZTIN7android25binder_frozen_status_infoE",
+   "size" : 12,
+   "source_file" : "/frameworks/native/libs/binder/include/private/binder/binder_module.h"
   },
   {
    "alignment" : 4,
@@ -37524,7 +37677,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android7BBinderUt_E",
-   "name" : "android::BBinder::(anonymous union at frameworks/native/libs/binder/include/binder/Binder.h:97:5)",
+   "name" : "android::BBinder::(anonymous union at frameworks/native/libs/binder/include/binder/Binder.h:116:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android7BBinderUt_E",
    "self_type" : "_ZTIN7android7BBinderUt_E",

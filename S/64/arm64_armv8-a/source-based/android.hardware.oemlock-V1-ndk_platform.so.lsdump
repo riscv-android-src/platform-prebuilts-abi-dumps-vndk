@@ -1,0 +1,196 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware7oemlock8IOemLockEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware7oemlock8IOemLockEE8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock15IOemLockDefault16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock15IOemLockDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock15IOemLockDefault26isOemUnlockAllowedByDeviceEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock15IOemLockDefault27isOemUnlockAllowedByCarrierEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock15IOemLockDefault27setOemUnlockAllowedByDeviceEb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock15IOemLockDefault28setOemUnlockAllowedByCarrierEbRKNSt3__16vectorIhNS4_9allocatorIhEEEEPNS2_19OemLockSecureStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock15IOemLockDefault7getNameEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock15IOemLockDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock15IOemLockDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLock10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLock13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLock14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLock14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLock14setDefaultImplERKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLockC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLockD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLockD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLockD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BnOemLock12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BnOemLock16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BnOemLock19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BnOemLockC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BnOemLockD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BnOemLockD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BnOemLockD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLock16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLock19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLock26isOemUnlockAllowedByDeviceEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLock27isOemUnlockAllowedByCarrierEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLock27setOemUnlockAllowedByDeviceEb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLock28setOemUnlockAllowedByCarrierEbRKNSt3__16vectorIhNS4_9allocatorIhEEEEPNS2_19OemLockSecureStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLock7getNameEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLockC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLockC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLockD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLockD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock9BpOemLockD2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware7oemlock8IOemLockEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIaNS_9allocatorIaEEE8__appendEm"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware7oemlock8IOemLock4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLock10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLock12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware7oemlock8IOemLock4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware7oemlock8IOemLockEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware7oemlock8IOemLockEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware7oemlock15IOemLockDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware7oemlock8IOemLockE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware7oemlock9BnOemLockE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware7oemlock9BpOemLockE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

@@ -1,0 +1,380 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware5power6IPowerEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware5power6IPowerEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiP7AParcelPKvm"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power12WorkDuration14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault15isModeSupportedENS2_4ModeEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault16isBoostSupportedENS2_5BoostEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault27getHintSessionPreferredRateEPl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault7setModeENS2_4ModeEb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault8setBoostENS2_5BoostEi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSession10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSession13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSession14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSession14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSession14setDefaultImplERKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSessionC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSessionD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSessionD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSessionD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BnPowerHintSession12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BnPowerHintSession16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BnPowerHintSession19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BnPowerHintSessionC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BnPowerHintSessionD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BnPowerHintSessionD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BnPowerHintSessionD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24reportActualWorkDurationERKNSt3__16vectorINS2_12WorkDurationENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24updateTargetWorkDurationEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession5closeEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession5pauseEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession6resumeEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSessionC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSessionC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSessionD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSessionD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSessionD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24reportActualWorkDurationERKNSt3__16vectorINS2_12WorkDurationENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24updateTargetWorkDurationEl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault5closeEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault5pauseEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault6resumeEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPower10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPower13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPower14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPower14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPower14setDefaultImplERKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPowerC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPowerD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPowerD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPowerD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BnPower12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BnPower16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BnPower19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BnPowerC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BnPowerD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BnPowerD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BnPowerD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPower15isModeSupportedENS2_4ModeEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPower16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPower16isBoostSupportedENS2_5BoostEPb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPower19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPower27getHintSessionPreferredRateEPl"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPower7setModeENS2_4ModeEb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPower8setBoostENS2_5BoostEi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPowerC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPowerC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPowerD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPowerD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power7BpPowerD2Ev"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power12WorkDuration13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEm"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware5power17IPowerHintSession4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware5power6IPower4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power12WorkDuration10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSession10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSession12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware5power17IPowerHintSession4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPower10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power6IPower12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware5power6IPower4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware5power6IPowerEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware5power6IPowerEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power13IPowerDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power17IPowerHintSessionE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power18BnPowerHintSessionE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power18BpPowerHintSessionE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power24IPowerHintSessionDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power6IPowerE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power7BnPowerE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power7BpPowerE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

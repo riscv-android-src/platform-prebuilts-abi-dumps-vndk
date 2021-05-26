@@ -1,0 +1,391 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware5power5stats11IPowerStatsEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware5power5stats11IPowerStatsEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power5stats11PowerEntityEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power5stats14EnergyConsumerEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power5stats14StateResidencyEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power5stats17EnergyMeasurementEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power5stats20EnergyConsumerResultEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power5stats20StateResidencyResultEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power5stats25EnergyConsumerAttributionEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power5stats5StateEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power5stats7ChannelEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power5stats11PowerEntityEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power5stats14EnergyConsumerEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power5stats14StateResidencyEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power5stats17EnergyMeasurementEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power5stats20EnergyConsumerResultEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power5stats20StateResidencyResultEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power5stats25EnergyConsumerAttributionEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power5stats5StateEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power5stats7ChannelEEEiP7AParcelPKvm"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStats10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStats13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStats14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStats14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStats14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStatsC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStatsD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStatsD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStatsD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11PowerEntity14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BnPowerStats12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BnPowerStats16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BnPowerStats19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BnPowerStatsC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BnPowerStatsD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BnPowerStatsD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BnPowerStatsD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStats15readEnergyMeterERKNSt3__16vectorIiNS5_9allocatorIiEEEEPNS6_INS3_17EnergyMeasurementENS7_ISC_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStats16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStats17getEnergyConsumedERKNSt3__16vectorIiNS5_9allocatorIiEEEEPNS6_INS3_20EnergyConsumerResultENS7_ISC_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStats17getStateResidencyERKNSt3__16vectorIiNS5_9allocatorIiEEEEPNS6_INS3_20StateResidencyResultENS7_ISC_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStats18getEnergyMeterInfoEPNSt3__16vectorINS3_7ChannelENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStats18getPowerEntityInfoEPNSt3__16vectorINS3_11PowerEntityENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStats19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStats21getEnergyConsumerInfoEPNSt3__16vectorINS3_14EnergyConsumerENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStatsC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStatsC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStatsD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStatsD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats12BpPowerStatsD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats14EnergyConsumer14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats14StateResidency14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats17EnergyMeasurement14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault15readEnergyMeterERKNSt3__16vectorIiNS5_9allocatorIiEEEEPNS6_INS3_17EnergyMeasurementENS7_ISC_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault17getEnergyConsumedERKNSt3__16vectorIiNS5_9allocatorIiEEEEPNS6_INS3_20EnergyConsumerResultENS7_ISC_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault17getStateResidencyERKNSt3__16vectorIiNS5_9allocatorIiEEEEPNS6_INS3_20StateResidencyResultENS7_ISC_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault18getEnergyMeterInfoEPNSt3__16vectorINS3_7ChannelENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault18getPowerEntityInfoEPNSt3__16vectorINS3_11PowerEntityENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault21getEnergyConsumerInfoEPNSt3__16vectorINS3_14EnergyConsumerENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats18IPowerStatsDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats20EnergyConsumerResult14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats20StateResidencyResult14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats25EnergyConsumerAttribution14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats5State14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats7Channel14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power5stats11PowerEntity13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power5stats14EnergyConsumer13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power5stats14StateResidency13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power5stats17EnergyMeasurement13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power5stats20EnergyConsumerResult13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power5stats20StateResidencyResult13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power5stats25EnergyConsumerAttribution13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power5stats5State13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware5power5stats7Channel13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware5power5stats11IPowerStatsEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power5stats11PowerEntityENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power5stats14EnergyConsumerENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power5stats14StateResidencyENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power5stats17EnergyMeasurementENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power5stats20EnergyConsumerResultENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power5stats20StateResidencyResultENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power5stats25EnergyConsumerAttributionENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power5stats5StateENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power5stats7ChannelENS_9allocatorIS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEm"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware5power5stats11IPowerStats4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStats10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStats12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware5power5stats11IPowerStats4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats11PowerEntity10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats14EnergyConsumer10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats14StateResidency10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats17EnergyMeasurement10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats20EnergyConsumerResult10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats20StateResidencyResult10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats25EnergyConsumerAttribution10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats5State10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware5power5stats7Channel10descriptorE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware5power5stats11IPowerStatsEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware5power5stats11IPowerStatsEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power5stats11IPowerStatsE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power5stats12BnPowerStatsE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power5stats12BpPowerStatsE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware5power5stats18IPowerStatsDefaultE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

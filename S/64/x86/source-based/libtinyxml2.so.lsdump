@@ -1,0 +1,717 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_ZN8tinyxml210XMLComment9ParseDeepEPcPNS_7StrPairEPi"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLCommentC1EPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLCommentC2EPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLCommentD0Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLCommentD1Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLCommentD2Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement13InsertNewTextEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement15CreateAttributeEv"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement15DeleteAttributeEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement15DeleteAttributeEPNS_12XMLAttributeE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement15ParseAttributesEPcPi"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement16InsertNewCommentEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement16InsertNewUnknownEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement20InsertNewDeclarationEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement21FindOrCreateAttributeEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement21InsertNewChildElementEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement7SetTextEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement7SetTextEb"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement7SetTextEd"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement7SetTextEf"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement7SetTextEi"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement7SetTextEj"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement7SetTextEx"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement7SetTextEy"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElement9ParseDeepEPcPNS_7StrPairEPi"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElementC1EPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElementC2EPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElementD0Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElementD1Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLElementD2Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter10PrintSpaceEi"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter10PushHeaderEbb"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter10VisitEnterERKNS_10XMLElementEPKNS_12XMLAttributeE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter10VisitEnterERKNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter11OpenElementEPKcb"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter11PrintStringEPKcb"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter11PushCommentEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter11PushUnknownEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter12CloseElementEb"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter13PushAttributeEPKcS2_"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter13PushAttributeEPKcb"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter13PushAttributeEPKcd"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter13PushAttributeEPKci"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter13PushAttributeEPKcj"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter13PushAttributeEPKcx"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter13PushAttributeEPKcy"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter15PushDeclarationEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter23SealElementIfJustOpenedEv"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter4PutcEc"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter5PrintEPKcz"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter5VisitERKNS_10XMLCommentE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter5VisitERKNS_10XMLUnknownE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter5VisitERKNS_14XMLDeclarationE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter5VisitERKNS_7XMLTextE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter5WriteEPKcj"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter8PushTextEPKcb"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter8PushTextEb"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter8PushTextEd"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter8PushTextEf"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter8PushTextEi"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter8PushTextEj"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter8PushTextEx"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter8PushTextEy"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinter9VisitExitERKNS_10XMLElementE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinterC1EP7__sFILEbi"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLPrinterC2EP7__sFILEbi"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLUnknown9ParseDeepEPcPNS_7StrPairEPi"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLUnknownC1EPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLUnknownC2EPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLUnknownD0Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLUnknownD1Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml210XMLUnknownD2Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument10DeleteNodeEPNS_7XMLNodeE"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument10NewCommentEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument10NewElementEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument10NewUnknownEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument13ErrorIDToNameENS_8XMLErrorE"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument14NewDeclarationEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument5ClearEv"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument5ParseEPKcj"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument5ParseEv"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument7NewTextEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument8IdentifyEPcPPNS_7XMLNodeE"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument8LoadFileEP7__sFILE"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument8LoadFileEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument8PopDepthEv"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument8SaveFileEP7__sFILEb"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument8SaveFileEPKcb"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument8SetErrorENS_8XMLErrorEiPKcz"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument9MarkInUseEPKNS_7XMLNodeE"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocument9PushDepthEv"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocumentC1EbNS_10WhitespaceE"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocumentC2EbNS_10WhitespaceE"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocumentD0Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocumentD1Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml211XMLDocumentD2Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute12SetAttributeEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute12SetAttributeEb"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute12SetAttributeEd"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute12SetAttributeEf"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute12SetAttributeEi"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute12SetAttributeEj"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute12SetAttributeEx"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute12SetAttributeEy"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute7SetNameEPKc"
+  },
+  {
+   "name" : "_ZN8tinyxml212XMLAttribute9ParseDeepEPcbPi"
+  },
+  {
+   "name" : "_ZN8tinyxml214XMLDeclaration9ParseDeepEPcPNS_7StrPairEPi"
+  },
+  {
+   "name" : "_ZN8tinyxml214XMLDeclarationC1EPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml214XMLDeclarationC2EPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml214XMLDeclarationD0Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml214XMLDeclarationD1Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml214XMLDeclarationD2Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml27StrPair10TransferToEPS0_"
+  },
+  {
+   "name" : "_ZN8tinyxml27StrPair18CollapseWhitespaceEv"
+  },
+  {
+   "name" : "_ZN8tinyxml27StrPair5ResetEv"
+  },
+  {
+   "name" : "_ZN8tinyxml27StrPair6GetStrEv"
+  },
+  {
+   "name" : "_ZN8tinyxml27StrPair6SetStrEPKci"
+  },
+  {
+   "name" : "_ZN8tinyxml27StrPair9ParseNameEPc"
+  },
+  {
+   "name" : "_ZN8tinyxml27StrPair9ParseTextEPcPKciPi"
+  },
+  {
+   "name" : "_ZN8tinyxml27StrPairD1Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml27StrPairD2Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNode10DeleteNodeEPS0_"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNode11DeleteChildEPS0_"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNode14DeleteChildrenEv"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNode14InsertEndChildEPS0_"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNode16InsertAfterChildEPS0_S1_"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNode16InsertFirstChildEPS0_"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNode6UnlinkEPS0_"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNode8SetValueEPKcb"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNode9ParseDeepEPcPNS_7StrPairEPi"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNodeC2EPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNodeD0Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNodeD1Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLNodeD2Ev"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLText9ParseDeepEPcPNS_7StrPairEPi"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil10ToUnsignedEPKcPj"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil12ToUnsigned64EPKcPy"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil15GetCharacterRefEPKcPcPi"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil18ConvertUTF32ToUTF8EmPcPi"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil20SetBoolSerializationEPKcS2_"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil5ToIntEPKcPi"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil5ToStrEbPci"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil5ToStrEdPci"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil5ToStrEfPci"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil5ToStrEiPci"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil5ToStrEjPci"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil5ToStrExPci"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil5ToStrEyPci"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil6ToBoolEPKcPb"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil7ReadBOMEPKcPb"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil7ToFloatEPKcPf"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil7ToInt64EPKcPx"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil8ToDoubleEPKcPd"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLComment12ShallowCloneEPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLComment12ShallowEqualEPKNS_7XMLNodeE"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLComment6AcceptEPNS_10XMLVisitorE"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement10DoubleTextEd"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement12IntAttributeEPKci"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement12QueryIntTextEPi"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement12ShallowCloneEPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement12ShallowEqualEPKNS_7XMLNodeE"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement12UnsignedTextEj"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement13BoolAttributeEPKcb"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement13FindAttributeEPKc"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement13QueryBoolTextEPb"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement14FloatAttributeEPKcf"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement14Int64AttributeEPKcx"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement14QueryFloatTextEPf"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement14QueryInt64TextEPx"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement14Unsigned64TextEy"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement15DoubleAttributeEPKcd"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement15QueryDoubleTextEPd"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement17QueryUnsignedTextEPj"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement17UnsignedAttributeEPKcj"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement19QueryUnsigned64TextEPy"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement19Unsigned64AttributeEPKcy"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement6AcceptEPNS_10XMLVisitorE"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement7GetTextEv"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement7IntTextEi"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement8BoolTextEb"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement9AttributeEPKcS2_"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement9FloatTextEf"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLElement9Int64TextEx"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLUnknown12ShallowCloneEPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLUnknown12ShallowEqualEPKNS_7XMLNodeE"
+  },
+  {
+   "name" : "_ZNK8tinyxml210XMLUnknown6AcceptEPNS_10XMLVisitorE"
+  },
+  {
+   "name" : "_ZNK8tinyxml211XMLDocument10PrintErrorEv"
+  },
+  {
+   "name" : "_ZNK8tinyxml211XMLDocument5PrintEPNS_10XMLPrinterE"
+  },
+  {
+   "name" : "_ZNK8tinyxml211XMLDocument6AcceptEPNS_10XMLVisitorE"
+  },
+  {
+   "name" : "_ZNK8tinyxml211XMLDocument8DeepCopyEPS0_"
+  },
+  {
+   "name" : "_ZNK8tinyxml211XMLDocument8ErrorStrEv"
+  },
+  {
+   "name" : "_ZNK8tinyxml211XMLDocument9ErrorNameEv"
+  },
+  {
+   "name" : "_ZNK8tinyxml212XMLAttribute13QueryIntValueEPi"
+  },
+  {
+   "name" : "_ZNK8tinyxml212XMLAttribute14QueryBoolValueEPb"
+  },
+  {
+   "name" : "_ZNK8tinyxml212XMLAttribute15QueryFloatValueEPf"
+  },
+  {
+   "name" : "_ZNK8tinyxml212XMLAttribute15QueryInt64ValueEPx"
+  },
+  {
+   "name" : "_ZNK8tinyxml212XMLAttribute16QueryDoubleValueEPd"
+  },
+  {
+   "name" : "_ZNK8tinyxml212XMLAttribute18QueryUnsignedValueEPj"
+  },
+  {
+   "name" : "_ZNK8tinyxml212XMLAttribute20QueryUnsigned64ValueEPy"
+  },
+  {
+   "name" : "_ZNK8tinyxml212XMLAttribute4NameEv"
+  },
+  {
+   "name" : "_ZNK8tinyxml212XMLAttribute5ValueEv"
+  },
+  {
+   "name" : "_ZNK8tinyxml214XMLDeclaration12ShallowCloneEPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZNK8tinyxml214XMLDeclaration12ShallowEqualEPKNS_7XMLNodeE"
+  },
+  {
+   "name" : "_ZNK8tinyxml214XMLDeclaration6AcceptEPNS_10XMLVisitorE"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLNode16LastChildElementEPKc"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLNode17FirstChildElementEPKc"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLNode17ToElementWithNameEPKc"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLNode18NextSiblingElementEPKc"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLNode19InsertChildPreambleEPS0_"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLNode22PreviousSiblingElementEPKc"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLNode5ValueEv"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLNode9DeepCloneEPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLText12ShallowCloneEPNS_11XMLDocumentE"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLText12ShallowEqualEPKNS_7XMLNodeE"
+  },
+  {
+   "name" : "_ZNK8tinyxml27XMLText6AcceptEPNS_10XMLVisitorE"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "_ZN8tinyxml211XMLDocument11_errorNamesE"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil13writeBoolTrueE"
+  },
+  {
+   "name" : "_ZN8tinyxml27XMLUtil14writeBoolFalseE"
+  },
+  {
+   "name" : "_ZTVN8tinyxml210XMLCommentE"
+  },
+  {
+   "name" : "_ZTVN8tinyxml210XMLElementE"
+  },
+  {
+   "name" : "_ZTVN8tinyxml210XMLPrinterE"
+  },
+  {
+   "name" : "_ZTVN8tinyxml210XMLUnknownE"
+  },
+  {
+   "name" : "_ZTVN8tinyxml211XMLDocumentE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN8tinyxml212XMLAttributeE"
+  },
+  {
+   "name" : "_ZTVN8tinyxml214XMLDeclarationE"
+  },
+  {
+   "name" : "_ZTVN8tinyxml27XMLNodeE"
+  },
+  {
+   "name" : "_ZTVN8tinyxml27XMLTextE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN8tinyxml28MemPoolTILi40EEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN8tinyxml28MemPoolTILi52EEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN8tinyxml28MemPoolTILi56EEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN8tinyxml28MemPoolTILi60EEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

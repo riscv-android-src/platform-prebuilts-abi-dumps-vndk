@@ -1,0 +1,384 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_Z11GetOwnerTagPK10ZipArchive"
+  },
+  {
+   "name" : "_Z11OpenArchivePKcPP10ZipArchive"
+  },
+  {
+   "name" : "_Z12CloseArchiveP10ZipArchive"
+  },
+  {
+   "name" : "_Z12EndIterationPv"
+  },
+  {
+   "name" : "_Z13OpenArchiveFdiPKcPP10ZipArchiveb"
+  },
+  {
+   "name" : "_Z14GetArchiveInfoP10ZipArchive"
+  },
+  {
+   "name" : "_Z14StartIterationP10ZipArchivePPvNSt3__117basic_string_viewIcNS3_11char_traitsIcEEEES7_"
+  },
+  {
+   "name" : "_Z14StartIterationP10ZipArchivePPvNSt3__18functionIFbNS3_17basic_string_viewIcNS3_11char_traitsIcEEEEEEE"
+  },
+  {
+   "name" : "_Z15ErrorCodeStringi"
+  },
+  {
+   "name" : "_Z15ExtractToMemoryP10ZipArchivePK10ZipEntry64Phj"
+  },
+  {
+   "name" : "_Z15ExtractToMemoryP10ZipArchivePK8ZipEntryPhj"
+  },
+  {
+   "name" : "_Z17GetFileDescriptorP10ZipArchive"
+  },
+  {
+   "name" : "_Z18ExtractEntryToFileP10ZipArchivePK10ZipEntry64i"
+  },
+  {
+   "name" : "_Z18ExtractEntryToFileP10ZipArchivePK8ZipEntryi"
+  },
+  {
+   "name" : "_Z18OpenArchiveFdRangeiPKcPP10ZipArchivexxb"
+  },
+  {
+   "name" : "_Z21OpenArchiveFromMemoryPKvjPKcPP10ZipArchive"
+  },
+  {
+   "name" : "_Z23GetFileDescriptorOffsetP10ZipArchive"
+  },
+  {
+   "name" : "_Z23ProcessZipEntryContentsP10ZipArchivePK10ZipEntry64PFbPKhjPvES6_"
+  },
+  {
+   "name" : "_Z23ProcessZipEntryContentsP10ZipArchivePK8ZipEntryPFbPKhjPvES6_"
+  },
+  {
+   "name" : "_Z4NextPvP10ZipEntry64PNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_Z4NextPvP10ZipEntry64PNSt3__117basic_string_viewIcNS2_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_Z4NextPvP8ZipEntryPNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_Z4NextPvP8ZipEntryPNSt3__117basic_string_viewIcNS2_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_Z9FindEntryP10ZipArchiveNSt3__117basic_string_viewIcNS1_11char_traitsIcEEEEP10ZipEntry64"
+  },
+  {
+   "name" : "_Z9FindEntryP10ZipArchiveNSt3__117basic_string_viewIcNS1_11char_traitsIcEEEEP8ZipEntry"
+  },
+  {
+   "name" : "_ZN10ZipArchive26InitializeCentralDirectoryExj"
+  },
+  {
+   "name" : "_ZN10ZipArchiveC1EO13MappedZipFileb"
+  },
+  {
+   "name" : "_ZN10ZipArchiveC1EPKvj"
+  },
+  {
+   "name" : "_ZN10ZipArchiveC2EO13MappedZipFileb"
+  },
+  {
+   "name" : "_ZN10ZipArchiveC2EPKvj"
+  },
+  {
+   "name" : "_ZN10ZipArchiveD1Ev"
+  },
+  {
+   "name" : "_ZN10ZipArchiveD2Ev"
+  },
+  {
+   "name" : "_ZN11zip_archive15ExtractToWriterEP10ZipArchivePK10ZipEntry64PNS_6WriterE"
+  },
+  {
+   "name" : "_ZN11zip_archive6ReaderD0Ev"
+  },
+  {
+   "name" : "_ZN11zip_archive6ReaderD1Ev"
+  },
+  {
+   "name" : "_ZN11zip_archive6ReaderD2Ev"
+  },
+  {
+   "name" : "_ZN11zip_archive6WriterD0Ev"
+  },
+  {
+   "name" : "_ZN11zip_archive6WriterD1Ev"
+  },
+  {
+   "name" : "_ZN11zip_archive6WriterD2Ev"
+  },
+  {
+   "name" : "_ZN11zip_archive7InflateERKNS_6ReaderEyyPNS_6WriterEPy"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip3214ResetIterationEv"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip324NextEPKh"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip326CreateEt"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip328AddToMapENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEPKh"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip32C1Et"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip32C2Et"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip6414ResetIterationEv"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip644NextEPKh"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip646CreateEv"
+  },
+  {
+   "name" : "_ZN15CdEntryMapZip648AddToMapENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEPKh"
+  },
+  {
+   "name" : "_ZN16CentralDirectory10InitializeEPKvxj"
+  },
+  {
+   "name" : "_ZN21ZipArchiveStreamEntry4InitERK8ZipEntry"
+  },
+  {
+   "name" : "_ZN21ZipArchiveStreamEntry6CreateEP10ZipArchiveRK8ZipEntry"
+  },
+  {
+   "name" : "_ZN21ZipArchiveStreamEntry9CreateRawEP10ZipArchiveRK8ZipEntry"
+  },
+  {
+   "name" : "_ZN31ZipArchiveStreamEntryCompressed4InitERK8ZipEntry"
+  },
+  {
+   "name" : "_ZN31ZipArchiveStreamEntryCompressed4ReadEv"
+  },
+  {
+   "name" : "_ZN31ZipArchiveStreamEntryCompressed6VerifyEv"
+  },
+  {
+   "name" : "_ZN31ZipArchiveStreamEntryCompressedD0Ev"
+  },
+  {
+   "name" : "_ZN31ZipArchiveStreamEntryCompressedD1Ev"
+  },
+  {
+   "name" : "_ZN31ZipArchiveStreamEntryCompressedD2Ev"
+  },
+  {
+   "name" : "_ZN33ZipArchiveStreamEntryUncompressed4InitERK8ZipEntry"
+  },
+  {
+   "name" : "_ZN33ZipArchiveStreamEntryUncompressed4ReadEv"
+  },
+  {
+   "name" : "_ZN33ZipArchiveStreamEntryUncompressed6VerifyEv"
+  },
+  {
+   "name" : "_ZN34ZipArchiveStreamEntryRawCompressed4InitERK8ZipEntry"
+  },
+  {
+   "name" : "_ZN34ZipArchiveStreamEntryRawCompressed6VerifyEv"
+  },
+  {
+   "name" : "_ZN8ZipEntry18CopyFromZipEntry64EPS_PK10ZipEntry64"
+  },
+  {
+   "name" : "_ZN9ZipWriter10StartEntryENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEj"
+  },
+  {
+   "name" : "_ZN9ZipWriter10StoreBytesEPNS_9FileEntryEPKvj"
+  },
+  {
+   "name" : "_ZN9ZipWriter10WriteBytesEPKvj"
+  },
+  {
+   "name" : "_ZN9ZipWriter11FinishEntryEv"
+  },
+  {
+   "name" : "_ZN9ZipWriter11HandleErrorEi"
+  },
+  {
+   "name" : "_ZN9ZipWriter12GetLastEntryEPNS_9FileEntryE"
+  },
+  {
+   "name" : "_ZN9ZipWriter13CompressBytesEPNS_9FileEntryEPKvj"
+  },
+  {
+   "name" : "_ZN9ZipWriter14PrepareDeflateEv"
+  },
+  {
+   "name" : "_ZN9ZipWriter15ErrorCodeStringEi"
+  },
+  {
+   "name" : "_ZN9ZipWriter16DiscardLastEntryEv"
+  },
+  {
+   "name" : "_ZN9ZipWriter17StartAlignedEntryENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEjj"
+  },
+  {
+   "name" : "_ZN9ZipWriter18StartEntryWithTimeENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEjl"
+  },
+  {
+   "name" : "_ZN9ZipWriter20FlushCompressedBytesEPNS_9FileEntryE"
+  },
+  {
+   "name" : "_ZN9ZipWriter25StartAlignedEntryWithTimeENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEjlj"
+  },
+  {
+   "name" : "_ZN9ZipWriter6FinishEv"
+  },
+  {
+   "name" : "_ZN9ZipWriterC1EOS_"
+  },
+  {
+   "name" : "_ZN9ZipWriterC1EP7__sFILE"
+  },
+  {
+   "name" : "_ZN9ZipWriterC2EOS_"
+  },
+  {
+   "name" : "_ZN9ZipWriterC2EP7__sFILE"
+  },
+  {
+   "name" : "_ZN9ZipWriteraSEOS_"
+  },
+  {
+   "name" : "_ZNK13MappedZipFile10GetBasePtrEv"
+  },
+  {
+   "name" : "_ZNK13MappedZipFile12ReadAtOffsetEPhjx"
+  },
+  {
+   "name" : "_ZNK13MappedZipFile13GetFileLengthEv"
+  },
+  {
+   "name" : "_ZNK13MappedZipFile13GetFileOffsetEv"
+  },
+  {
+   "name" : "_ZNK13MappedZipFile17GetFileDescriptorEv"
+  },
+  {
+   "name" : "_ZNK14ZipEntryCommon19GetModificationTimeEv"
+  },
+  {
+   "name" : "_ZNK15CdEntryMapZip3216GetCdEntryOffsetENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEPKh"
+  },
+  {
+   "name" : "_ZNK15CdEntryMapZip6416GetCdEntryOffsetENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEPKh"
+  },
+  {
+   "name" : "_ZNK9ZipWriter23ShouldUseDataDescriptorEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__16__treeINS_12__value_typeINS_17basic_string_viewIcNS_11char_traitsIcEEEEyEENS_19__map_value_compareIS5_S6_NS_4lessIS5_EELb1EEENS_9allocatorIS6_EEE4findIS5_EENS_21__tree_const_iteratorIS6_PNS_11__tree_nodeIS6_PvEEiEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_j"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_17basic_string_viewIcNS_11char_traitsIcEEEEyEENS_19__map_value_compareIS5_S6_NS_4lessIS5_EELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIS5_JNS_4pairIKS5_yEEEEENSF_INS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEEiEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_17basic_string_viewIcNS_11char_traitsIcEEEEyEENS_19__map_value_compareIS5_S6_NS_4lessIS5_EELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS6_PvEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN9ZipWriter9FileEntryENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIcNS_9allocatorIcEEE6resizeEjRKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIcNS_9allocatorIcEEE8__appendEjRKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEE6resizeEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEE8__appendEj"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZTV10FileWriter"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTV11EntryReader"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTV12MemoryWriter"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTV13ProcessWriter"
+  },
+  {
+   "name" : "_ZTV15CdEntryMapZip32"
+  },
+  {
+   "name" : "_ZTV15CdEntryMapZip64"
+  },
+  {
+   "name" : "_ZTV21ZipArchiveStreamEntry"
+  },
+  {
+   "name" : "_ZTV31ZipArchiveStreamEntryCompressed"
+  },
+  {
+   "name" : "_ZTV33ZipArchiveStreamEntryUncompressed"
+  },
+  {
+   "name" : "_ZTV34ZipArchiveStreamEntryRawCompressed"
+  },
+  {
+   "name" : "_ZTVN11zip_archive6ReaderE"
+  },
+  {
+   "name" : "_ZTVN11zip_archive6WriterE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

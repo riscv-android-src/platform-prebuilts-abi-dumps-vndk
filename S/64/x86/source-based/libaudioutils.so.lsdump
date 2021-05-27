@@ -1,0 +1,907 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIi",
+   "size" : 4
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_Z20audio_utils_log_plotINSt3__111__wrap_iterIPNS0_4pairIfbEEEEENS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEET_SC_"
+  },
+  {
+   "name" : "_ZN16audio_utils_fifoC1EjjPvR22audio_utils_fifo_indexPS1_"
+  },
+  {
+   "name" : "_ZN16audio_utils_fifoC1EjjPvb21audio_utils_fifo_sync"
+  },
+  {
+   "name" : "_ZN16audio_utils_fifoC2EjjPvR22audio_utils_fifo_indexPS1_"
+  },
+  {
+   "name" : "_ZN16audio_utils_fifoC2EjjPvb21audio_utils_fifo_sync"
+  },
+  {
+   "name" : "_ZN16audio_utils_fifoD1Ev"
+  },
+  {
+   "name" : "_ZN16audio_utils_fifoD2Ev"
+  },
+  {
+   "name" : "_ZN21audio_utils_fifo_baseC1EjR22audio_utils_fifo_indexPS0_21audio_utils_fifo_sync"
+  },
+  {
+   "name" : "_ZN21audio_utils_fifo_baseC2EjR22audio_utils_fifo_indexPS0_21audio_utils_fifo_sync"
+  },
+  {
+   "name" : "_ZN21audio_utils_fifo_baseD1Ev"
+  },
+  {
+   "name" : "_ZN21audio_utils_fifo_baseD2Ev"
+  },
+  {
+   "name" : "_ZN22audio_utils_fifo_index11loadAcquireEv"
+  },
+  {
+   "name" : "_ZN22audio_utils_fifo_index12storeReleaseEj"
+  },
+  {
+   "name" : "_ZN22audio_utils_fifo_index18loadSingleThreadedEv"
+  },
+  {
+   "name" : "_ZN22audio_utils_fifo_index19storeSingleThreadedEj"
+  },
+  {
+   "name" : "_ZN22audio_utils_fifo_index4waitEijPK8timespec"
+  },
+  {
+   "name" : "_ZN22audio_utils_fifo_index4wakeEii"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_reader13setHysteresisEij"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_reader4readEPvjPK8timespecPj"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_reader5flushEPj"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_reader6obtainEP17audio_utils_iovecjPK8timespec"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_reader6obtainEP17audio_utils_iovecjPK8timespecPj"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_reader7releaseEj"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_reader9availableEPj"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_reader9availableEv"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_readerC1ER16audio_utils_fifobb"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_readerC2ER16audio_utils_fifobb"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_readerD0Ev"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_readerD1Ev"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_readerD2Ev"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writer13setHysteresisEjj"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writer5writeEPKvjPK8timespec"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writer6obtainEP17audio_utils_iovecjPK8timespec"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writer6resizeEj"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writer7releaseEj"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writer9availableEv"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writerC1ER16audio_utils_fifo"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writerC2ER16audio_utils_fifo"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writerD0Ev"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writerD1Ev"
+  },
+  {
+   "name" : "_ZN23audio_utils_fifo_writerD2Ev"
+  },
+  {
+   "name" : "_ZN25audio_utils_fifo_providerC2ER16audio_utils_fifo"
+  },
+  {
+   "name" : "_ZN25audio_utils_fifo_providerD0Ev"
+  },
+  {
+   "name" : "_ZN25audio_utils_fifo_providerD1Ev"
+  },
+  {
+   "name" : "_ZN25audio_utils_fifo_providerD2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIiE12storeReleaseEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIiE19storeSingleThreadedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIiE5writeEPKij"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIiE6write1ERKi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIiEC1ER16audio_utils_fifo"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIiEC2ER16audio_utils_fifo"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIiED1Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIiED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIxE12storeReleaseEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIxE19storeSingleThreadedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIxE5writeEPKxj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIxE6write1ERKx"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIxEC1ER16audio_utils_fifo"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIxEC2ER16audio_utils_fifo"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIxED1Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN25audio_utils_fifo_writer_TIxED2Ev"
+  },
+  {
+   "name" : "_ZN7android11audio_utils7Balance10setBalanceEf"
+  },
+  {
+   "name" : "_ZN7android11audio_utils7Balance14setChannelMaskE20audio_channel_mask_t"
+  },
+  {
+   "name" : "_ZN7android11audio_utils7Balance7processEPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata15tedious_details18copyFromByteStringINS1_13compound_typeIJixfdNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS1_4DataEEEELj0EEEbPNS1_5DatumERKNS6_IhNS7_IhEENS9_IhEEEERjjPNS5_6vectorIjNS9_IjEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata15tedious_details18copyFromByteStringINS1_13compound_typeIJixfdNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS1_4DataEEEELj1EEEbPNS1_5DatumERKNS6_IhNS7_IhEENS9_IhEEEERjjPNS5_6vectorIjNS9_IjEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata15tedious_details18copyFromByteStringINS1_13compound_typeIJixfdNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS1_4DataEEEELj2EEEbPNS1_5DatumERKNS6_IhNS7_IhEENS9_IhEEEERjjPNS5_6vectorIjNS9_IjEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata15tedious_details18copyFromByteStringINS1_13compound_typeIJixfdNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS1_4DataEEEELj3EEEbPNS1_5DatumERKNS6_IhNS7_IhEENS9_IhEEEERjjPNS5_6vectorIjNS9_IjEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata15tedious_details18copyFromByteStringINS1_13compound_typeIJixfdNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS1_4DataEEEELj4EEEbPNS1_5DatumERKNS6_IhNS7_IhEENS9_IhEEEERjjPNS5_6vectorIjNS9_IjEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata15tedious_details18copyFromByteStringINS1_13compound_typeIJixfdNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS1_4DataEEEELj5EEEbPNS1_5DatumERKNS6_IhNS7_IhEENS9_IhEEEERjjPNS5_6vectorIjNS9_IjEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata16copyToByteStringINSt3__112basic_stringEJcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEbRKT_IJDpT0_EERNS4_IhNS5_IhEENS7_IhEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata16copyToByteStringINSt3__13mapEJNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS1_5DatumENS3_4lessISA_EENS8_INS3_4pairIKSA_SB_EEEEEEEbRKT_IJDpT0_EERNS5_IhNS6_IhEENS8_IhEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata16copyToByteStringIdEENSt3__19enable_ifIXoo28is_primitive_metadata_type_vIT_Esr3stdE15is_arithmetic_vINS3_5decayIS5_E4typeEEEbE4typeERKS5_RNS3_12basic_stringIhNS3_11char_traitsIhEENS3_9allocatorIhEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata16copyToByteStringIxEENSt3__19enable_ifIXoo28is_primitive_metadata_type_vIT_Esr3stdE15is_arithmetic_vINS3_5decayIS5_E4typeEEEbE4typeERKS5_RNS3_12basic_stringIhNS3_11char_traitsIhEENS3_9allocatorIhEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata18copyFromByteStringINSt3__112basic_stringEJcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEbPT_IJDpT0_EERKNS4_IhNS5_IhEENS7_IhEEEERjPNS3_6vectorIjNS7_IjEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8metadata18copyFromByteStringINSt3__13mapEJNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS1_5DatumENS3_4lessISA_EENS8_INS3_4pairIKSA_SB_EEEEEEEbPT_IJDpT0_EERKNS5_IhNS6_IhEENS8_IhEEEERjPNS3_6vectorIjNS8_IjEEEE"
+  },
+  {
+   "name" : "_ZN7android8PowerLog3logEPKvjx"
+  },
+  {
+   "name" : "_ZN7android8PowerLogC1Ejj14audio_format_tjj"
+  },
+  {
+   "name" : "_ZN7android8PowerLogC2Ejj14audio_format_tjj"
+  },
+  {
+   "name" : "_ZNK21audio_utils_fifo_base3sumEjj"
+  },
+  {
+   "name" : "_ZNK21audio_utils_fifo_base4diffEjjPjb"
+  },
+  {
+   "name" : "_ZNK21audio_utils_fifo_base8shutdownEv"
+  },
+  {
+   "name" : "_ZNK23audio_utils_fifo_reader13getHysteresisEPiPj"
+  },
+  {
+   "name" : "_ZNK23audio_utils_fifo_writer13getHysteresisEPjS0_"
+  },
+  {
+   "name" : "_ZNK23audio_utils_fifo_writer4sizeEv"
+  },
+  {
+   "name" : "_ZNK7android11audio_utils7Balance20computeStereoBalanceEfPfS2_"
+  },
+  {
+   "name" : "_ZNK7android11audio_utils7Balance8toStringEv"
+  },
+  {
+   "name" : "_ZNK7android8PowerLog12dumpToStringEPKcjxb"
+  },
+  {
+   "name" : "_ZNK7android8PowerLog4dumpEiPKcjxb"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__111char_traitsIhE4moveEPhPKhj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112basic_stringIhNS_11char_traitsIhEENS_9allocatorIhEEE21__grow_by_and_replaceEjjjjjjPKh"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112basic_stringIhNS_11char_traitsIhEENS_9allocatorIhEEE7replaceEjjPKhj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__tree_removeIPNS_16__tree_node_baseIPvEEEEvT_S5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekoffExNS_8ios_base7seekdirEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE8overflowEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9pbackfailEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_j"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorISC_PNS_11__tree_nodeISC_SL_EEiEERPNS_15__tree_end_nodeISN_EESO_RKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISN_EERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE12__find_equalISC_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISN_EERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE16__construct_nodeIJPKcS7_EEENS_10unique_ptrINS_11__tree_nodeISC_PvEENS_22__tree_node_destructorINS5_ISP_EEEEEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE16__construct_nodeIJPKcfEEENS_10unique_ptrINS_11__tree_nodeISC_PvEENS_22__tree_node_destructorINS5_ISP_EEEEEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE16__construct_nodeIJPKciEEENS_10unique_ptrINS_11__tree_nodeISC_PvEENS_22__tree_node_destructorINS5_ISP_EEEEEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE16__construct_nodeIJRPKcRfEEENS_10unique_ptrINS_11__tree_nodeISC_PvEENS_22__tree_node_destructorINS5_ISR_EEEEEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE16__construct_nodeIJRPKcRiEEENS_10unique_ptrINS_11__tree_nodeISC_PvEENS_22__tree_node_destructorINS5_ISR_EEEEEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJPKcNSA_4DataEEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJPKcS7_EEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJPKcdEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJPKcfEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJPKciEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJPKcxEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJRPKcRNSA_4DataEEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJRPKcRdEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJRPKcRfEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJRPKcRiEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJRPKcRxEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE21__emplace_unique_implIJRPKcSM_EEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JS7_SB_EEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE30__emplace_hint_unique_key_argsIS7_JRKNS_4pairIKS7_SB_EEEEENS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEENS_21__tree_const_iteratorISC_ST_iEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE4findIS7_EENS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEEiEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE5eraseENS_21__tree_const_iteratorISC_PNS_11__tree_nodeISC_PvEEiEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android11audio_utils8metadata5DatumEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE7destroyEPNS_11__tree_nodeISC_PvEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android11audio_utils8channels19AUDIO_GEOMETRY_SIDEENS_9allocatorIS4_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_4pairIfbEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKfbEEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_4pairIfbEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRfbEEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIfNS_9allocatorIfEEE6assignIPfEENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleIfNS_15iterator_traitsIS7_E9referenceEEE5valueEvE4typeES7_S7_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIfNS_9allocatorIfEEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIjNS_9allocatorIjEEE21__push_back_slow_pathIRKjEEvOT_"
+  },
+  {
+   "name" : "accumulate_float"
+  },
+  {
+   "name" : "accumulate_i16"
+  },
+  {
+   "name" : "accumulate_i32"
+  },
+  {
+   "name" : "accumulate_p24"
+  },
+  {
+   "name" : "accumulate_q8_23"
+  },
+  {
+   "name" : "accumulate_u8"
+  },
+  {
+   "name" : "adjust_channels"
+  },
+  {
+   "name" : "adjust_channels_non_destructive"
+  },
+  {
+   "name" : "adjust_selected_channels"
+  },
+  {
+   "name" : "audio_metadata_byte_string_len"
+  },
+  {
+   "name" : "audio_metadata_create"
+  },
+  {
+   "name" : "audio_metadata_destroy"
+  },
+  {
+   "name" : "audio_metadata_erase"
+  },
+  {
+   "name" : "audio_metadata_from_byte_string"
+  },
+  {
+   "name" : "audio_metadata_get_data"
+  },
+  {
+   "name" : "audio_metadata_get_double"
+  },
+  {
+   "name" : "audio_metadata_get_float"
+  },
+  {
+   "name" : "audio_metadata_get_int32"
+  },
+  {
+   "name" : "audio_metadata_get_int64"
+  },
+  {
+   "name" : "audio_metadata_get_string"
+  },
+  {
+   "name" : "audio_metadata_put_data"
+  },
+  {
+   "name" : "audio_metadata_put_double"
+  },
+  {
+   "name" : "audio_metadata_put_float"
+  },
+  {
+   "name" : "audio_metadata_put_int32"
+  },
+  {
+   "name" : "audio_metadata_put_int64"
+  },
+  {
+   "name" : "audio_metadata_put_string"
+  },
+  {
+   "name" : "audio_utils_compute_energy_mono"
+  },
+  {
+   "name" : "audio_utils_compute_power_mono"
+  },
+  {
+   "name" : "audio_utils_is_compute_power_format_supported"
+  },
+  {
+   "name" : "byte_string_from_audio_metadata"
+  },
+  {
+   "name" : "create_echo_reference"
+  },
+  {
+   "name" : "create_resampler"
+  },
+  {
+   "name" : "ditherAndClamp"
+  },
+  {
+   "name" : "downmix_to_mono_float_from_stereo_float"
+  },
+  {
+   "name" : "downmix_to_mono_i16_from_stereo_i16"
+  },
+  {
+   "name" : "echo_reference_get_next_buffer"
+  },
+  {
+   "name" : "echo_reference_release_buffer"
+  },
+  {
+   "name" : "error_log_create"
+  },
+  {
+   "name" : "error_log_destroy"
+  },
+  {
+   "name" : "error_log_dump"
+  },
+  {
+   "name" : "error_log_log"
+  },
+  {
+   "name" : "fixed_fft"
+  },
+  {
+   "name" : "fixed_fft_real"
+  },
+  {
+   "name" : "float_from_gain"
+  },
+  {
+   "name" : "float_from_sample"
+  },
+  {
+   "name" : "gain_from_float"
+  },
+  {
+   "name" : "limiter"
+  },
+  {
+   "name" : "memcpy_by_audio_format"
+  },
+  {
+   "name" : "memcpy_by_channel_mask"
+  },
+  {
+   "name" : "memcpy_by_index_array"
+  },
+  {
+   "name" : "memcpy_by_index_array_initialization"
+  },
+  {
+   "name" : "memcpy_by_index_array_initialization_dst_index"
+  },
+  {
+   "name" : "memcpy_by_index_array_initialization_from_channel_mask"
+  },
+  {
+   "name" : "memcpy_by_index_array_initialization_src_index"
+  },
+  {
+   "name" : "memcpy_to_float_from_float_with_clamping"
+  },
+  {
+   "name" : "memcpy_to_float_from_i16"
+  },
+  {
+   "name" : "memcpy_to_float_from_i32"
+  },
+  {
+   "name" : "memcpy_to_float_from_p24"
+  },
+  {
+   "name" : "memcpy_to_float_from_q4_27"
+  },
+  {
+   "name" : "memcpy_to_float_from_q8_23"
+  },
+  {
+   "name" : "memcpy_to_float_from_u8"
+  },
+  {
+   "name" : "memcpy_to_i16_from_float"
+  },
+  {
+   "name" : "memcpy_to_i16_from_i32"
+  },
+  {
+   "name" : "memcpy_to_i16_from_p24"
+  },
+  {
+   "name" : "memcpy_to_i16_from_q4_27"
+  },
+  {
+   "name" : "memcpy_to_i16_from_q8_23"
+  },
+  {
+   "name" : "memcpy_to_i16_from_u8"
+  },
+  {
+   "name" : "memcpy_to_i32_from_float"
+  },
+  {
+   "name" : "memcpy_to_i32_from_i16"
+  },
+  {
+   "name" : "memcpy_to_i32_from_p24"
+  },
+  {
+   "name" : "memcpy_to_i32_from_u8"
+  },
+  {
+   "name" : "memcpy_to_p24_from_float"
+  },
+  {
+   "name" : "memcpy_to_p24_from_i16"
+  },
+  {
+   "name" : "memcpy_to_p24_from_i32"
+  },
+  {
+   "name" : "memcpy_to_p24_from_q8_23"
+  },
+  {
+   "name" : "memcpy_to_q4_27_from_float"
+  },
+  {
+   "name" : "memcpy_to_q8_23_from_float_with_clamp"
+  },
+  {
+   "name" : "memcpy_to_q8_23_from_i16"
+  },
+  {
+   "name" : "memcpy_to_q8_23_from_p24"
+  },
+  {
+   "name" : "memcpy_to_u8_from_float"
+  },
+  {
+   "name" : "memcpy_to_u8_from_i16"
+  },
+  {
+   "name" : "memcpy_to_u8_from_i32"
+  },
+  {
+   "name" : "memcpy_to_u8_from_p24"
+  },
+  {
+   "name" : "memcpy_to_u8_from_q8_23"
+  },
+  {
+   "name" : "mono_blend"
+  },
+  {
+   "name" : "nonZeroMono16"
+  },
+  {
+   "name" : "nonZeroMono32"
+  },
+  {
+   "name" : "nonZeroStereo16"
+  },
+  {
+   "name" : "nonZeroStereo32"
+  },
+  {
+   "name" : "power_log_create"
+  },
+  {
+   "name" : "power_log_destroy"
+  },
+  {
+   "name" : "power_log_dump"
+  },
+  {
+   "name" : "power_log_log"
+  },
+  {
+   "name" : "release_echo_reference"
+  },
+  {
+   "name" : "release_resampler"
+  },
+  {
+   "name" : "resampler_resample_from_input"
+  },
+  {
+   "name" : "resampler_resample_from_provider"
+  },
+  {
+   "name" : "roundup"
+  },
+  {
+   "name" : "sample_from_float"
+  },
+  {
+   "name" : "upmix_to_stereo_float_from_mono_float"
+  },
+  {
+   "name" : "upmix_to_stereo_i16_from_mono_i16"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels19kSideFromChannelIdxE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__19__any_imp17__unique_typeinfoIN7android11audio_utils8metadata4DataEE4__idE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__19__any_imp17__unique_typeinfoINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE4__idE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__19__any_imp17__unique_typeinfoIdE4__idE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__19__any_imp17__unique_typeinfoIfE4__idE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__19__any_imp17__unique_typeinfoIiE4__idE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__19__any_imp17__unique_typeinfoIxE4__idE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_istreamIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_14basic_iostreamIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE8_NS_13basic_ostreamIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTTNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZTV23audio_utils_fifo_reader"
+  },
+  {
+   "name" : "_ZTV23audio_utils_fifo_writer"
+  },
+  {
+   "name" : "_ZTV25audio_utils_fifo_provider"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "function_name" : "fixed_fft",
+   "linker_set_key" : "fixed_fft",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/media/audio_utils/include/audio_utils/fixedfft.h"
+  },
+  {
+   "function_name" : "fixed_fft_real",
+   "linker_set_key" : "fixed_fft_real",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/media/audio_utils/include/audio_utils/fixedfft.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPi",
+   "name" : "int *",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIPi",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/fixedfft.h"
+  }
+ ],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

@@ -1,0 +1,54 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_ZN4aidl7android8hardware6common12MappableFile14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6common12NativeHandle14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6common6Ashmem14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware6common12MappableFile13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware6common12NativeHandle13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware6common6Ashmem13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN3ndk20ScopedFileDescriptorENS_9allocatorIS2_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEm"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "_ZN4aidl7android8hardware6common12MappableFile10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6common12NativeHandle10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6common6Ashmem10descriptorE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

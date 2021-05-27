@@ -1,0 +1,1483 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "Curl_HMAC_final"
+  },
+  {
+   "name" : "Curl_HMAC_init"
+  },
+  {
+   "name" : "Curl_HMAC_update"
+  },
+  {
+   "name" : "Curl_MD5_final"
+  },
+  {
+   "name" : "Curl_MD5_init"
+  },
+  {
+   "name" : "Curl_MD5_update"
+  },
+  {
+   "name" : "Curl_SOCKS4"
+  },
+  {
+   "name" : "Curl_SOCKS5"
+  },
+  {
+   "name" : "Curl_SOCKS_getsock"
+  },
+  {
+   "name" : "Curl_add_custom_headers"
+  },
+  {
+   "name" : "Curl_add_timecondition"
+  },
+  {
+   "name" : "Curl_addr2string"
+  },
+  {
+   "name" : "Curl_addrinfo_callback"
+  },
+  {
+   "name" : "Curl_all_content_encodings"
+  },
+  {
+   "name" : "Curl_attach_connnection"
+  },
+  {
+   "name" : "Curl_auth_build_spn"
+  },
+  {
+   "name" : "Curl_auth_cleanup_ntlm"
+  },
+  {
+   "name" : "Curl_auth_create_cram_md5_message"
+  },
+  {
+   "name" : "Curl_auth_create_digest_http_message"
+  },
+  {
+   "name" : "Curl_auth_create_digest_md5_message"
+  },
+  {
+   "name" : "Curl_auth_create_ntlm_type1_message"
+  },
+  {
+   "name" : "Curl_auth_create_ntlm_type3_message"
+  },
+  {
+   "name" : "Curl_auth_decode_cram_md5_message"
+  },
+  {
+   "name" : "Curl_auth_decode_digest_http_message"
+  },
+  {
+   "name" : "Curl_auth_decode_ntlm_type2_message"
+  },
+  {
+   "name" : "Curl_auth_digest_cleanup"
+  },
+  {
+   "name" : "Curl_auth_digest_get_pair"
+  },
+  {
+   "name" : "Curl_auth_is_digest_supported"
+  },
+  {
+   "name" : "Curl_auth_is_ntlm_supported"
+  },
+  {
+   "name" : "Curl_auth_user_contains_domain"
+  },
+  {
+   "name" : "Curl_base64_decode"
+  },
+  {
+   "name" : "Curl_base64_encode"
+  },
+  {
+   "name" : "Curl_base64url_encode"
+  },
+  {
+   "name" : "Curl_buffer_send"
+  },
+  {
+   "name" : "Curl_build_unencoding_stack"
+  },
+  {
+   "name" : "Curl_builtin_scheme"
+  },
+  {
+   "name" : "Curl_cache_addr"
+  },
+  {
+   "name" : "Curl_cert_hostcheck"
+  },
+  {
+   "name" : "Curl_checkProxyheaders"
+  },
+  {
+   "name" : "Curl_checkheaders"
+  },
+  {
+   "name" : "Curl_chunked_strerror"
+  },
+  {
+   "name" : "Curl_client_write"
+  },
+  {
+   "name" : "Curl_clone_primary_ssl_config"
+  },
+  {
+   "name" : "Curl_close"
+  },
+  {
+   "name" : "Curl_closesocket"
+  },
+  {
+   "name" : "Curl_compareheader"
+  },
+  {
+   "name" : "Curl_conn_data_pending"
+  },
+  {
+   "name" : "Curl_connalive"
+  },
+  {
+   "name" : "Curl_conncache_add_conn"
+  },
+  {
+   "name" : "Curl_conncache_close_all_connections"
+  },
+  {
+   "name" : "Curl_conncache_destroy"
+  },
+  {
+   "name" : "Curl_conncache_extract_bundle"
+  },
+  {
+   "name" : "Curl_conncache_extract_oldest"
+  },
+  {
+   "name" : "Curl_conncache_find_bundle"
+  },
+  {
+   "name" : "Curl_conncache_foreach"
+  },
+  {
+   "name" : "Curl_conncache_init"
+  },
+  {
+   "name" : "Curl_conncache_remove_conn"
+  },
+  {
+   "name" : "Curl_conncache_return_conn"
+  },
+  {
+   "name" : "Curl_conncache_size"
+  },
+  {
+   "name" : "Curl_conncontrol"
+  },
+  {
+   "name" : "Curl_connect"
+  },
+  {
+   "name" : "Curl_connect_complete"
+  },
+  {
+   "name" : "Curl_connect_free"
+  },
+  {
+   "name" : "Curl_connect_ongoing"
+  },
+  {
+   "name" : "Curl_connecthost"
+  },
+  {
+   "name" : "Curl_cookie_add"
+  },
+  {
+   "name" : "Curl_cookie_cleanup"
+  },
+  {
+   "name" : "Curl_cookie_clearall"
+  },
+  {
+   "name" : "Curl_cookie_clearsess"
+  },
+  {
+   "name" : "Curl_cookie_freelist"
+  },
+  {
+   "name" : "Curl_cookie_getlist"
+  },
+  {
+   "name" : "Curl_cookie_init"
+  },
+  {
+   "name" : "Curl_cookie_list"
+  },
+  {
+   "name" : "Curl_cookie_loadfiles"
+  },
+  {
+   "name" : "Curl_copy_header_value"
+  },
+  {
+   "name" : "Curl_debug"
+  },
+  {
+   "name" : "Curl_dedotdotify"
+  },
+  {
+   "name" : "Curl_detach_connnection"
+  },
+  {
+   "name" : "Curl_disconnect"
+  },
+  {
+   "name" : "Curl_doh"
+  },
+  {
+   "name" : "Curl_doh_is_resolved"
+  },
+  {
+   "name" : "Curl_done_sending"
+  },
+  {
+   "name" : "Curl_dyn_add"
+  },
+  {
+   "name" : "Curl_dyn_addf"
+  },
+  {
+   "name" : "Curl_dyn_addn"
+  },
+  {
+   "name" : "Curl_dyn_free"
+  },
+  {
+   "name" : "Curl_dyn_init"
+  },
+  {
+   "name" : "Curl_dyn_len"
+  },
+  {
+   "name" : "Curl_dyn_ptr"
+  },
+  {
+   "name" : "Curl_dyn_reset"
+  },
+  {
+   "name" : "Curl_dyn_uptr"
+  },
+  {
+   "name" : "Curl_dyn_vaddf"
+  },
+  {
+   "name" : "Curl_dyn_vprintf"
+  },
+  {
+   "name" : "Curl_expire"
+  },
+  {
+   "name" : "Curl_expire_clear"
+  },
+  {
+   "name" : "Curl_expire_done"
+  },
+  {
+   "name" : "Curl_failf"
+  },
+  {
+   "name" : "Curl_fetch_addr"
+  },
+  {
+   "name" : "Curl_fillreadbuffer"
+  },
+  {
+   "name" : "Curl_flush_cookies"
+  },
+  {
+   "name" : "Curl_follow"
+  },
+  {
+   "name" : "Curl_free_idnconverted_hostname"
+  },
+  {
+   "name" : "Curl_free_primary_ssl_config"
+  },
+  {
+   "name" : "Curl_free_request_state"
+  },
+  {
+   "name" : "Curl_freeaddrinfo"
+  },
+  {
+   "name" : "Curl_freeset"
+  },
+  {
+   "name" : "Curl_get_line"
+  },
+  {
+   "name" : "Curl_get_upload_buffer"
+  },
+  {
+   "name" : "Curl_getaddrinfo"
+  },
+  {
+   "name" : "Curl_getaddrinfo_ex"
+  },
+  {
+   "name" : "Curl_getconnectinfo"
+  },
+  {
+   "name" : "Curl_getdate_capped"
+  },
+  {
+   "name" : "Curl_getformdata"
+  },
+  {
+   "name" : "Curl_gethostname"
+  },
+  {
+   "name" : "Curl_getinfo"
+  },
+  {
+   "name" : "Curl_gmtime"
+  },
+  {
+   "name" : "Curl_hash_add"
+  },
+  {
+   "name" : "Curl_hash_clean"
+  },
+  {
+   "name" : "Curl_hash_clean_with_criterium"
+  },
+  {
+   "name" : "Curl_hash_delete"
+  },
+  {
+   "name" : "Curl_hash_destroy"
+  },
+  {
+   "name" : "Curl_hash_init"
+  },
+  {
+   "name" : "Curl_hash_next_element"
+  },
+  {
+   "name" : "Curl_hash_pick"
+  },
+  {
+   "name" : "Curl_hash_start_iterate"
+  },
+  {
+   "name" : "Curl_hash_str"
+  },
+  {
+   "name" : "Curl_he2ai"
+  },
+  {
+   "name" : "Curl_hmacit"
+  },
+  {
+   "name" : "Curl_hostcache_clean"
+  },
+  {
+   "name" : "Curl_hostcache_prune"
+  },
+  {
+   "name" : "Curl_http"
+  },
+  {
+   "name" : "Curl_http_auth_act"
+  },
+  {
+   "name" : "Curl_http_auth_cleanup_digest"
+  },
+  {
+   "name" : "Curl_http_auth_cleanup_ntlm"
+  },
+  {
+   "name" : "Curl_http_compile_trailers"
+  },
+  {
+   "name" : "Curl_http_connect"
+  },
+  {
+   "name" : "Curl_http_done"
+  },
+  {
+   "name" : "Curl_http_input_auth"
+  },
+  {
+   "name" : "Curl_http_output_auth"
+  },
+  {
+   "name" : "Curl_http_readwrite_headers"
+  },
+  {
+   "name" : "Curl_httpchunk_init"
+  },
+  {
+   "name" : "Curl_httpchunk_read"
+  },
+  {
+   "name" : "Curl_idnconvert_hostname"
+  },
+  {
+   "name" : "Curl_if2ip"
+  },
+  {
+   "name" : "Curl_infof"
+  },
+  {
+   "name" : "Curl_init_CONNECT"
+  },
+  {
+   "name" : "Curl_init_do"
+  },
+  {
+   "name" : "Curl_init_userdefined"
+  },
+  {
+   "name" : "Curl_initinfo"
+  },
+  {
+   "name" : "Curl_input_digest"
+  },
+  {
+   "name" : "Curl_input_ntlm"
+  },
+  {
+   "name" : "Curl_ip2addr"
+  },
+  {
+   "name" : "Curl_ipv6_scope"
+  },
+  {
+   "name" : "Curl_ipv6works"
+  },
+  {
+   "name" : "Curl_ipvalid"
+  },
+  {
+   "name" : "Curl_is_ASCII_name"
+  },
+  {
+   "name" : "Curl_is_absolute_url"
+  },
+  {
+   "name" : "Curl_is_connected"
+  },
+  {
+   "name" : "Curl_is_in_callback"
+  },
+  {
+   "name" : "Curl_isalnum"
+  },
+  {
+   "name" : "Curl_isalpha"
+  },
+  {
+   "name" : "Curl_iscntrl"
+  },
+  {
+   "name" : "Curl_isdigit"
+  },
+  {
+   "name" : "Curl_isgraph"
+  },
+  {
+   "name" : "Curl_islower"
+  },
+  {
+   "name" : "Curl_isprint"
+  },
+  {
+   "name" : "Curl_isspace"
+  },
+  {
+   "name" : "Curl_isunreserved"
+  },
+  {
+   "name" : "Curl_isupper"
+  },
+  {
+   "name" : "Curl_isxdigit"
+  },
+  {
+   "name" : "Curl_llist_count"
+  },
+  {
+   "name" : "Curl_llist_destroy"
+  },
+  {
+   "name" : "Curl_llist_init"
+  },
+  {
+   "name" : "Curl_llist_insert_next"
+  },
+  {
+   "name" : "Curl_llist_remove"
+  },
+  {
+   "name" : "Curl_loadhostpairs"
+  },
+  {
+   "name" : "Curl_md4it"
+  },
+  {
+   "name" : "Curl_md5it"
+  },
+  {
+   "name" : "Curl_meets_timecondition"
+  },
+  {
+   "name" : "Curl_memdup"
+  },
+  {
+   "name" : "Curl_mime_add_header"
+  },
+  {
+   "name" : "Curl_mime_cleanpart"
+  },
+  {
+   "name" : "Curl_mime_contenttype"
+  },
+  {
+   "name" : "Curl_mime_duppart"
+  },
+  {
+   "name" : "Curl_mime_initpart"
+  },
+  {
+   "name" : "Curl_mime_prepare_headers"
+  },
+  {
+   "name" : "Curl_mime_read"
+  },
+  {
+   "name" : "Curl_mime_rewind"
+  },
+  {
+   "name" : "Curl_mime_set_subparts"
+  },
+  {
+   "name" : "Curl_mime_size"
+  },
+  {
+   "name" : "Curl_mime_unpause"
+  },
+  {
+   "name" : "Curl_mk_dnscache"
+  },
+  {
+   "name" : "Curl_multi_add_perform"
+  },
+  {
+   "name" : "Curl_multi_closed"
+  },
+  {
+   "name" : "Curl_multi_handle"
+  },
+  {
+   "name" : "Curl_multi_max_concurrent_streams"
+  },
+  {
+   "name" : "Curl_multi_max_host_connections"
+  },
+  {
+   "name" : "Curl_multi_max_total_connections"
+  },
+  {
+   "name" : "Curl_multiplex_wanted"
+  },
+  {
+   "name" : "Curl_multiuse_state"
+  },
+  {
+   "name" : "Curl_none_cert_status_request"
+  },
+  {
+   "name" : "Curl_none_check_cxn"
+  },
+  {
+   "name" : "Curl_none_cleanup"
+  },
+  {
+   "name" : "Curl_none_close_all"
+  },
+  {
+   "name" : "Curl_none_data_pending"
+  },
+  {
+   "name" : "Curl_none_engines_list"
+  },
+  {
+   "name" : "Curl_none_false_start"
+  },
+  {
+   "name" : "Curl_none_init"
+  },
+  {
+   "name" : "Curl_none_md5sum"
+  },
+  {
+   "name" : "Curl_none_random"
+  },
+  {
+   "name" : "Curl_none_session_free"
+  },
+  {
+   "name" : "Curl_none_set_engine"
+  },
+  {
+   "name" : "Curl_none_set_engine_default"
+  },
+  {
+   "name" : "Curl_none_shutdown"
+  },
+  {
+   "name" : "Curl_now"
+  },
+  {
+   "name" : "Curl_ntlm_core_lm_resp"
+  },
+  {
+   "name" : "Curl_ntlm_core_mk_lm_hash"
+  },
+  {
+   "name" : "Curl_ntlm_core_mk_lmv2_resp"
+  },
+  {
+   "name" : "Curl_ntlm_core_mk_nt_hash"
+  },
+  {
+   "name" : "Curl_ntlm_core_mk_ntlmv2_hash"
+  },
+  {
+   "name" : "Curl_ntlm_core_mk_ntlmv2_resp"
+  },
+  {
+   "name" : "Curl_num_addresses"
+  },
+  {
+   "name" : "Curl_once_resolved"
+  },
+  {
+   "name" : "Curl_open"
+  },
+  {
+   "name" : "Curl_output_digest"
+  },
+  {
+   "name" : "Curl_output_ntlm"
+  },
+  {
+   "name" : "Curl_parse_login_details"
+  },
+  {
+   "name" : "Curl_parsenetrc"
+  },
+  {
+   "name" : "Curl_persistconninfo"
+  },
+  {
+   "name" : "Curl_pgrsDone"
+  },
+  {
+   "name" : "Curl_pgrsLimitWaitTime"
+  },
+  {
+   "name" : "Curl_pgrsResetTransferSizes"
+  },
+  {
+   "name" : "Curl_pgrsSetDownloadCounter"
+  },
+  {
+   "name" : "Curl_pgrsSetDownloadSize"
+  },
+  {
+   "name" : "Curl_pgrsSetUploadCounter"
+  },
+  {
+   "name" : "Curl_pgrsSetUploadSize"
+  },
+  {
+   "name" : "Curl_pgrsStartNow"
+  },
+  {
+   "name" : "Curl_pgrsTime"
+  },
+  {
+   "name" : "Curl_pgrsUpdate"
+  },
+  {
+   "name" : "Curl_pin_peer_pubkey"
+  },
+  {
+   "name" : "Curl_poll"
+  },
+  {
+   "name" : "Curl_posttransfer"
+  },
+  {
+   "name" : "Curl_preconnect"
+  },
+  {
+   "name" : "Curl_pretransfer"
+  },
+  {
+   "name" : "Curl_printable_address"
+  },
+  {
+   "name" : "Curl_proxyCONNECT"
+  },
+  {
+   "name" : "Curl_proxy_connect"
+  },
+  {
+   "name" : "Curl_rand"
+  },
+  {
+   "name" : "Curl_rand_hex"
+  },
+  {
+   "name" : "Curl_range"
+  },
+  {
+   "name" : "Curl_ratelimit"
+  },
+  {
+   "name" : "Curl_raw_toupper"
+  },
+  {
+   "name" : "Curl_read"
+  },
+  {
+   "name" : "Curl_read16_be"
+  },
+  {
+   "name" : "Curl_read16_le"
+  },
+  {
+   "name" : "Curl_read32_le"
+  },
+  {
+   "name" : "Curl_read_plain"
+  },
+  {
+   "name" : "Curl_readrewind"
+  },
+  {
+   "name" : "Curl_readwrite"
+  },
+  {
+   "name" : "Curl_recv_has_postponed_data"
+  },
+  {
+   "name" : "Curl_recv_plain"
+  },
+  {
+   "name" : "Curl_rename"
+  },
+  {
+   "name" : "Curl_resolv"
+  },
+  {
+   "name" : "Curl_resolv_check"
+  },
+  {
+   "name" : "Curl_resolv_getsock"
+  },
+  {
+   "name" : "Curl_resolv_timeout"
+  },
+  {
+   "name" : "Curl_resolv_unlock"
+  },
+  {
+   "name" : "Curl_resolver_cancel"
+  },
+  {
+   "name" : "Curl_resolver_cleanup"
+  },
+  {
+   "name" : "Curl_resolver_duphandle"
+  },
+  {
+   "name" : "Curl_resolver_getaddrinfo"
+  },
+  {
+   "name" : "Curl_resolver_getsock"
+  },
+  {
+   "name" : "Curl_resolver_global_cleanup"
+  },
+  {
+   "name" : "Curl_resolver_global_init"
+  },
+  {
+   "name" : "Curl_resolver_init"
+  },
+  {
+   "name" : "Curl_resolver_is_resolved"
+  },
+  {
+   "name" : "Curl_resolver_kill"
+  },
+  {
+   "name" : "Curl_resolver_wait_resolv"
+  },
+  {
+   "name" : "Curl_retry_request"
+  },
+  {
+   "name" : "Curl_safe_strcasecompare"
+  },
+  {
+   "name" : "Curl_saferealloc"
+  },
+  {
+   "name" : "Curl_select"
+  },
+  {
+   "name" : "Curl_send_plain"
+  },
+  {
+   "name" : "Curl_set_dns_interface"
+  },
+  {
+   "name" : "Curl_set_dns_local_ip4"
+  },
+  {
+   "name" : "Curl_set_dns_local_ip6"
+  },
+  {
+   "name" : "Curl_set_dns_servers"
+  },
+  {
+   "name" : "Curl_set_in_callback"
+  },
+  {
+   "name" : "Curl_setblobopt"
+  },
+  {
+   "name" : "Curl_setstropt"
+  },
+  {
+   "name" : "Curl_setup_conn"
+  },
+  {
+   "name" : "Curl_setup_transfer"
+  },
+  {
+   "name" : "Curl_sha256it"
+  },
+  {
+   "name" : "Curl_share_lock"
+  },
+  {
+   "name" : "Curl_share_unlock"
+  },
+  {
+   "name" : "Curl_single_getsock"
+  },
+  {
+   "name" : "Curl_slist_append_nodup"
+  },
+  {
+   "name" : "Curl_slist_duplicate"
+  },
+  {
+   "name" : "Curl_socket"
+  },
+  {
+   "name" : "Curl_socket_check"
+  },
+  {
+   "name" : "Curl_speedcheck"
+  },
+  {
+   "name" : "Curl_speedinit"
+  },
+  {
+   "name" : "Curl_splay"
+  },
+  {
+   "name" : "Curl_splaygetbest"
+  },
+  {
+   "name" : "Curl_splayinsert"
+  },
+  {
+   "name" : "Curl_splayremovebyaddr"
+  },
+  {
+   "name" : "Curl_ssl_addsessionid"
+  },
+  {
+   "name" : "Curl_ssl_backend"
+  },
+  {
+   "name" : "Curl_ssl_cert_status_request"
+  },
+  {
+   "name" : "Curl_ssl_check_cxn"
+  },
+  {
+   "name" : "Curl_ssl_cleanup"
+  },
+  {
+   "name" : "Curl_ssl_close"
+  },
+  {
+   "name" : "Curl_ssl_close_all"
+  },
+  {
+   "name" : "Curl_ssl_config_matches"
+  },
+  {
+   "name" : "Curl_ssl_connect"
+  },
+  {
+   "name" : "Curl_ssl_connect_nonblocking"
+  },
+  {
+   "name" : "Curl_ssl_data_pending"
+  },
+  {
+   "name" : "Curl_ssl_delsessionid"
+  },
+  {
+   "name" : "Curl_ssl_engines_list"
+  },
+  {
+   "name" : "Curl_ssl_false_start"
+  },
+  {
+   "name" : "Curl_ssl_free_certinfo"
+  },
+  {
+   "name" : "Curl_ssl_getsessionid"
+  },
+  {
+   "name" : "Curl_ssl_getsock"
+  },
+  {
+   "name" : "Curl_ssl_init"
+  },
+  {
+   "name" : "Curl_ssl_init_certinfo"
+  },
+  {
+   "name" : "Curl_ssl_initsessions"
+  },
+  {
+   "name" : "Curl_ssl_kill_session"
+  },
+  {
+   "name" : "Curl_ssl_md5sum"
+  },
+  {
+   "name" : "Curl_ssl_push_certinfo"
+  },
+  {
+   "name" : "Curl_ssl_push_certinfo_len"
+  },
+  {
+   "name" : "Curl_ssl_random"
+  },
+  {
+   "name" : "Curl_ssl_sessionid_lock"
+  },
+  {
+   "name" : "Curl_ssl_sessionid_unlock"
+  },
+  {
+   "name" : "Curl_ssl_set_engine"
+  },
+  {
+   "name" : "Curl_ssl_set_engine_default"
+  },
+  {
+   "name" : "Curl_ssl_shutdown"
+  },
+  {
+   "name" : "Curl_ssl_tls13_ciphersuites"
+  },
+  {
+   "name" : "Curl_ssl_version"
+  },
+  {
+   "name" : "Curl_str2addr"
+  },
+  {
+   "name" : "Curl_str_key_compare"
+  },
+  {
+   "name" : "Curl_strcasecompare"
+  },
+  {
+   "name" : "Curl_strerror"
+  },
+  {
+   "name" : "Curl_strncasecompare"
+  },
+  {
+   "name" : "Curl_strntolower"
+  },
+  {
+   "name" : "Curl_strntoupper"
+  },
+  {
+   "name" : "Curl_thread_create"
+  },
+  {
+   "name" : "Curl_thread_destroy"
+  },
+  {
+   "name" : "Curl_thread_join"
+  },
+  {
+   "name" : "Curl_timediff"
+  },
+  {
+   "name" : "Curl_timediff_us"
+  },
+  {
+   "name" : "Curl_timeleft"
+  },
+  {
+   "name" : "Curl_tls_keylog_close"
+  },
+  {
+   "name" : "Curl_tls_keylog_enabled"
+  },
+  {
+   "name" : "Curl_tls_keylog_open"
+  },
+  {
+   "name" : "Curl_tls_keylog_write"
+  },
+  {
+   "name" : "Curl_tls_keylog_write_line"
+  },
+  {
+   "name" : "Curl_uc_to_curlcode"
+  },
+  {
+   "name" : "Curl_unencode_cleanup"
+  },
+  {
+   "name" : "Curl_unencode_write"
+  },
+  {
+   "name" : "Curl_unix2addr"
+  },
+  {
+   "name" : "Curl_update_timer"
+  },
+  {
+   "name" : "Curl_updateconninfo"
+  },
+  {
+   "name" : "Curl_updatesocket"
+  },
+  {
+   "name" : "Curl_urldecode"
+  },
+  {
+   "name" : "Curl_verboseconnect"
+  },
+  {
+   "name" : "Curl_vsetopt"
+  },
+  {
+   "name" : "Curl_wait_ms"
+  },
+  {
+   "name" : "Curl_write"
+  },
+  {
+   "name" : "Curl_write64_le"
+  },
+  {
+   "name" : "Curl_write_plain"
+  },
+  {
+   "name" : "curl_easy_cleanup"
+  },
+  {
+   "name" : "curl_easy_duphandle"
+  },
+  {
+   "name" : "curl_easy_escape"
+  },
+  {
+   "name" : "curl_easy_getinfo"
+  },
+  {
+   "name" : "curl_easy_init"
+  },
+  {
+   "name" : "curl_easy_option_by_id"
+  },
+  {
+   "name" : "curl_easy_option_by_name"
+  },
+  {
+   "name" : "curl_easy_option_next"
+  },
+  {
+   "name" : "curl_easy_pause"
+  },
+  {
+   "name" : "curl_easy_perform"
+  },
+  {
+   "name" : "curl_easy_recv"
+  },
+  {
+   "name" : "curl_easy_reset"
+  },
+  {
+   "name" : "curl_easy_send"
+  },
+  {
+   "name" : "curl_easy_setopt"
+  },
+  {
+   "name" : "curl_easy_strerror"
+  },
+  {
+   "name" : "curl_easy_unescape"
+  },
+  {
+   "name" : "curl_easy_upkeep"
+  },
+  {
+   "name" : "curl_escape"
+  },
+  {
+   "name" : "curl_formadd"
+  },
+  {
+   "name" : "curl_formfree"
+  },
+  {
+   "name" : "curl_formget"
+  },
+  {
+   "name" : "curl_free"
+  },
+  {
+   "name" : "curl_getdate"
+  },
+  {
+   "name" : "curl_getenv"
+  },
+  {
+   "name" : "curl_global_cleanup"
+  },
+  {
+   "name" : "curl_global_init"
+  },
+  {
+   "name" : "curl_global_init_mem"
+  },
+  {
+   "name" : "curl_global_sslset"
+  },
+  {
+   "name" : "curl_maprintf"
+  },
+  {
+   "name" : "curl_mfprintf"
+  },
+  {
+   "name" : "curl_mime_addpart"
+  },
+  {
+   "name" : "curl_mime_data"
+  },
+  {
+   "name" : "curl_mime_data_cb"
+  },
+  {
+   "name" : "curl_mime_encoder"
+  },
+  {
+   "name" : "curl_mime_filedata"
+  },
+  {
+   "name" : "curl_mime_filename"
+  },
+  {
+   "name" : "curl_mime_free"
+  },
+  {
+   "name" : "curl_mime_headers"
+  },
+  {
+   "name" : "curl_mime_init"
+  },
+  {
+   "name" : "curl_mime_name"
+  },
+  {
+   "name" : "curl_mime_subparts"
+  },
+  {
+   "name" : "curl_mime_type"
+  },
+  {
+   "name" : "curl_mprintf"
+  },
+  {
+   "name" : "curl_msnprintf"
+  },
+  {
+   "name" : "curl_msprintf"
+  },
+  {
+   "name" : "curl_multi_add_handle"
+  },
+  {
+   "name" : "curl_multi_assign"
+  },
+  {
+   "name" : "curl_multi_cleanup"
+  },
+  {
+   "name" : "curl_multi_fdset"
+  },
+  {
+   "name" : "curl_multi_info_read"
+  },
+  {
+   "name" : "curl_multi_init"
+  },
+  {
+   "name" : "curl_multi_perform"
+  },
+  {
+   "name" : "curl_multi_poll"
+  },
+  {
+   "name" : "curl_multi_remove_handle"
+  },
+  {
+   "name" : "curl_multi_setopt"
+  },
+  {
+   "name" : "curl_multi_socket"
+  },
+  {
+   "name" : "curl_multi_socket_action"
+  },
+  {
+   "name" : "curl_multi_socket_all"
+  },
+  {
+   "name" : "curl_multi_strerror"
+  },
+  {
+   "name" : "curl_multi_timeout"
+  },
+  {
+   "name" : "curl_multi_wait"
+  },
+  {
+   "name" : "curl_multi_wakeup"
+  },
+  {
+   "name" : "curl_mvaprintf"
+  },
+  {
+   "name" : "curl_mvfprintf"
+  },
+  {
+   "name" : "curl_mvprintf"
+  },
+  {
+   "name" : "curl_mvsnprintf"
+  },
+  {
+   "name" : "curl_mvsprintf"
+  },
+  {
+   "name" : "curl_pushheader_byname"
+  },
+  {
+   "name" : "curl_pushheader_bynum"
+  },
+  {
+   "name" : "curl_share_cleanup"
+  },
+  {
+   "name" : "curl_share_init"
+  },
+  {
+   "name" : "curl_share_setopt"
+  },
+  {
+   "name" : "curl_share_strerror"
+  },
+  {
+   "name" : "curl_slist_append"
+  },
+  {
+   "name" : "curl_slist_free_all"
+  },
+  {
+   "name" : "curl_strequal"
+  },
+  {
+   "name" : "curl_strnequal"
+  },
+  {
+   "name" : "curl_unescape"
+  },
+  {
+   "name" : "curl_url"
+  },
+  {
+   "name" : "curl_url_cleanup"
+  },
+  {
+   "name" : "curl_url_dup"
+  },
+  {
+   "name" : "curl_url_get"
+  },
+  {
+   "name" : "curl_url_set"
+  },
+  {
+   "name" : "curl_version"
+  },
+  {
+   "name" : "curl_version_info"
+  },
+  {
+   "name" : "curlx_nonblock"
+  },
+  {
+   "name" : "curlx_sitouz"
+  },
+  {
+   "name" : "curlx_sltosi"
+  },
+  {
+   "name" : "curlx_sltoui"
+  },
+  {
+   "name" : "curlx_sltous"
+  },
+  {
+   "name" : "curlx_sotouz"
+  },
+  {
+   "name" : "curlx_strtoofft"
+  },
+  {
+   "name" : "curlx_sztosi"
+  },
+  {
+   "name" : "curlx_uitous"
+  },
+  {
+   "name" : "curlx_ultosi"
+  },
+  {
+   "name" : "curlx_ultouc"
+  },
+  {
+   "name" : "curlx_ultous"
+  },
+  {
+   "name" : "curlx_uztosi"
+  },
+  {
+   "name" : "curlx_uztoso"
+  },
+  {
+   "name" : "curlx_uztosz"
+  },
+  {
+   "name" : "curlx_uztoui"
+  },
+  {
+   "name" : "curlx_uztoul"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "Curl_DIGEST_MD5"
+  },
+  {
+   "name" : "Curl_HMAC_MD5"
+  },
+  {
+   "name" : "Curl_ccalloc"
+  },
+  {
+   "name" : "Curl_cfree"
+  },
+  {
+   "name" : "Curl_cmalloc"
+  },
+  {
+   "name" : "Curl_crealloc"
+  },
+  {
+   "name" : "Curl_cstrdup"
+  },
+  {
+   "name" : "Curl_easyopts"
+  },
+  {
+   "name" : "Curl_handler_file"
+  },
+  {
+   "name" : "Curl_handler_http"
+  },
+  {
+   "name" : "Curl_handler_https"
+  },
+  {
+   "name" : "Curl_handler_mqtt"
+  },
+  {
+   "name" : "Curl_month"
+  },
+  {
+   "name" : "Curl_ssl"
+  },
+  {
+   "name" : "Curl_ssl_openssl"
+  },
+  {
+   "name" : "Curl_wkday"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

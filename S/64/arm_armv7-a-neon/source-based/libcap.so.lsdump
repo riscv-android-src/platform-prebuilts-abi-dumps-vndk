@@ -1,0 +1,192 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_libcap_strdup"
+  },
+  {
+   "name" : "cap_clear"
+  },
+  {
+   "name" : "cap_clear_flag"
+  },
+  {
+   "name" : "cap_compare"
+  },
+  {
+   "name" : "cap_copy_ext"
+  },
+  {
+   "name" : "cap_copy_int"
+  },
+  {
+   "name" : "cap_drop_bound"
+  },
+  {
+   "name" : "cap_dup"
+  },
+  {
+   "name" : "cap_free"
+  },
+  {
+   "name" : "cap_from_name"
+  },
+  {
+   "name" : "cap_from_text"
+  },
+  {
+   "name" : "cap_get_ambient"
+  },
+  {
+   "name" : "cap_get_bound"
+  },
+  {
+   "name" : "cap_get_fd"
+  },
+  {
+   "name" : "cap_get_file"
+  },
+  {
+   "name" : "cap_get_flag"
+  },
+  {
+   "name" : "cap_get_mode"
+  },
+  {
+   "name" : "cap_get_nsowner"
+  },
+  {
+   "name" : "cap_get_pid"
+  },
+  {
+   "name" : "cap_get_proc"
+  },
+  {
+   "name" : "cap_get_secbits"
+  },
+  {
+   "name" : "cap_iab_fill"
+  },
+  {
+   "name" : "cap_iab_from_text"
+  },
+  {
+   "name" : "cap_iab_get_proc"
+  },
+  {
+   "name" : "cap_iab_get_vector"
+  },
+  {
+   "name" : "cap_iab_init"
+  },
+  {
+   "name" : "cap_iab_set_proc"
+  },
+  {
+   "name" : "cap_iab_set_vector"
+  },
+  {
+   "name" : "cap_iab_to_text"
+  },
+  {
+   "name" : "cap_init"
+  },
+  {
+   "name" : "cap_launch"
+  },
+  {
+   "name" : "cap_launcher_callback"
+  },
+  {
+   "name" : "cap_launcher_set_chroot"
+  },
+  {
+   "name" : "cap_launcher_set_iab"
+  },
+  {
+   "name" : "cap_launcher_set_mode"
+  },
+  {
+   "name" : "cap_launcher_setgroups"
+  },
+  {
+   "name" : "cap_launcher_setuid"
+  },
+  {
+   "name" : "cap_max_bits"
+  },
+  {
+   "name" : "cap_mode_name"
+  },
+  {
+   "name" : "cap_new_launcher"
+  },
+  {
+   "name" : "cap_reset_ambient"
+  },
+  {
+   "name" : "cap_set_ambient"
+  },
+  {
+   "name" : "cap_set_fd"
+  },
+  {
+   "name" : "cap_set_file"
+  },
+  {
+   "name" : "cap_set_flag"
+  },
+  {
+   "name" : "cap_set_mode"
+  },
+  {
+   "name" : "cap_set_nsowner"
+  },
+  {
+   "name" : "cap_set_proc"
+  },
+  {
+   "name" : "cap_set_secbits"
+  },
+  {
+   "name" : "cap_set_syscall"
+  },
+  {
+   "name" : "cap_setgroups"
+  },
+  {
+   "name" : "cap_setuid"
+  },
+  {
+   "name" : "cap_size"
+  },
+  {
+   "name" : "cap_to_name"
+  },
+  {
+   "name" : "cap_to_text"
+  },
+  {
+   "name" : "capgetp"
+  },
+  {
+   "name" : "capsetp"
+  },
+  {
+   "binding" : "weak",
+   "name" : "psx_load_syscalls"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

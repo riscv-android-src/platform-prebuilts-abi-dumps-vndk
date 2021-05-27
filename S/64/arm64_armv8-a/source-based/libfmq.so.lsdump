@@ -1,0 +1,73 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_ZN7android8hardware7details13errorWriteLogEiPKc"
+  },
+  {
+   "name" : "_ZN7android8hardware7details5checkEb"
+  },
+  {
+   "name" : "_ZN7android8hardware7details8logErrorERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlag10waitHelperEjPjl"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlag15createEventFlagEPNSt3__16atomicIjEEPPS1_"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlag15createEventFlagEilPPS1_"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlag15deleteEventFlagEPPS1_"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlag18unmapEventFlagWordEPNSt3__16atomicIjEEPb"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlag4waitEjPjlb"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlag4wakeEj"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlagC1EPNSt3__16atomicIjEEPi"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlagC1EilPi"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlagC2EPNSt3__16atomicIjEEPi"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlagC2EilPi"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlagD1Ev"
+  },
+  {
+   "name" : "_ZN7android8hardware9EventFlagD2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__1lsIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_ostreamIT_T0_EES9_RKNS_12basic_stringIS6_S7_T1_EE"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

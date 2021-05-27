@@ -1,0 +1,23 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_ZN7android8hardware5media4V1_021writeEmbeddedToParcelERKNS2_9AnwBufferEPNS0_6ParcelEjj"
+  },
+  {
+   "name" : "_ZN7android8hardware5media4V1_022readEmbeddedFromParcelERKNS2_9AnwBufferERKNS0_6ParcelEjj"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

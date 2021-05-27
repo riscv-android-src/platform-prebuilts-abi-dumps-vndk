@@ -1,0 +1,438 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware10automotive18occupant_awareness13GazeDetectionEEEiPK7AParcelPvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware10automotive18occupant_awareness17OccupantDetectionEEEiPK7AParcelPvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware10automotive18occupant_awareness17PresenceDetectionEEEiPK7AParcelPvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware10automotive18occupant_awareness25DriverMonitoringDetectionEEEiPK7AParcelPvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware10automotive18occupant_awareness13GazeDetectionEEEiP7AParcelPKvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware10automotive18occupant_awareness17OccupantDetectionEEEiP7AParcelPKvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware10automotive18occupant_awareness17PresenceDetectionEEEiP7AParcelPKvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware10automotive18occupant_awareness25DriverMonitoringDetectionEEEiP7AParcelPKvj"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness13GazeDetection14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness17OccupantDetection14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness17PresenceDetection14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwareness10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwareness13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwareness14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwareness14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwareness14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18OccupantDetections14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BnOccupantAwareness12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BnOccupantAwareness16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BnOccupantAwareness19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BnOccupantAwarenessC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BnOccupantAwarenessD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BnOccupantAwarenessD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BnOccupantAwarenessD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwareness11setCallbackERKNSt3__110shared_ptrINS3_32IOccupantAwarenessClientCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwareness13stopDetectionEPNS3_23OccupantAwarenessStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwareness14startDetectionEPNS3_23OccupantAwarenessStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwareness16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwareness18getLatestDetectionEPNS3_18OccupantDetectionsE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwareness19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwareness20getCapabilityForRoleENS3_4RoleEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwareness8getStateENS3_4RoleEiPNS3_23OccupantAwarenessStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwarenessC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwarenessC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwarenessD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwarenessD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwarenessD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25DriverMonitoringDetection14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault11setCallbackERKNSt3__110shared_ptrINS3_32IOccupantAwarenessClientCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault13stopDetectionEPNS3_23OccupantAwarenessStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault14startDetectionEPNS3_23OccupantAwarenessStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault18getLatestDetectionEPNS3_18OccupantDetectionsE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault20getCapabilityForRoleENS3_4RoleEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault8getStateENS3_4RoleEiPNS3_23OccupantAwarenessStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallback10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallback13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallback14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallback14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallback14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BnOccupantAwarenessClientCallback12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BnOccupantAwarenessClientCallback16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BnOccupantAwarenessClientCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BnOccupantAwarenessClientCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BnOccupantAwarenessClientCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BnOccupantAwarenessClientCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BnOccupantAwarenessClientCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallback16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallback16onDetectionEventERKNS3_18OccupantDetectionsE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallback21onSystemStatusChangedEiNS3_23OccupantAwarenessStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallbackC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallbackC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness39IOccupantAwarenessClientCallbackDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness39IOccupantAwarenessClientCallbackDefault16onDetectionEventERKNS3_18OccupantDetectionsE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness39IOccupantAwarenessClientCallbackDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness39IOccupantAwarenessClientCallbackDefault21onSystemStatusChangedEiNS3_23OccupantAwarenessStatusE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness39IOccupantAwarenessClientCallbackDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness39IOccupantAwarenessClientCallbackDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware10automotive18occupant_awareness13GazeDetection13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware10automotive18occupant_awareness17OccupantDetection13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware10automotive18occupant_awareness17PresenceDetection13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware10automotive18occupant_awareness18OccupantDetections13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware10automotive18occupant_awareness25DriverMonitoringDetection13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware10automotive18occupant_awareness13GazeDetectionENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware10automotive18occupant_awareness13GazeDetectionENS_9allocatorIS6_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware10automotive18occupant_awareness17OccupantDetectionENS_9allocatorIS6_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware10automotive18occupant_awareness17PresenceDetectionENS_9allocatorIS6_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware10automotive18occupant_awareness25DriverMonitoringDetectionENS_9allocatorIS6_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIdNS_9allocatorIdEEE8__appendEj"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwareness4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallback4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness13GazeDetection10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness17OccupantDetection10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness17PresenceDetection10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwareness10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwareness12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwareness4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness18OccupantDetections10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness25DriverMonitoringDetection10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallback10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallback12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallback4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware10automotive18occupant_awareness18IOccupantAwarenessE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware10automotive18occupant_awareness19BnOccupantAwarenessE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware10automotive18occupant_awareness19BpOccupantAwarenessE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware10automotive18occupant_awareness25IOccupantAwarenessDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware10automotive18occupant_awareness32IOccupantAwarenessClientCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware10automotive18occupant_awareness33BnOccupantAwarenessClientCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware10automotive18occupant_awareness33BpOccupantAwarenessClientCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware10automotive18occupant_awareness39IOccupantAwarenessClientCallbackDefaultE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

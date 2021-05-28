@@ -1,0 +1,301 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware6health7storage23IGarbageCollectCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware6health7storage8IStorageEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware6health7storage23IGarbageCollectCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware6health7storage8IStorageEE8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage15IStorageDefault14garbageCollectExRKNSt3__110shared_ptrINS3_23IGarbageCollectCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage15IStorageDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage15IStorageDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage15IStorageDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage15IStorageDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallback10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallback13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallback14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallback14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallback14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BnGarbageCollectCallback12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BnGarbageCollectCallback16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BnGarbageCollectCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BnGarbageCollectCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BnGarbageCollectCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BnGarbageCollectCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BnGarbageCollectCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BpGarbageCollectCallback16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BpGarbageCollectCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BpGarbageCollectCallback8onFinishENS3_6ResultE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BpGarbageCollectCallbackC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BpGarbageCollectCallbackC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BpGarbageCollectCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BpGarbageCollectCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage24BpGarbageCollectCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage30IGarbageCollectCallbackDefault16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage30IGarbageCollectCallbackDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage30IGarbageCollectCallbackDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage30IGarbageCollectCallbackDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage30IGarbageCollectCallbackDefault8onFinishENS3_6ResultE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorage10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorage13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorage14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorage14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorage14setDefaultImplERKNSt3__110shared_ptrIS4_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorageC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorageD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorageD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorageD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BnStorage12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BnStorage16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BnStorage19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BnStorageC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BnStorageD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BnStorageD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BnStorageD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BpStorage14garbageCollectExRKNSt3__110shared_ptrINS3_23IGarbageCollectCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BpStorage16getInterfaceHashEPNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BpStorage19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BpStorageC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BpStorageC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BpStorageD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BpStorageD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage9BpStorageD2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware6health7storage23IGarbageCollectCallbackEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware6health7storage8IStorageEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware6health7storage23IGarbageCollectCallback4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware6health7storage8IStorage4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallback10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallback12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware6health7storage23IGarbageCollectCallback4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorage10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorage12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware6health7storage8IStorage4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware6health7storage23IGarbageCollectCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware6health7storage8IStorageEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware6health7storage23IGarbageCollectCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware6health7storage8IStorageEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware6health7storage15IStorageDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware6health7storage23IGarbageCollectCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware6health7storage24BnGarbageCollectCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware6health7storage24BpGarbageCollectCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware6health7storage30IGarbageCollectCallbackDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware6health7storage8IStorageE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware6health7storage9BnStorageE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware6health7storage9BpStorageE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

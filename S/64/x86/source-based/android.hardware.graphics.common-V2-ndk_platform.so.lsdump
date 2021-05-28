@@ -1,0 +1,112 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentEEEiPK7AParcelPvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentEEEiP7AParcelPKvj"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common11PlaneLayout14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common14ExtendableType14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common14HardwareBuffer14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common20PlaneLayoutComponent14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common25HardwareBufferDescription14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common4Rect14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common7XyColor14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common8Cta861_314readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common9Smpte208614readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics6common11PlaneLayout13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics6common14ExtendableType13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics6common14HardwareBuffer13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics6common20PlaneLayoutComponent13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics6common25HardwareBufferDescription13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics6common4Rect13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics6common7XyColor13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics6common8Cta861_313writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8graphics6common9Smpte208613writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS_9allocatorIS6_EEE8__appendEj"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common11PlaneLayout10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common14ExtendableType10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common14HardwareBuffer10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common20PlaneLayoutComponent10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common25HardwareBufferDescription10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common4Rect10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common7XyColor10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common8Cta861_310descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8graphics6common9Smpte208610descriptorE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

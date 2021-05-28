@@ -1,0 +1,290 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_ZN12NetlinkEvent10findNlAttrEPK8nlmsghdrmt"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent14parseRtMessageEPK8nlmsghdr"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent18parseIfAddrMessageEPK8nlmsghdr"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent18parseIfInfoMessageEPK8nlmsghdr"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent20parseNfPacketMessageEP8nlmsghdr"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent21parseNdUserOptMessageEPK8nlmsghdr"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent22parseUlogPacketMessageEPK8nlmsghdr"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent24parseAsciiNetlinkMessageEPci"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent25parseBinaryNetlinkMessageEPci"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent4dumpEv"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent6decodeEPcii"
+  },
+  {
+   "name" : "_ZN12NetlinkEvent9findParamEPKc"
+  },
+  {
+   "name" : "_ZN12NetlinkEventC1Ev"
+  },
+  {
+   "name" : "_ZN12NetlinkEventC2Ev"
+  },
+  {
+   "name" : "_ZN12NetlinkEventD0Ev"
+  },
+  {
+   "name" : "_ZN12NetlinkEventD1Ev"
+  },
+  {
+   "name" : "_ZN12NetlinkEventD2Ev"
+  },
+  {
+   "name" : "_ZN12SocketClient13sendBinaryMsgEiPKvi"
+  },
+  {
+   "name" : "_ZN12SocketClient15sendDataLockedvEP5ioveci"
+  },
+  {
+   "name" : "_ZN12SocketClient4initEibb"
+  },
+  {
+   "name" : "_ZN12SocketClient6decRefEv"
+  },
+  {
+   "name" : "_ZN12SocketClient6incRefEv"
+  },
+  {
+   "name" : "_ZN12SocketClient7sendMsgEPKc"
+  },
+  {
+   "name" : "_ZN12SocketClient7sendMsgEiPKcb"
+  },
+  {
+   "name" : "_ZN12SocketClient7sendMsgEiPKcbb"
+  },
+  {
+   "name" : "_ZN12SocketClient8quoteArgEPKc"
+  },
+  {
+   "name" : "_ZN12SocketClient8sendCodeEi"
+  },
+  {
+   "name" : "_ZN12SocketClient8sendDataEPKvi"
+  },
+  {
+   "name" : "_ZN12SocketClient9sendDatavEP5ioveci"
+  },
+  {
+   "name" : "_ZN12SocketClientC1Eib"
+  },
+  {
+   "name" : "_ZN12SocketClientC1Eibb"
+  },
+  {
+   "name" : "_ZN12SocketClientC2Eib"
+  },
+  {
+   "name" : "_ZN12SocketClientC2Eibb"
+  },
+  {
+   "name" : "_ZN12SocketClientD0Ev"
+  },
+  {
+   "name" : "_ZN12SocketClientD1Ev"
+  },
+  {
+   "name" : "_ZN12SocketClientD2Ev"
+  },
+  {
+   "name" : "_ZN14ServiceManager4stopEPKc"
+  },
+  {
+   "name" : "_ZN14ServiceManager5startEPKc"
+  },
+  {
+   "name" : "_ZN14ServiceManager9isRunningEPKc"
+  },
+  {
+   "name" : "_ZN14ServiceManagerC1Ev"
+  },
+  {
+   "name" : "_ZN14ServiceManagerC2Ev"
+  },
+  {
+   "name" : "_ZN14SocketListener11runListenerEv"
+  },
+  {
+   "name" : "_ZN14SocketListener11threadStartEPv"
+  },
+  {
+   "name" : "_ZN14SocketListener12stopListenerEv"
+  },
+  {
+   "name" : "_ZN14SocketListener13sendBroadcastEiPKcb"
+  },
+  {
+   "name" : "_ZN14SocketListener13startListenerEi"
+  },
+  {
+   "name" : "_ZN14SocketListener13startListenerEv"
+  },
+  {
+   "name" : "_ZN14SocketListener15runOnEachSocketEP19SocketClientCommand"
+  },
+  {
+   "name" : "_ZN14SocketListener15snapshotClientsEv"
+  },
+  {
+   "name" : "_ZN14SocketListener4initEPKcibb"
+  },
+  {
+   "name" : "_ZN14SocketListener7releaseEP12SocketClientb"
+  },
+  {
+   "name" : "_ZN14SocketListenerC2EPKcb"
+  },
+  {
+   "name" : "_ZN14SocketListenerC2EPKcbb"
+  },
+  {
+   "name" : "_ZN14SocketListenerC2Eib"
+  },
+  {
+   "name" : "_ZN14SocketListenerD0Ev"
+  },
+  {
+   "name" : "_ZN14SocketListenerD1Ev"
+  },
+  {
+   "name" : "_ZN14SocketListenerD2Ev"
+  },
+  {
+   "name" : "_ZN15NetlinkListener15onDataAvailableEP12SocketClient"
+  },
+  {
+   "name" : "_ZN15NetlinkListenerC2Ei"
+  },
+  {
+   "name" : "_ZN15NetlinkListenerC2Eii"
+  },
+  {
+   "name" : "_ZN16FrameworkCommand10runCommandEP12SocketClientiPPc"
+  },
+  {
+   "name" : "_ZN16FrameworkCommandC2EPKc"
+  },
+  {
+   "name" : "_ZN17FrameworkListener11registerCmdEP16FrameworkCommand"
+  },
+  {
+   "name" : "_ZN17FrameworkListener15dispatchCommandEP12SocketClientPc"
+  },
+  {
+   "name" : "_ZN17FrameworkListener15onDataAvailableEP12SocketClient"
+  },
+  {
+   "name" : "_ZN17FrameworkListener4initEPKcb"
+  },
+  {
+   "name" : "_ZN17FrameworkListenerC1EPKc"
+  },
+  {
+   "name" : "_ZN17FrameworkListenerC1EPKcb"
+  },
+  {
+   "name" : "_ZN17FrameworkListenerC1Ei"
+  },
+  {
+   "name" : "_ZN17FrameworkListenerC2EPKc"
+  },
+  {
+   "name" : "_ZN17FrameworkListenerC2EPKcb"
+  },
+  {
+   "name" : "_ZN17FrameworkListenerC2Ei"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIiP12SocketClientEENS_22__unordered_map_hasherIiS4_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS4_NS_8equal_toIiEELb1EEENS_9allocatorIS4_EEE14__erase_uniqueIiEEmRKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIiP12SocketClientEENS_22__unordered_map_hasherIiS4_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS4_NS_8equal_toIiEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJRKiEEENSK_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIiP12SocketClientEENS_22__unordered_map_hasherIiS4_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS4_NS_8equal_toIiEELb1EEENS_9allocatorIS4_EEE6rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIiP12SocketClientEENS_22__unordered_map_hasherIiS4_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS4_NS_8equal_toIiEELb1EEENS_9allocatorIS4_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIiP12SocketClientEENS_22__unordered_map_hasherIiS4_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS4_NS_8equal_toIiEELb1EEENS_9allocatorIS4_EEE8__rehashEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI6pollfdNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIP12SocketClientNS_9allocatorIS2_EEE21__push_back_slow_pathIRKS2_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIP16FrameworkCommandNS_9allocatorIS2_EEE21__push_back_slow_pathIRKS2_EEvOT_"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "_ZTV12NetlinkEvent"
+  },
+  {
+   "name" : "_ZTV12SocketClient"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTV14ServiceManager"
+  },
+  {
+   "name" : "_ZTV14SocketListener"
+  },
+  {
+   "name" : "_ZTV15NetlinkListener"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTV16FrameworkCommand"
+  },
+  {
+   "name" : "_ZTV17FrameworkListener"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

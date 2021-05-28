@@ -1,0 +1,216 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware8memtrack9IMemtrackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware8memtrack9IMemtrackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8memtrack10DeviceInfoEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8memtrack14MemtrackRecordEEEiPK7AParcelPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8memtrack10DeviceInfoEEEiP7AParcelPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8memtrack14MemtrackRecordEEEiP7AParcelPKvm"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BnMemtrack12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BnMemtrack16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BnMemtrack19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BnMemtrackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BnMemtrackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BnMemtrackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BnMemtrackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BpMemtrack16getGpuDeviceInfoEPNSt3__16vectorINS2_10DeviceInfoENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BpMemtrack16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BpMemtrack19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BpMemtrack9getMemoryEiNS2_12MemtrackTypeEPNSt3__16vectorINS2_14MemtrackRecordENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BpMemtrackC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BpMemtrackC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BpMemtrackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BpMemtrackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10BpMemtrackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10DeviceInfo14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack14MemtrackRecord14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack16IMemtrackDefault16getGpuDeviceInfoEPNSt3__16vectorINS2_10DeviceInfoENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack16IMemtrackDefault16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack16IMemtrackDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack16IMemtrackDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack16IMemtrackDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack16IMemtrackDefault9getMemoryEiNS2_12MemtrackTypeEPNSt3__16vectorINS2_14MemtrackRecordENS5_9allocatorIS7_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrack10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrack13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrack14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrack14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrack14setDefaultImplERKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrackD2Ev"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8memtrack10DeviceInfo13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8memtrack14MemtrackRecord13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware8memtrack9IMemtrackEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8memtrack10DeviceInfoENS_9allocatorIS5_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8memtrack14MemtrackRecordENS_9allocatorIS5_EEE8__appendEm"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware8memtrack9IMemtrack4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack10DeviceInfo10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack14MemtrackRecord10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrack10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrack12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware8memtrack9IMemtrack4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware8memtrack9IMemtrackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware8memtrack9IMemtrackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8memtrack10BnMemtrackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8memtrack10BpMemtrackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8memtrack16IMemtrackDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8memtrack9IMemtrackE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

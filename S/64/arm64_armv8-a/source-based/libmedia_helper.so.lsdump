@@ -1,0 +1,653 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_ZN7android12safetyNetLogEiNSt3__117basic_string_viewIcNS0_11char_traitsIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE10fromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE12maskToStringES2_RNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE12toStringImplERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE14fromStringImplERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE14maskFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE20collectionFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_6vectorIS2_NS9_IS2_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE8toStringERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI13audio_usage_tEEE10fromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI13audio_usage_tEEE12maskToStringES2_RNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI13audio_usage_tEEE14maskFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI13audio_usage_tEEE20collectionFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_6vectorIS2_NS9_IS2_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI13audio_usage_tEEE8toStringERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_format_tEEE10fromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_format_tEEE12maskToStringES2_RNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_format_tEEE14maskFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_format_tEEE20collectionFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_6vectorIS2_NS9_IS2_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_format_tEEE8toStringERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_source_tEEE10fromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_source_tEEE12maskToStringES2_RNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_source_tEEE14maskFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_source_tEEE20collectionFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_6vectorIS2_NS9_IS2_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI14audio_source_tEEE8toStringERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI15audio_devices_tEEE10fromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI15audio_devices_tEEE12maskToStringES2_RNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI15audio_devices_tEEE14maskFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI15audio_devices_tEEE20collectionFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_6vectorIS2_NS9_IS2_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI15audio_devices_tEEE8toStringERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI17audio_gain_mode_tEEE10fromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI17audio_gain_mode_tEEE12maskToStringES2_RNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI17audio_gain_mode_tEEE14maskFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI17audio_gain_mode_tEEE20collectionFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_6vectorIS2_NS9_IS2_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI17audio_gain_mode_tEEE8toStringERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_input_flags_tEEE10fromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_input_flags_tEEE12maskToStringES2_RNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_input_flags_tEEE14maskFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_input_flags_tEEE20collectionFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_6vectorIS2_NS9_IS2_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_input_flags_tEEE8toStringERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_stream_type_tEEE10fromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_stream_type_tEEE12maskToStringES2_RNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_stream_type_tEEE14maskFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_stream_type_tEEE20collectionFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_6vectorIS2_NS9_IS2_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI19audio_stream_type_tEEE8toStringERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI20audio_output_flags_tEEE10fromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERS2_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI20audio_output_flags_tEEE12maskToStringES2_RNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI20audio_output_flags_tEEE14maskFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI20audio_output_flags_tEEE20collectionFromStringERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_6vectorIS2_NS9_IS2_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI20audio_output_flags_tEEE8toStringERKS2_RNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE10fromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEER18audio_flags_mask_t"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE12maskToStringE18audio_flags_mask_tRNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE12toStringImplERK18audio_flags_mask_tRNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE14fromStringImplERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEER18audio_flags_mask_t"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE14maskFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE20collectionFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERNS3_6vectorI18audio_flags_mask_tNS7_ISD_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE8toStringERK18audio_flags_mask_tRNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_17InputDeviceTraitsEE10fromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEER15audio_devices_t"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_17InputDeviceTraitsEE12maskToStringE15audio_devices_tRNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_17InputDeviceTraitsEE14maskFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_17InputDeviceTraitsEE20collectionFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERNS3_6vectorI15audio_devices_tNS7_ISD_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_17InputDeviceTraitsEE8toStringERK15audio_devices_tRNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18ChannelIndexTraitsEE10fromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEER20audio_channel_mask_t"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18ChannelIndexTraitsEE12maskToStringE20audio_channel_mask_tRNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18ChannelIndexTraitsEE14maskFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18ChannelIndexTraitsEE20collectionFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERNS3_3setI20audio_channel_mask_tNS3_4lessISD_EENS7_ISD_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18ChannelIndexTraitsEE8toStringERK20audio_channel_mask_tRNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18InputChannelTraitsEE10fromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEER20audio_channel_mask_t"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18InputChannelTraitsEE12maskToStringE20audio_channel_mask_tRNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18InputChannelTraitsEE14maskFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18InputChannelTraitsEE20collectionFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERNS3_3setI20audio_channel_mask_tNS3_4lessISD_EENS7_ISD_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18InputChannelTraitsEE8toStringERK20audio_channel_mask_tRNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18OutputDeviceTraitsEE10fromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEER15audio_devices_t"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18OutputDeviceTraitsEE12maskToStringE15audio_devices_tRNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18OutputDeviceTraitsEE14maskFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18OutputDeviceTraitsEE20collectionFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERNS3_6vectorI15audio_devices_tNS7_ISD_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_18OutputDeviceTraitsEE8toStringERK15audio_devices_tRNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_19OutputChannelTraitsEE10fromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEER20audio_channel_mask_t"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_19OutputChannelTraitsEE12maskToStringE20audio_channel_mask_tRNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_19OutputChannelTraitsEE14maskFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_19OutputChannelTraitsEE20collectionFromStringERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERNS3_3setI20audio_channel_mask_tNS3_4lessISD_EENS7_ISD_EEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android13TypeConverterINS_19OutputChannelTraitsEE8toStringERK20audio_channel_mask_tRNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter3addERKNS_7String8ES3_"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter6addIntERKNS_7String8Ei"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter6addKeyERKNS_7String8E"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter6removeERKNS_7String8E"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter8addFloatERKNS_7String8Ef"
+  },
+  {
+   "name" : "_ZN7android14AudioParameterC1ERKNS_7String8E"
+  },
+  {
+   "name" : "_ZN7android14AudioParameterC2ERKNS_7String8E"
+  },
+  {
+   "name" : "_ZN7android14AudioParameterD0Ev"
+  },
+  {
+   "name" : "_ZN7android14AudioParameterD1Ev"
+  },
+  {
+   "name" : "_ZN7android14AudioParameterD2Ev"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator17validateAudioPortERK10audio_portNSt3__117basic_string_viewIcNS4_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator17validateAudioPortERK13audio_port_v7NSt3__117basic_string_viewIcNS4_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator18validateAudioPatchERK11audio_patchNSt3__117basic_string_viewIcNS4_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator20validateDualMonoModeE22audio_dual_mono_mode_t"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator20validatePlaybackRateERK19audio_playback_rate"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator23validateAudioAttributesERK18audio_attributes_tNSt3__117basic_string_viewIcNS4_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator23validateAudioPortConfigERK17audio_port_configNSt3__117basic_string_viewIcNS4_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator24validateEffectDescriptorERK19effect_descriptor_sNSt3__117basic_string_viewIcNS4_11char_traitsIcEEEE"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator31validatePlaybackRateStretchModeE32audio_timestretch_stretch_mode_t"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator32validateAudioDescriptionMixLevelEf"
+  },
+  {
+   "name" : "_ZN7android14AudioValidator32validatePlaybackRateFallbackModeE33audio_timestretch_fallback_mode_t"
+  },
+  {
+   "name" : "_ZN7android16formatFromStringERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE14audio_format_t"
+  },
+  {
+   "name" : "_ZN7android17formatsFromStringERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKc"
+  },
+  {
+   "name" : "_ZN7android21channelMaskFromStringERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android22channelMasksFromStringERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKc"
+  },
+  {
+   "name" : "_ZN7android23samplingRatesFromStringERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKc"
+  },
+  {
+   "name" : "_ZN7android27inputChannelMasksFromStringERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKc"
+  },
+  {
+   "name" : "_ZN7android28outputChannelMasksFromStringERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE10do_compareEPKvS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE10do_destroyEPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE12do_constructEPvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE15do_move_forwardEPvPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE16do_move_backwardEPvPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE7do_copyEPvPKvm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE8do_splatEPvPKvm"
+  },
+  {
+   "name" : "_ZNK7android14AudioParameter12toStringImplEb"
+  },
+  {
+   "name" : "_ZNK7android14AudioParameter3getERKNS_7String8ERS1_"
+  },
+  {
+   "name" : "_ZNK7android14AudioParameter5getAtEmRNS_7String8E"
+  },
+  {
+   "name" : "_ZNK7android14AudioParameter5getAtEmRNS_7String8ES2_"
+  },
+  {
+   "name" : "_ZNK7android14AudioParameter6getIntERKNS_7String8ERi"
+  },
+  {
+   "name" : "_ZNK7android14AudioParameter8getFloatERKNS_7String8ERf"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strERKNS_12basic_stringIcS2_S4_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekoffExNS_8ios_base7seekdirEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE8overflowEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9pbackfailEi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI12audio_mode_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI13audio_usage_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI14audio_format_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI14audio_source_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI15audio_devices_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI17audio_gain_mode_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI18audio_flags_mask_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI19audio_input_flags_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI19audio_stream_type_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorI20audio_output_flags_tNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "_ZN7android13TypeConverterINS_13DefaultTraitsI12audio_mode_tEEE6mTableE"
+  },
+  {
+   "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE6mTableE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter10keyRoutingE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter11keyChannelsE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter11keyHwAvSyncE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter12keyProgramIdE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter13keyFrameCountE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter13keyMonoOutputE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter14keyInputSourceE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter14keyScreenStateE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter15keyReconfigA2dpE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter15keySamplingRateE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter16keyDeviceConnectE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter16keyStreamConnectE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter17keyPresentationIdE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter17keyStreamHwAvSyncE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter18valueListSeparatorE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter19keyDeviceDisconnectE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter19keyStreamDisconnectE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter24keyReconfigA2dpSupportedE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter25keyAudioLanguagePreferredE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter25keyStreamSupportedFormatsE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter26keyStreamSupportedChannelsE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter30keyAdditionalOutputDeviceDelayE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter31keyStreamSupportedSamplingRatesE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter33keyMaxAdditionalOutputDeviceDelayE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter7valueOnE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter8valueOffE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter9keyBtNrecE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter9keyFormatE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_istreamIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_14basic_iostreamIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTCNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE16_NS_13basic_ostreamIcS2_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTTNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEEE"
+  },
+  {
+   "name" : "_ZTVN7android14AudioParameterE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

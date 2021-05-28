@@ -1,0 +1,79 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "_encoder_breaker"
+  },
+  {
+   "name" : "_encoder_visitor"
+  },
+  {
+   "name" : "cn_cbor_array_append"
+  },
+  {
+   "name" : "cn_cbor_array_create"
+  },
+  {
+   "name" : "cn_cbor_data_create"
+  },
+  {
+   "name" : "cn_cbor_decode"
+  },
+  {
+   "name" : "cn_cbor_double_create"
+  },
+  {
+   "name" : "cn_cbor_encoder_write"
+  },
+  {
+   "name" : "cn_cbor_float_create"
+  },
+  {
+   "name" : "cn_cbor_free"
+  },
+  {
+   "name" : "cn_cbor_index"
+  },
+  {
+   "name" : "cn_cbor_int_create"
+  },
+  {
+   "name" : "cn_cbor_map_create"
+  },
+  {
+   "name" : "cn_cbor_map_put"
+  },
+  {
+   "name" : "cn_cbor_mapget_int"
+  },
+  {
+   "name" : "cn_cbor_mapget_string"
+  },
+  {
+   "name" : "cn_cbor_mapput_int"
+  },
+  {
+   "name" : "cn_cbor_mapput_string"
+  },
+  {
+   "name" : "cn_cbor_string_create"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "cn_cbor_error_str"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

@@ -1,0 +1,670 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware8vibrator16IVibratorManagerEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware8vibrator17IVibratorCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BnCInterfaceIN4aidl7android8hardware8vibrator9IVibratorEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware8vibrator16IVibratorManagerEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware8vibrator17IVibratorCallbackEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk12BpCInterfaceIN4aidl7android8hardware8vibrator9IVibratorEE8asBinderEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8vibrator13PrimitivePwleEEEiPK7AParcelPvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware8vibrator15CompositeEffectEEEiPK7AParcelPvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8vibrator13PrimitivePwleEEEiP7AParcelPKvj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware8vibrator15CompositeEffectEEEiP7AParcelPKvj"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10ActivePwle14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BnVibrator12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BnVibrator16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BnVibrator19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BnVibratorC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BnVibratorD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BnVibratorD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BnVibratorD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator10getQFactorEPf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator11composePwleERKNSt3__16vectorINS2_13PrimitivePwleENS4_9allocatorIS6_EEEERKNS4_10shared_ptrINS2_17IVibratorCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator12setAmplitudeEf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator14alwaysOnEnableEiNS2_6EffectENS2_14EffectStrengthE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator15alwaysOnDisableEi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator15getCapabilitiesEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator18setExternalControlEb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator19getFrequencyMinimumEPf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator19getSupportedBrakingEPNSt3__16vectorINS2_7BrakingENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator19getSupportedEffectsEPNSt3__16vectorINS2_6EffectENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator20getPrimitiveDurationENS2_18CompositePrimitiveEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator20getResonantFrequencyEPf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator21getCompositionSizeMaxEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator22getCompositionDelayMaxEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator22getFrequencyResolutionEPf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator22getSupportedPrimitivesEPNSt3__16vectorINS2_18CompositePrimitiveENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator24getBandwidthAmplitudeMapEPNSt3__16vectorIfNS4_9allocatorIfEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator25getPwleCompositionSizeMaxEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator27getPwlePrimitiveDurationMaxEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator27getSupportedAlwaysOnEffectsEPNSt3__16vectorINS2_6EffectENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator2onEiRKNSt3__110shared_ptrINS2_17IVibratorCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator3offEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator7composeERKNSt3__16vectorINS2_15CompositeEffectENS4_9allocatorIS6_EEEERKNS4_10shared_ptrINS2_17IVibratorCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibrator7performENS2_6EffectENS2_14EffectStrengthERKNSt3__110shared_ptrINS2_17IVibratorCallbackEEEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibratorC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibratorC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibratorD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibratorD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10BpVibratorD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator11BrakingPwle14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator13PrimitivePwle14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator15CompositeEffect14readFromParcelEPK7AParcel"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault10getQFactorEPf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault11composePwleERKNSt3__16vectorINS2_13PrimitivePwleENS4_9allocatorIS6_EEEERKNS4_10shared_ptrINS2_17IVibratorCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault12setAmplitudeEf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault14alwaysOnEnableEiNS2_6EffectENS2_14EffectStrengthE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault15alwaysOnDisableEi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault15getCapabilitiesEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault18setExternalControlEb"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault19getFrequencyMinimumEPf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault19getSupportedBrakingEPNSt3__16vectorINS2_7BrakingENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault19getSupportedEffectsEPNSt3__16vectorINS2_6EffectENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault20getPrimitiveDurationENS2_18CompositePrimitiveEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault20getResonantFrequencyEPf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault21getCompositionSizeMaxEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault22getCompositionDelayMaxEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault22getFrequencyResolutionEPf"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault22getSupportedPrimitivesEPNSt3__16vectorINS2_18CompositePrimitiveENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault24getBandwidthAmplitudeMapEPNSt3__16vectorIfNS4_9allocatorIfEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault25getPwleCompositionSizeMaxEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault27getPwlePrimitiveDurationMaxEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault27getSupportedAlwaysOnEffectsEPNSt3__16vectorINS2_6EffectENS4_9allocatorIS6_EEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault2onEiRKNSt3__110shared_ptrINS2_17IVibratorCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault3offEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault7composeERKNSt3__16vectorINS2_15CompositeEffectENS4_9allocatorIS6_EEEERKNS4_10shared_ptrINS2_17IVibratorCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault7performENS2_6EffectENS2_14EffectStrengthERKNSt3__110shared_ptrINS2_17IVibratorCallbackEEEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManager10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManager13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManager14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManager14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManager14setDefaultImplERKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManagerC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManagerD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManagerD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManagerD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BnVibratorManager12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BnVibratorManager16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BnVibratorManager19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BnVibratorManagerC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BnVibratorManagerD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BnVibratorManagerD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BnVibratorManagerD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManager11getVibratorEiPNSt3__110shared_ptrINS2_9IVibratorEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManager12cancelSyncedEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManager13prepareSyncedERKNSt3__16vectorIiNS4_9allocatorIiEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManager13triggerSyncedERKNSt3__110shared_ptrINS2_17IVibratorCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManager14getVibratorIdsEPNSt3__16vectorIiNS4_9allocatorIiEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManager15getCapabilitiesEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManager16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManager19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManagerC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManagerC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManagerD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManagerD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17BpVibratorManagerD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallback10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallback13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallback14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallback14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallback14setDefaultImplERKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BnVibratorCallback12createBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BnVibratorCallback16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BnVibratorCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BnVibratorCallbackC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BnVibratorCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BnVibratorCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BnVibratorCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BpVibratorCallback10onCompleteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BpVibratorCallback16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BpVibratorCallback19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BpVibratorCallbackC1ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BpVibratorCallbackC2ERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BpVibratorCallbackD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BpVibratorCallbackD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator18BpVibratorCallbackD2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault11getVibratorEiPNSt3__110shared_ptrINS2_9IVibratorEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault12cancelSyncedEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault13prepareSyncedERKNSt3__16vectorIiNS4_9allocatorIiEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault13triggerSyncedERKNSt3__110shared_ptrINS2_17IVibratorCallbackEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault14getVibratorIdsEPNSt3__16vectorIiNS4_9allocatorIiEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault15getCapabilitiesEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator23IVibratorManagerDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator24IVibratorCallbackDefault10onCompleteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator24IVibratorCallbackDefault16getInterfaceHashEPNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator24IVibratorCallbackDefault19getInterfaceVersionEPi"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator24IVibratorCallbackDefault8asBinderEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator24IVibratorCallbackDefault8isRemoteEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibrator10fromBinderERKN3ndk10SpAIBinderE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibrator13writeToParcelEP7AParcelRKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibrator14getDefaultImplEv"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibrator14readFromParcelEPK7AParcelPNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibrator14setDefaultImplERKNSt3__110shared_ptrIS3_EE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibratorC2Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibratorD0Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibratorD1Ev"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibratorD2Ev"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8vibrator10ActivePwle13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8vibrator11BrakingPwle13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8vibrator13PrimitivePwle13writeToParcelEP7AParcel"
+  },
+  {
+   "name" : "_ZNK4aidl7android8hardware8vibrator15CompositeEffect13writeToParcelEP7AParcel"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware8vibrator16IVibratorManagerEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware8vibrator17IVibratorCallbackEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__110shared_ptrIN4aidl7android8hardware8vibrator9IVibratorEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8vibrator13PrimitivePwleENS_9allocatorIS5_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware8vibrator15CompositeEffectENS_9allocatorIS5_EEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIfNS_9allocatorIfEEE8__appendEj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEj"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware8vibrator16IVibratorManager4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware8vibrator17IVibratorCallback4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZGVN4aidl7android8hardware8vibrator9IVibrator4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator10ActivePwle10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator11BrakingPwle10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator13PrimitivePwle10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator15CompositeEffect10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManager10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManager12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware8vibrator16IVibratorManager4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallback10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallback12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware8vibrator17IVibratorCallback4hashE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibrator10descriptorE"
+  },
+  {
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibrator12default_implE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN4aidl7android8hardware8vibrator9IVibrator4hashE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware8vibrator16IVibratorManagerEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware8vibrator17IVibratorCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BnCInterfaceIN4aidl7android8hardware8vibrator9IVibratorEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware8vibrator16IVibratorManagerEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware8vibrator17IVibratorCallbackEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk12BpCInterfaceIN4aidl7android8hardware8vibrator9IVibratorEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3ndk13SharedRefBaseE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator10BnVibratorE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator10BpVibratorE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator16IVibratorDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator16IVibratorManagerE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator17BnVibratorManagerE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator17BpVibratorManagerE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator17IVibratorCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator18BnVibratorCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator18BpVibratorCallbackE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator23IVibratorManagerDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator24IVibratorCallbackDefaultE"
+  },
+  {
+   "name" : "_ZTVN4aidl7android8hardware8vibrator9IVibratorE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN3ndk13SharedRefBaseENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

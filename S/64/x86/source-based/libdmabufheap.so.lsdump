@@ -48,6 +48,15 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIA16_c",
+   "name" : "char [16]",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA16_c",
+   "size" : 16,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/dmabufheap-defs.h"
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIA17_c",
    "name" : "char [17]",
    "referenced_type" : "_ZTIc",
@@ -188,7 +197,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA32_c",
    "size" : 32,
-   "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.19.h"
+   "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.12.h"
   },
   {
    "alignment" : 4,
@@ -323,7 +332,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA7_c",
    "size" : 7,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/dmabufheap-defs.h"
   },
   {
    "alignment" : 2,
@@ -1141,6 +1150,31 @@
    "underlying_type" : "_ZTIj"
   },
   {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "kSyncRead"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "kSyncWrite"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "kSyncReadWrite"
+    }
+   ],
+   "linker_set_key" : "_ZTI8SyncType",
+   "name" : "SyncType",
+   "referenced_type" : "_ZTI8SyncType",
+   "self_type" : "_ZTI8SyncType",
+   "size" : 4,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/dmabufheap-defs.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
    "access" : "private",
    "alignment" : 4,
    "enum_fields" :
@@ -1781,6 +1815,27 @@
  [
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIFiiiPvE",
+   "name" : "int (int, int, void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "referenced_type" : "_ZTIFiiiPvE",
+   "return_type" : "_ZTIi",
+   "self_type" : "_ZTIFiiiPvE",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIFvPKvRN3fmt2v726basic_format_parse_contextIcNS2_6detail13error_handlerEEERNS2_20basic_format_contextINS4_15buffer_appenderIcEEcEEE",
    "name" : "void (const void *, fmt::v7::basic_format_parse_context<char, fmt::v7::detail::error_handler> &, fmt::v7::basic_format_context<fmt::v7::detail::buffer_appender<char>, char> &)",
    "parameters" :
@@ -1845,6 +1900,568 @@
  ],
  "functions" :
  [
+  {
+   "function_name" : "CheckIonSupport",
+   "linker_set_key" : "CheckIonSupport",
+   "return_type" : "_ZTIb",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
+  },
+  {
+   "function_name" : "CreateDmabufHeapBufferAllocator",
+   "linker_set_key" : "CreateDmabufHeapBufferAllocator",
+   "return_type" : "_ZTIP15BufferAllocator",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
+  },
+  {
+   "function_name" : "DmabufHeapAlloc",
+   "linker_set_key" : "DmabufHeapAlloc",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
+  },
+  {
+   "function_name" : "DmabufHeapAllocSystem",
+   "linker_set_key" : "DmabufHeapAllocSystem",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
+  },
+  {
+   "function_name" : "DmabufHeapCpuSyncEnd",
+   "linker_set_key" : "DmabufHeapCpuSyncEnd",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTI8SyncType"
+    },
+    {
+     "referenced_type" : "_ZTIPFiiiPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
+  },
+  {
+   "function_name" : "DmabufHeapCpuSyncStart",
+   "linker_set_key" : "DmabufHeapCpuSyncStart",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTI8SyncType"
+    },
+    {
+     "referenced_type" : "_ZTIPFiiiPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
+  },
+  {
+   "function_name" : "FreeDmabufHeapBufferAllocator",
+   "linker_set_key" : "FreeDmabufHeapBufferAllocator",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
+  },
+  {
+   "function_name" : "MapDmabufHeapNameToIonHeap",
+   "linker_set_key" : "MapDmabufHeapNameToIonHeap",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
+  },
+  {
+   "function_name" : "BufferAllocator::CpuSyncEnd",
+   "linker_set_key" : "_ZN15BufferAllocator10CpuSyncEndEj8SyncTypeRKNSt3__18functionIFiiiPvEEES3_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTI8SyncType"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIRKNSt3__18functionIFiiiPvEEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "function_name" : "BufferAllocator::AllocSystem",
+   "linker_set_key" : "_ZN15BufferAllocator11AllocSystemEbjjj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::DmabufAlloc",
+   "linker_set_key" : "_ZN15BufferAllocator11DmabufAllocERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "function_name" : "BufferAllocator::CpuSyncStart",
+   "linker_set_key" : "_ZN15BufferAllocator12CpuSyncStartEj8SyncTypeRKNSt3__18functionIFiiiPvEEES3_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTI8SyncType"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIRKNSt3__18functionIFiiiPvEEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::GetIonConfig",
+   "linker_set_key" : "_ZN15BufferAllocator12GetIonConfigERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS_13IonHeapConfigE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRN15BufferAllocator13IonHeapConfigE"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::LogInterface",
+   "linker_set_key" : "_ZN15BufferAllocator12LogInterfaceERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::QueryIonHeaps",
+   "linker_set_key" : "_ZN15BufferAllocator13QueryIonHeapsEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::OpenDmabufHeap",
+   "linker_set_key" : "_ZN15BufferAllocator14OpenDmabufHeapERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "function_name" : "BufferAllocator::CheckIonSupport",
+   "linker_set_key" : "_ZN15BufferAllocator15CheckIonSupportEv",
+   "return_type" : "_ZTIb",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::LegacyIonCpuSync",
+   "linker_set_key" : "_ZN15BufferAllocator16LegacyIonCpuSyncEjRKNSt3__18functionIFiiiPvEEES2_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__18functionIFiiiPvEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "function_name" : "BufferAllocator::MapNameToIonHeap",
+   "linker_set_key" : "_ZN15BufferAllocator16MapNameToIonHeapERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_jjj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::MapNameToIonMask",
+   "linker_set_key" : "_ZN15BufferAllocator16MapNameToIonMaskERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEjj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::MapNameToIonName",
+   "linker_set_key" : "_ZN15BufferAllocator16MapNameToIonNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_j",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "function_name" : "BufferAllocator::GetDmabufHeapList",
+   "linker_set_key" : "_ZN15BufferAllocator17GetDmabufHeapListEv",
+   "return_type" : "_ZTINSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEE",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::GetIonHeapIdByName",
+   "linker_set_key" : "_ZN15BufferAllocator18GetIonHeapIdByNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "function_name" : "BufferAllocator::Alloc",
+   "linker_set_key" : "_ZN15BufferAllocator5AllocERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEjjj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::DoSync",
+   "linker_set_key" : "_ZN15BufferAllocator6DoSyncEjb8SyncTypeRKNSt3__18functionIFiiiPvEEES3_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTI8SyncType"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__18functionIFiiiPvEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "BufferAllocator::IonAlloc",
+   "linker_set_key" : "_ZN15BufferAllocator8IonAllocERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEjjj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "function_name" : "BufferAllocator::BufferAllocator",
+   "linker_set_key" : "_ZN15BufferAllocatorC1Ev",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "function_name" : "BufferAllocator::BufferAllocator",
+   "linker_set_key" : "_ZN15BufferAllocatorC2Ev",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIP15BufferAllocator"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
   {
    "function_name" : "android::base::LogMessage::stream",
    "linker_set_key" : "_ZN7android4base10LogMessage6streamEv",
@@ -2840,7 +3457,16 @@
    "source_file" : "system/memory/libion/include/ion/ion.h"
   }
  ],
- "global_vars" : [],
+ "global_vars" :
+ [
+  {
+   "access" : "private",
+   "linker_set_key" : "_ZN15BufferAllocator17logged_interface_E",
+   "name" : "BufferAllocator::logged_interface_",
+   "referenced_type" : "_ZTIb",
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  }
+ ],
  "lvalue_reference_types" :
  [
   {
@@ -3165,7 +3791,7 @@
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 4,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
   },
   {
    "alignment" : 4,
@@ -3202,6 +3828,15 @@
    "self_type" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE",
    "size" : 4,
    "source_file" : "system/libbase/include/android-base/cmsg.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__18functionIFiiiPvEEE",
+   "name" : "const std::function<int (int, int, void *)> &",
+   "referenced_type" : "_ZTIKNSt3__18functionIFiiiPvEEE",
+   "self_type" : "_ZTIRKNSt3__18functionIFiiiPvEEE",
+   "size" : 4,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
   },
   {
    "alignment" : 4,
@@ -3337,6 +3972,15 @@
    "self_type" : "_ZTIRKy",
    "size" : 4,
    "source_file" : "external/fmtlib/include/fmt/format-inl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN15BufferAllocator13IonHeapConfigE",
+   "name" : "BufferAllocator::IonHeapConfig &",
+   "referenced_type" : "_ZTIN15BufferAllocator13IonHeapConfigE",
+   "self_type" : "_ZTIRN15BufferAllocator13IonHeapConfigE",
+   "size" : 4,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
   },
   {
    "alignment" : 4,
@@ -3669,7 +4313,7 @@
    "referenced_type" : "_ZTINSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
    "self_type" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
    "size" : 4,
-   "source_file" : "system/libbase/include/android-base/chrono_utils.h"
+   "source_file" : "system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -3793,6 +4437,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIP15BufferAllocator",
+   "name" : "BufferAllocator *",
+   "referenced_type" : "_ZTI15BufferAllocator",
+   "self_type" : "_ZTIP15BufferAllocator",
+   "size" : 4,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP3DIR",
    "name" : "DIR *",
    "referenced_type" : "_ZTI3DIR",
@@ -3807,7 +4460,16 @@
    "referenced_type" : "_ZTI7__sFILE",
    "self_type" : "_ZTIP7__sFILE",
    "size" : 4,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/libbase/include/android-base/unique_fd.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFiiiPvE",
+   "name" : "int (*)(int, int, void *)",
+   "referenced_type" : "_ZTIFiiiPvE",
+   "self_type" : "_ZTIPFiiiPvE",
+   "size" : 4,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocatorWrapper.h"
   },
   {
    "alignment" : 4,
@@ -4338,7 +5000,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 4,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -5418,7 +6080,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 4,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -5445,7 +6107,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIPj",
    "size" : 4,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
   },
   {
    "alignment" : 4,
@@ -5543,6 +6205,16 @@
    "self_type" : "_ZTIA11_Kj",
    "size" : 44,
    "source_file" : "external/fmtlib/include/fmt/format-inl.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA16_Kc",
+   "name" : "char const[16]",
+   "referenced_type" : "_ZTIA16_c",
+   "self_type" : "_ZTIA16_Kc",
+   "size" : 16,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/dmabufheap-defs.h"
   },
   {
    "alignment" : 1,
@@ -5752,7 +6424,7 @@
    "referenced_type" : "_ZTIA7_c",
    "self_type" : "_ZTIA7_Kc",
    "size" : 7,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/dmabufheap-defs.h"
   },
   {
    "alignment" : 2,
@@ -6592,7 +7264,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 12,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
   },
   {
    "alignment" : 4,
@@ -6633,6 +7305,16 @@
    "self_type" : "_ZTIKNSt3__16vectorIiNS_9allocatorIiEEEE",
    "size" : 12,
    "source_file" : "system/libbase/include/android-base/cmsg.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__18functionIFiiiPvEEE",
+   "name" : "const std::function<int (int, int, void *)>",
+   "referenced_type" : "_ZTINSt3__18functionIFiiiPvEEE",
+   "self_type" : "_ZTIKNSt3__18functionIFiiiPvEEE",
+   "size" : 24,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
   },
   {
    "alignment" : 1,
@@ -6702,7 +7384,7 @@
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIKb",
    "size" : 1,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 1,
@@ -6712,7 +7394,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 4,
@@ -6752,7 +7434,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIKi",
    "size" : 4,
-   "source_file" : "external/fmtlib/include/fmt/core.h"
+   "source_file" : "system/libbase/include/android-base/errno_restorer.h"
   },
   {
    "alignment" : 4,
@@ -6946,6 +7628,47 @@
    "referenced_type" : "_ZTI13ion_heap_data",
    "self_type" : "_ZTI13ion_heap_data",
    "size" : 52,
+   "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.12.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTIA32_c"
+    },
+    {
+     "field_name" : "type",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "heap_id",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "reserved0",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "reserved1",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "reserved2",
+     "field_offset" : 384,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI13ion_heap_data",
+   "name" : "ion_heap_data",
+   "referenced_type" : "_ZTI13ion_heap_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.S_x86_static/obj/system/memory/libion/ion.sdump",
+   "self_type" : "_ZTI13ion_heap_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.S_x86_static/obj/system/memory/libion/ion.sdump",
+   "size" : 52,
    "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.19.h"
   },
   {
@@ -7014,7 +7737,97 @@
    "referenced_type" : "_ZTI14ion_heap_query",
    "self_type" : "_ZTI14ion_heap_query",
    "size" : 24,
+   "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.12.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "cnt",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "reserved0",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "heaps",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "reserved1",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "reserved2",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI14ion_heap_query",
+   "name" : "ion_heap_query",
+   "referenced_type" : "_ZTI14ion_heap_query#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.S_x86_static/obj/system/memory/libion/ion.sdump",
+   "self_type" : "_ZTI14ion_heap_query#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.S_x86_static/obj/system/memory/libion/ion.sdump",
+   "size" : 24,
    "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.19.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "dmabuf_heap_fds_",
+     "referenced_type" : "_ZTINSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android4base14unique_fd_implINS8_13DefaultCloserEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_SB_EEEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "dmabuf_heap_fd_mutex_",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTINSt3__112shared_mutexE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "ion_fd_",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTIN7android4base14unique_fd_implINS0_13DefaultCloserEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "uses_legacy_ion_iface_",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "ion_heap_info_",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTINSt3__16vectorI13ion_heap_dataNS_9allocatorIS1_EEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "heap_name_to_config_",
+     "field_offset" : 448,
+     "referenced_type" : "_ZTINSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN15BufferAllocator13IonHeapConfigENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_S8_EEEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "heap_name_to_config_mutex_",
+     "field_offset" : 608,
+     "referenced_type" : "_ZTINSt3__112shared_mutexE"
+    }
+   ],
+   "linker_set_key" : "_ZTI15BufferAllocator",
+   "name" : "BufferAllocator",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTI15BufferAllocator",
+   "self_type" : "_ZTI15BufferAllocator",
+   "size" : 92,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
   },
   {
    "alignment" : 4,
@@ -7123,7 +7936,65 @@
    "referenced_type" : "_ZTI23ion_new_allocation_data",
    "self_type" : "_ZTI23ion_new_allocation_data",
    "size" : 24,
+   "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.12.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "len",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "heap_id_mask",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "fd",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "unused",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI23ion_new_allocation_data",
+   "name" : "ion_new_allocation_data",
+   "referenced_type" : "_ZTI23ion_new_allocation_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.S_x86_static/obj/system/memory/libion/ion.sdump",
+   "self_type" : "_ZTI23ion_new_allocation_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.S_x86_static/obj/system/memory/libion/ion.sdump",
+   "size" : 24,
    "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.19.h"
+  },
+  {
+   "access" : "private",
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "mask",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN15BufferAllocator13IonHeapConfigE",
+   "name" : "BufferAllocator::IonHeapConfig",
+   "referenced_type" : "_ZTIN15BufferAllocator13IonHeapConfigE",
+   "self_type" : "_ZTIN15BufferAllocator13IonHeapConfigE",
+   "size" : 8,
+   "source_file" : "system/memory/libdmabufheap/include/BufferAllocator/BufferAllocator.h"
   },
   {
    "alignment" : 4,

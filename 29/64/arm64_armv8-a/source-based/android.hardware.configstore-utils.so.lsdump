@@ -191,7 +191,7 @@
    "referenced_type" : "type-141",
    "self_type" : "type-141",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "underlying_type" : "type-2",
    "unique_id" : "_ZTSN7android4base5LogIdE"
   },
@@ -233,7 +233,7 @@
    "referenced_type" : "type-1",
    "self_type" : "type-1",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "underlying_type" : "type-2",
    "unique_id" : "_ZTSN7android4base11LogSeverityE"
   },
@@ -673,7 +673,7 @@
    "referenced_type" : "type-169",
    "self_type" : "type-168",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -730,7 +730,7 @@
    "referenced_type" : "type-137",
    "self_type" : "type-138",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -739,7 +739,7 @@
    "referenced_type" : "type-123",
    "self_type" : "type-136",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -748,7 +748,7 @@
    "referenced_type" : "type-74",
    "self_type" : "type-102",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -757,7 +757,7 @@
    "referenced_type" : "type-53",
    "self_type" : "type-52",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -766,7 +766,7 @@
    "referenced_type" : "type-154",
    "self_type" : "type-156",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -775,7 +775,7 @@
    "referenced_type" : "type-157",
    "self_type" : "type-159",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -784,7 +784,7 @@
    "referenced_type" : "type-139",
    "self_type" : "type-142",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -793,7 +793,7 @@
    "referenced_type" : "type-143",
    "self_type" : "type-145",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -802,7 +802,7 @@
    "referenced_type" : "type-160",
    "self_type" : "type-161",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -811,7 +811,7 @@
    "referenced_type" : "type-162",
    "self_type" : "type-163",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -820,7 +820,7 @@
    "referenced_type" : "type-146",
    "self_type" : "type-147",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -829,7 +829,7 @@
    "referenced_type" : "type-151",
    "self_type" : "type-152",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -838,7 +838,7 @@
    "referenced_type" : "type-113",
    "self_type" : "type-186",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -919,7 +919,7 @@
    "referenced_type" : "type-58",
    "self_type" : "type-75",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -946,7 +946,7 @@
    "referenced_type" : "type-112",
    "self_type" : "type-200",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1000,7 +1000,7 @@
    "referenced_type" : "type-57",
    "self_type" : "type-56",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1018,7 +1018,7 @@
    "referenced_type" : "type-16",
    "self_type" : "type-155",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1027,7 +1027,7 @@
    "referenced_type" : "type-134",
    "self_type" : "type-170",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1036,7 +1036,7 @@
    "referenced_type" : "type-19",
    "self_type" : "type-140",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1045,7 +1045,7 @@
    "referenced_type" : "type-55",
    "self_type" : "type-54",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1063,7 +1063,7 @@
    "referenced_type" : "type-17",
    "self_type" : "type-158",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1072,7 +1072,7 @@
    "referenced_type" : "type-20",
    "self_type" : "type-144",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   }
  ],
  "qualified_types" :
@@ -1115,7 +1115,7 @@
    "referenced_type" : "type-113",
    "self_type" : "type-112",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1205,7 +1205,7 @@
    "referenced_type" : "type-8",
    "self_type" : "type-14",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 1,
@@ -1215,7 +1215,7 @@
    "referenced_type" : "type-58",
    "self_type" : "type-57",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1245,7 +1245,7 @@
    "referenced_type" : "type-6",
    "self_type" : "type-29",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "is_const" : true,
@@ -1293,7 +1293,7 @@
    "referenced_type" : "type-17",
    "self_type" : "type-16",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 1,
@@ -1313,7 +1313,7 @@
    "referenced_type" : "type-135",
    "self_type" : "type-134",
    "size" : 24,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1323,7 +1323,7 @@
    "referenced_type" : "type-166",
    "self_type" : "type-165",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 8,
@@ -1343,7 +1343,7 @@
    "referenced_type" : "type-20",
    "self_type" : "type-19",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -1381,7 +1381,7 @@
    "name" : "const void",
    "referenced_type" : "type-51",
    "self_type" : "type-55",
-   "source_file" : "/system/core/base/include/android-base/logging.h"
+   "source_file" : "/system/libbase/include/android-base/logging.h"
   }
  ],
  "record_types" :
@@ -1609,7 +1609,7 @@
    "referenced_type" : "type-137",
    "self_type" : "type-137",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-75", "type-75" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPcS2_EE"
   },
@@ -1632,7 +1632,7 @@
    "referenced_type" : "type-123",
    "self_type" : "type-123",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-75", "type-56" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPcPKcEE"
   },
@@ -1655,7 +1655,7 @@
    "referenced_type" : "type-74",
    "self_type" : "type-74",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-56", "type-75" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKcPcEE"
   },
@@ -1678,7 +1678,7 @@
    "referenced_type" : "type-53",
    "self_type" : "type-53",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-56", "type-56" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKcS3_EE"
   },
@@ -1701,7 +1701,7 @@
    "referenced_type" : "type-154",
    "self_type" : "type-154",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-155", "type-155" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKaS3_EE"
   },
@@ -1724,7 +1724,7 @@
    "referenced_type" : "type-157",
    "self_type" : "type-157",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-155", "type-158" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKaPaEE"
   },
@@ -1747,7 +1747,7 @@
    "referenced_type" : "type-139",
    "self_type" : "type-139",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-140", "type-140" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKhS3_EE"
   },
@@ -1770,7 +1770,7 @@
    "referenced_type" : "type-143",
    "self_type" : "type-143",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-140", "type-144" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKhPhEE"
   },
@@ -1793,7 +1793,7 @@
    "referenced_type" : "type-160",
    "self_type" : "type-160",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-158", "type-155" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPaPKaEE"
   },
@@ -1816,7 +1816,7 @@
    "referenced_type" : "type-162",
    "self_type" : "type-162",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-158", "type-158" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPaS2_EE"
   },
@@ -1839,7 +1839,7 @@
    "referenced_type" : "type-146",
    "self_type" : "type-146",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-144", "type-140" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPhPKhEE"
   },
@@ -1862,7 +1862,7 @@
    "referenced_type" : "type-151",
    "self_type" : "type-151",
    "size" : 16,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "template_args" : [ "type-144", "type-144" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPhS2_EE"
   },
@@ -1882,7 +1882,7 @@
    "referenced_type" : "type-113",
    "self_type" : "type-113",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "unique_id" : "_ZTSN7android4base13ErrnoRestorerE"
   },
   {
@@ -1901,7 +1901,7 @@
    "referenced_type" : "type-164",
    "self_type" : "type-164",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "unique_id" : "_ZTSN7android4base10LogMessageE"
   },
   {
@@ -1920,7 +1920,7 @@
    "referenced_type" : "type-153",
    "self_type" : "type-153",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "unique_id" : "_ZTSN7android4base10LogdLoggerE"
   },
   {
@@ -1939,7 +1939,7 @@
    "referenced_type" : "type-167",
    "self_type" : "type-167",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h",
+   "source_file" : "/system/libbase/include/android-base/logging.h",
    "unique_id" : "_ZTSN7android4base17ScopedLogSeverityE"
   },
   {

@@ -209,15 +209,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIA64_N7android8AMessage4ItemE",
-   "name" : "android::AMessage::Item [64]",
-   "referenced_type" : "_ZTIN7android8AMessage4ItemE",
-   "self_type" : "_ZTIA64_N7android8AMessage4ItemE",
-   "size" : 1792,
-   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIA6_Pv",
    "name" : "void *[6]",
    "referenced_type" : "_ZTIPv",
@@ -9660,12 +9651,12 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 64,
+     "enum_field_value" : 256,
      "name" : "android::AMessage::kMaxNumItems"
     }
    ],
    "linker_set_key" : "_ZTIN7android8AMessage13$kMaxNumItemsE",
-   "name" : "android::AMessage::(anonymous enum at frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h:307:5)",
+   "name" : "android::AMessage::(anonymous enum at frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h:312:5)",
    "referenced_type" : "_ZTIN7android8AMessage13$kMaxNumItemsE",
    "self_type" : "_ZTIN7android8AMessage13$kMaxNumItemsE",
    "size" : 4,
@@ -19525,6 +19516,15 @@
    "self_type" : "_ZTIPN7android8AHandlerE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android8AMessage4ItemE",
+   "name" : "android::AMessage::Item *",
+   "referenced_type" : "_ZTIN7android8AMessage4ItemE",
+   "self_type" : "_ZTIPN7android8AMessage4ItemE",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h"
   },
   {
    "alignment" : 4,
@@ -35764,7 +35764,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8AMessage4ItemUt_E",
-   "name" : "android::AMessage::Item::(anonymous union at frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h:290:9)",
+   "name" : "android::AMessage::Item::(anonymous union at frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h:293:9)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8AMessage4ItemUt_E",
    "self_type" : "_ZTIN7android8AMessage4ItemUt_E",
@@ -35840,20 +35840,14 @@
      "access" : "private",
      "field_name" : "mItems",
      "field_offset" : 256,
-     "referenced_type" : "_ZTIA64_N7android8AMessage4ItemE"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mNumItems",
-     "field_offset" : 14592,
-     "referenced_type" : "_ZTIj"
+     "referenced_type" : "_ZTINSt3__16vectorIN7android8AMessage4ItemENS_9allocatorIS3_EEEE"
     }
    ],
    "linker_set_key" : "_ZTIN7android8AMessageE",
    "name" : "android::AMessage",
    "referenced_type" : "_ZTIN7android8AMessageE",
    "self_type" : "_ZTIN7android8AMessageE",
-   "size" : 1828,
+   "size" : 44,
    "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h",
    "vtable_components" :
    [

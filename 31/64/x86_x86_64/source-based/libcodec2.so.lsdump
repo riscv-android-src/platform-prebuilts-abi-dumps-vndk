@@ -1717,6 +1717,14 @@
      "name" : "C2FrameData::FLAG_INCOMPLETE"
     },
     {
+     "enum_field_value" : 16,
+     "name" : "C2FrameData::FLAG_CORRECTED"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "C2FrameData::FLAG_CORRUPT"
+    },
+    {
      "enum_field_value" : -2147483648,
      "name" : "C2FrameData::FLAG_CODEC_CONFIG"
     }

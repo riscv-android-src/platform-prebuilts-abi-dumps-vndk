@@ -240,6 +240,9 @@
    "name" : "_ZN7android10ColorUtils20unpackToColorAspectsEj"
   },
   {
+   "name" : "_ZN7android10ColorUtils23fillHdrStaticInfoBufferERKNS_13HDRStaticInfoEPh"
+  },
+  {
    "name" : "_ZN7android10ColorUtils24getColorConfigFromFormatERKNS_2spINS_8AMessageEEEPiS6_S6_"
   },
   {
@@ -262,9 +265,6 @@
   },
   {
    "name" : "_ZN7android10ColorUtils30wrapColorAspectsIntoColorRangeENS_12ColorAspects5RangeE"
-  },
-  {
-   "name" : "_ZN7android10ColorUtils32setHDRStaticInfoIntoAMediaFormatERKNS_13HDRStaticInfoEP12AMediaFormat"
   },
   {
    "name" : "_ZN7android10ColorUtils32unwrapColorAspectsFromColorRangeEiPNS_12ColorAspects5RangeE"
@@ -6962,6 +6962,21 @@
    "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
   },
   {
+   "function_name" : "android::ColorUtils::fillHdrStaticInfoBuffer",
+   "linker_set_key" : "_ZN7android10ColorUtils23fillHdrStaticInfoBufferERKNS_13HDRStaticInfoEPh",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRKN7android13HDRStaticInfoE"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
+  },
+  {
    "function_name" : "android::ColorUtils::getColorConfigFromFormat",
    "linker_set_key" : "_ZN7android10ColorUtils24getColorConfigFromFormatERKNS_2spINS_8AMessageEEEPiS6_S6_",
    "parameters" :
@@ -7092,21 +7107,6 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
-  },
-  {
-   "function_name" : "android::ColorUtils::setHDRStaticInfoIntoAMediaFormat",
-   "linker_set_key" : "_ZN7android10ColorUtils32setHDRStaticInfoIntoAMediaFormatERKNS_13HDRStaticInfoEP12AMediaFormat",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIRKN7android13HDRStaticInfoE"
-    },
-    {
-     "referenced_type" : "_ZTIP12AMediaFormat"
-    }
-   ],
-   "return_type" : "_ZTIv",
    "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
   },
   {
@@ -13920,7 +13920,7 @@
    "referenced_type" : "_ZTI12AMediaFormat",
    "self_type" : "_ZTIP12AMediaFormat",
    "size" : 4,
-   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
+   "source_file" : "frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
   {
    "alignment" : 4,

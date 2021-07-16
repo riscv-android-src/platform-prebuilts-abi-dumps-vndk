@@ -11,15 +11,6 @@
    "source_file" : "system/logging/liblog/include_vndk/log/log_read.h"
   },
   {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIA64_N7android8AMessage4ItemE",
-   "name" : "android::AMessage::Item [64]",
-   "referenced_type" : "_ZTIN7android8AMessage4ItemE",
-   "self_type" : "_ZTIA64_N7android8AMessage4ItemE",
-   "size" : 2048,
-   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h"
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIA6_i",
    "name" : "int [6]",
@@ -249,6 +240,9 @@
    "name" : "_ZN7android10ColorUtils20unpackToColorAspectsEj"
   },
   {
+   "name" : "_ZN7android10ColorUtils23fillHdrStaticInfoBufferERKNS_13HDRStaticInfoEPh"
+  },
+  {
    "name" : "_ZN7android10ColorUtils24getColorConfigFromFormatERKNS_2spINS_8AMessageEEEPiS6_S6_"
   },
   {
@@ -271,9 +265,6 @@
   },
   {
    "name" : "_ZN7android10ColorUtils30wrapColorAspectsIntoColorRangeENS_12ColorAspects5RangeE"
-  },
-  {
-   "name" : "_ZN7android10ColorUtils32setHDRStaticInfoIntoAMediaFormatERKNS_13HDRStaticInfoEP12AMediaFormat"
   },
   {
    "name" : "_ZN7android10ColorUtils32unwrapColorAspectsFromColorRangeEiPNS_12ColorAspects5RangeE"
@@ -870,6 +861,12 @@
    "name" : "_ZN7android8AMessage4Item7setNameEPKcj"
   },
   {
+   "name" : "_ZN7android8AMessage4ItemC1EPKcj"
+  },
+  {
+   "name" : "_ZN7android8AMessage4ItemC2EPKcj"
+  },
+  {
    "name" : "_ZN7android8AMessage4postEx"
   },
   {
@@ -1322,6 +1319,14 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN7android17AudioPresentationENS_9allocatorIS2_EEE21__push_back_slow_pathIS2_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8AMessage4ItemENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRPKcRjEEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android8AMessage4ItemENS_9allocatorIS3_EEE6assignIPS3_EENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleIS3_NS_15iterator_traitsISA_E9referenceEEE5valueEvE4typeESA_SA_"
   },
   {
    "name" : "_ZThn8_N7android8MetaDataD0Ev"
@@ -6605,12 +6610,12 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 64,
+     "enum_field_value" : 256,
      "name" : "android::AMessage::kMaxNumItems"
     }
    ],
    "linker_set_key" : "_ZTIN7android8AMessage13$kMaxNumItemsE",
-   "name" : "android::AMessage::(anonymous enum at frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h:307:5)",
+   "name" : "android::AMessage::(anonymous enum at frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h:312:5)",
    "referenced_type" : "_ZTIN7android8AMessage13$kMaxNumItemsE",
    "self_type" : "_ZTIN7android8AMessage13$kMaxNumItemsE",
    "size" : 4,
@@ -6957,6 +6962,21 @@
    "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
   },
   {
+   "function_name" : "android::ColorUtils::fillHdrStaticInfoBuffer",
+   "linker_set_key" : "_ZN7android10ColorUtils23fillHdrStaticInfoBufferERKNS_13HDRStaticInfoEPh",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRKN7android13HDRStaticInfoE"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
+  },
+  {
    "function_name" : "android::ColorUtils::getColorConfigFromFormat",
    "linker_set_key" : "_ZN7android10ColorUtils24getColorConfigFromFormatERKNS_2spINS_8AMessageEEEPiS6_S6_",
    "parameters" :
@@ -7087,21 +7107,6 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
-  },
-  {
-   "function_name" : "android::ColorUtils::setHDRStaticInfoIntoAMediaFormat",
-   "linker_set_key" : "_ZN7android10ColorUtils32setHDRStaticInfoIntoAMediaFormatERKNS_13HDRStaticInfoEP12AMediaFormat",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIRKN7android13HDRStaticInfoE"
-    },
-    {
-     "referenced_type" : "_ZTIP12AMediaFormat"
-    }
-   ],
-   "return_type" : "_ZTIv",
    "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
   },
   {
@@ -10015,7 +10020,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android8AHandlerE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.S_arm_armv8-a_static/obj/frameworks/av/media/libstagefright/foundation/AHandler.sdump"
+     "referenced_type" : "_ZTIPN7android8AHandlerE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.31_arm_armv8-a_static/obj/frameworks/av/media/libstagefright/foundation/AHandler.sdump"
     },
     {
      "referenced_type" : "_ZTIRKN7android2spINS_8AMessageEEE"
@@ -10224,6 +10229,44 @@
   {
    "function_name" : "android::AMessage::Item::setName",
    "linker_set_key" : "_ZN7android8AMessage4Item7setNameEPKcj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android8AMessage4ItemE"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h"
+  },
+  {
+   "function_name" : "android::AMessage::Item::Item",
+   "linker_set_key" : "_ZN7android8AMessage4ItemC1EPKcj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android8AMessage4ItemE"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h"
+  },
+  {
+   "function_name" : "android::AMessage::Item::Item",
+   "linker_set_key" : "_ZN7android8AMessage4ItemC2EPKcj",
    "parameters" :
    [
     {
@@ -13877,7 +13920,7 @@
    "referenced_type" : "_ZTI12AMediaFormat",
    "self_type" : "_ZTIP12AMediaFormat",
    "size" : 4,
-   "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
+   "source_file" : "frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
   {
    "alignment" : 4,
@@ -16411,13 +16454,13 @@
    "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AData.h"
   },
   {
-   "alignment" : 8,
+   "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android8AMessageE",
    "name" : "const android::AMessage",
    "referenced_type" : "_ZTIN7android8AMessageE",
    "self_type" : "_ZTIKN7android8AMessageE",
-   "size" : 2088,
+   "size" : 44,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
   {
@@ -21819,7 +21862,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.S_arm_armv8-a_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.31_arm_armv8-a_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
@@ -21855,13 +21898,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.S_arm_armv8-a_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.31_arm_armv8-a_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 160,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.S_arm_armv8-a_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.31_arm_armv8-a_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE5_NodeE",
@@ -23446,7 +23489,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8AMessage4ItemUt_E",
-   "name" : "android::AMessage::Item::(anonymous union at frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h:290:9)",
+   "name" : "android::AMessage::Item::(anonymous union at frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h:293:9)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8AMessage4ItemUt_E",
    "self_type" : "_ZTIN7android8AMessage4ItemUt_E",
@@ -23485,7 +23528,7 @@
    "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h"
   },
   {
-   "alignment" : 8,
+   "alignment" : 4,
    "base_specifiers" :
    [
     {
@@ -23522,20 +23565,14 @@
      "access" : "private",
      "field_name" : "mItems",
      "field_offset" : 256,
-     "referenced_type" : "_ZTIA64_N7android8AMessage4ItemE"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mNumItems",
-     "field_offset" : 16640,
-     "referenced_type" : "_ZTIj"
+     "referenced_type" : "_ZTINSt3__16vectorIN7android8AMessage4ItemENS_9allocatorIS3_EEEE"
     }
    ],
    "linker_set_key" : "_ZTIN7android8AMessageE",
    "name" : "android::AMessage",
    "referenced_type" : "_ZTIN7android8AMessageE",
    "self_type" : "_ZTIN7android8AMessageE",
-   "size" : 2088,
+   "size" : 44,
    "source_file" : "frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AMessage.h",
    "vtable_components" :
    [

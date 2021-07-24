@@ -1951,22 +1951,25 @@
    "name" : "_ZN7android6binder8internal21ClientCounterCallbackC2Ev"
   },
   {
-   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl10reRegisterEv"
-  },
-  {
-   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl11tryShutdownEv"
-  },
-  {
    "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl12forcePersistEb"
-  },
-  {
-   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl13tryUnregisterEv"
   },
   {
    "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl15registerServiceERKNS_2spINS_7IBinderEEERKNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEbi"
   },
   {
-   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl16maybeTryShutdownEv"
+   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl16reRegisterLockedEv"
+  },
+  {
+   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl17tryShutdownLockedEv"
+  },
+  {
+   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl19tryUnregisterLockedEv"
+  },
+  {
+   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl21registerServiceLockedERKNS_2spINS_7IBinderEEERKNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEbi"
+  },
+  {
+   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl22maybeTryShutdownLockedEv"
   },
   {
    "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl23assertRegisteredServiceERKNS_2spINS_7IBinderEEE"

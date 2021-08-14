@@ -16,6 +16,10 @@
 
 // TODO(b/150663999): Change this to a filegroup when the build system is able
 //                    to process a large number of files.
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
 genrule {
     name: "vndk_abi_dump_zip",
     tools: ["soong_zip"],

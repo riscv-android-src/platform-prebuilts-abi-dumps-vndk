@@ -56,13 +56,31 @@
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserArm64.h"
   },
   {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA32_j",
+   "name" : "unsigned int [32]",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIA32_j",
+   "size" : 128,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
+  },
+  {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA32_m",
    "name" : "unsigned long [32]",
    "referenced_type" : "_ZTIm",
    "self_type" : "_ZTIA32_m",
    "size" : 256,
-   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextMips.h"
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserRiscv64.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA32_y",
+   "name" : "unsigned long long [32]",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIA32_y",
+   "size" : 256,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
   },
   {
    "alignment" : 8,
@@ -72,6 +90,15 @@
    "self_type" : "_ZTIA34_m",
    "size" : 272,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextArm64.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA3_j",
+   "name" : "unsigned int [3]",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIA3_j",
+   "size" : 12,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
   },
   {
    "alignment" : 4,
@@ -90,6 +117,15 @@
    "self_type" : "_ZTIA45_m",
    "size" : 360,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserMips64.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA64_y",
+   "name" : "unsigned long long [64]",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIA64_y",
+   "size" : 512,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
   }
  ],
  "builtin_types" :
@@ -186,6 +222,16 @@
    "name" : "void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIv"
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIy",
+   "size" : 8
   }
  ],
  "elf_functions" :
@@ -340,6 +386,45 @@
    "name" : "_ZN11unwindstack11MemoryRangeC2ERKNSt3__110shared_ptrINS_6MemoryEEEmmm"
   },
   {
+   "name" : "_ZN11unwindstack11RegsRiscv6416IterateRegistersENSt3__18functionIFvPKcmEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv6418CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv6419StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv6422SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv642pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv642spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv644ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv644ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv645CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv646set_pcEm"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv646set_spEm"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv64C1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack11RegsRiscv64C2Ev"
+  },
+  {
    "name" : "_ZN11unwindstack11ThreadEntry26CopyUcontextFromSigcontextEPv"
   },
   {
@@ -398,6 +483,9 @@
   },
   {
    "name" : "_ZN11unwindstack12ElfInterface12GetTextRangeEPmS1_"
+  },
+  {
+   "name" : "_ZN11unwindstack12ElfInterface21GetVirtAddrFromOffsetEm"
   },
   {
    "binding" : "weak",
@@ -2850,6 +2938,9 @@
    "name" : "_ZTVN11unwindstack11MemoryRangeE"
   },
   {
+   "name" : "_ZTVN11unwindstack11RegsRiscv64E"
+  },
+  {
    "binding" : "weak",
    "name" : "_ZTVN11unwindstack12DwarfEhFrameIjEE"
   },
@@ -3068,6 +3159,151 @@
  ],
  "enum_types" :
  [
+  {
+   "alignment" : 2,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "unwindstack::RISCV64_REG_PC"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "unwindstack::RISCV64_REG_RA"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "unwindstack::RISCV64_REG_SP"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "unwindstack::RISCV64_REG_GP"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "unwindstack::RISCV64_REG_TP"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "unwindstack::RISCV64_REG_T0"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "unwindstack::RISCV64_REG_T1"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "unwindstack::RISCV64_REG_T2"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "unwindstack::RISCV64_REG_S0"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "unwindstack::RISCV64_REG_S1"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "unwindstack::RISCV64_REG_A0"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "unwindstack::RISCV64_REG_A1"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "unwindstack::RISCV64_REG_A2"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "unwindstack::RISCV64_REG_A3"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "unwindstack::RISCV64_REG_A4"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "unwindstack::RISCV64_REG_A5"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "unwindstack::RISCV64_REG_A6"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "unwindstack::RISCV64_REG_A7"
+    },
+    {
+     "enum_field_value" : 18,
+     "name" : "unwindstack::RISCV64_REG_S2"
+    },
+    {
+     "enum_field_value" : 19,
+     "name" : "unwindstack::RISCV64_REG_S3"
+    },
+    {
+     "enum_field_value" : 20,
+     "name" : "unwindstack::RISCV64_REG_S4"
+    },
+    {
+     "enum_field_value" : 21,
+     "name" : "unwindstack::RISCV64_REG_S5"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "unwindstack::RISCV64_REG_S6"
+    },
+    {
+     "enum_field_value" : 23,
+     "name" : "unwindstack::RISCV64_REG_S7"
+    },
+    {
+     "enum_field_value" : 24,
+     "name" : "unwindstack::RISCV64_REG_S8"
+    },
+    {
+     "enum_field_value" : 25,
+     "name" : "unwindstack::RISCV64_REG_S9"
+    },
+    {
+     "enum_field_value" : 26,
+     "name" : "unwindstack::RISCV64_REG_S10"
+    },
+    {
+     "enum_field_value" : 27,
+     "name" : "unwindstack::RISCV64_REG_S11"
+    },
+    {
+     "enum_field_value" : 28,
+     "name" : "unwindstack::RISCV64_REG_T3"
+    },
+    {
+     "enum_field_value" : 29,
+     "name" : "unwindstack::RISCV64_REG_T4"
+    },
+    {
+     "enum_field_value" : 30,
+     "name" : "unwindstack::RISCV64_REG_T5"
+    },
+    {
+     "enum_field_value" : 31,
+     "name" : "unwindstack::RISCV64_REG_T6"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "unwindstack::RISCV64_REG_MAX"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack10Riscv64RegE",
+   "name" : "unwindstack::Riscv64Reg",
+   "referenced_type" : "_ZTIN11unwindstack10Riscv64RegE",
+   "self_type" : "_ZTIN11unwindstack10Riscv64RegE",
+   "size" : 2,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/MachineRiscv64.h",
+   "underlying_type" : "_ZTIt"
+  },
   {
    "alignment" : 8,
    "enum_fields" :
@@ -3649,6 +3885,10 @@
     {
      "enum_field_value" : 6,
      "name" : "unwindstack::ARCH_MIPS64"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "unwindstack::ARCH_RISCV64"
     }
    ],
    "linker_set_key" : "_ZTIN11unwindstack8ArchEnumE",
@@ -4623,6 +4863,194 @@
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/DwarfMemory.h"
   },
   {
+   "function_name" : "unwindstack::RegsRiscv64::IterateRegisters",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv6416IterateRegistersENSt3__18functionIFvPKcmEEE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__18functionIFvPKcmEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::CreateFromUcontext",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv6418CreateFromUcontextEPv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIPN11unwindstack4RegsE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::StepIfSignalHandler",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv6419StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPN11unwindstack3ElfE"
+    },
+    {
+     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::SetPcFromReturnAddress",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv6422SetPcFromReturnAddressEPNS_6MemoryE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    },
+    {
+     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::pc",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv642pcEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::sp",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv642spEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::Arch",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv644ArchEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    }
+   ],
+   "return_type" : "_ZTIN11unwindstack8ArchEnumE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::Read",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv644ReadEPv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIPN11unwindstack4RegsE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::Clone",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv645CloneEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    }
+   ],
+   "return_type" : "_ZTIPN11unwindstack4RegsE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::set_pc",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv646set_pcEm",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::set_sp",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv646set_spEm",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::RegsRiscv64",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv64C1Ev",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsRiscv64::RegsRiscv64",
+   "linker_set_key" : "_ZN11unwindstack11RegsRiscv64C2Ev",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack11RegsRiscv64E"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
    "function_name" : "unwindstack::DwarfSection::Step",
    "linker_set_key" : "_ZN11unwindstack12DwarfSection4StepEmPNS_4RegsEPNS_6MemoryEPbS5_",
    "parameters" :
@@ -4683,6 +5111,22 @@
     }
    ],
    "return_type" : "_ZTIb",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h"
+  },
+  {
+   "function_name" : "unwindstack::ElfInterface::GetVirtAddrFromOffset",
+   "linker_set_key" : "_ZN11unwindstack12ElfInterface21GetVirtAddrFromOffsetEm",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack12ElfInterfaceE"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIm",
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h"
   },
   {
@@ -7576,6 +8020,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPN11unwindstack11RegsRiscv64E",
+   "name" : "unwindstack::RegsRiscv64 *",
+   "referenced_type" : "_ZTIN11unwindstack11RegsRiscv64E",
+   "self_type" : "_ZTIPN11unwindstack11RegsRiscv64E",
+   "size" : 8,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN11unwindstack11ThreadEntryE",
    "name" : "unwindstack::ThreadEntry *",
    "referenced_type" : "_ZTIN11unwindstack11ThreadEntryE",
@@ -8579,6 +9032,82 @@
     {
      "kind" : "deleting_dtor_pointer",
      "mangled_component_name" : "_ZN11unwindstack11DwarfMemoryD0Ev"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN11unwindstack8RegsImplImEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack11RegsRiscv64E",
+   "name" : "unwindstack::RegsRiscv64",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN11unwindstack11RegsRiscv64E",
+   "self_type" : "_ZTIN11unwindstack11RegsRiscv64E",
+   "size" : 48,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsRiscv64.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN11unwindstack11RegsRiscv64E"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv64D1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv64D0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv644ArchEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsImplImE7RawDataEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv642pcEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv642spEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv646set_pcEm"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv646set_spEm"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs11fallback_pcEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs20ResetPseudoRegistersEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs17SetPseudoRegisterEtm"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs17GetPseudoRegisterEtPm"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv6419StepIfSignalHandlerEmPNS_3ElfEPNS_6MemoryE"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv6422SetPcFromReturnAddressEPNS_6MemoryE"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv6416IterateRegistersENSt3__18functionIFvPKcmEEE"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack11RegsRiscv645CloneEv"
     }
    ]
   },
@@ -9864,6 +10393,32 @@
   },
   {
    "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "ss_sp",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "ss_flags",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "ss_size",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack15riscv64_stack_tE",
+   "name" : "unwindstack::riscv64_stack_t",
+   "referenced_type" : "_ZTIN11unwindstack15riscv64_stack_tE",
+   "self_type" : "_ZTIN11unwindstack15riscv64_stack_tE",
+   "size" : 24,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
+  },
+  {
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -10270,6 +10825,22 @@
    "fields" :
    [
     {
+     "field_name" : "sig",
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack16riscv64_sigset_tE",
+   "name" : "unwindstack::riscv64_sigset_t",
+   "referenced_type" : "_ZTIN11unwindstack16riscv64_sigset_tE",
+   "self_type" : "_ZTIN11unwindstack16riscv64_sigset_tE",
+   "size" : 8,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
      "field_name" : "r15",
      "referenced_type" : "_ZTIm"
     },
@@ -10513,6 +11084,22 @@
    "fields" :
    [
     {
+     "field_name" : "regs",
+     "referenced_type" : "_ZTIA32_m"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack17riscv64_user_regsE",
+   "name" : "unwindstack::riscv64_user_regs",
+   "referenced_type" : "_ZTIN11unwindstack17riscv64_user_regsE",
+   "self_type" : "_ZTIN11unwindstack17riscv64_user_regsE",
+   "size" : 256,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserRiscv64.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
      "field_name" : "r8",
      "referenced_type" : "_ZTIm"
     },
@@ -10724,6 +11311,93 @@
    ]
   },
   {
+   "alignment" : 16,
+   "fields" :
+   [
+    {
+     "field_name" : "regs",
+     "referenced_type" : "_ZTIA32_m"
+    },
+    {
+     "field_name" : "__fpregs",
+     "field_offset" : 2048,
+     "referenced_type" : "_ZTIN11unwindstack19__riscv_mc_fp_stateE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack18riscv64_mcontext_tE",
+   "name" : "unwindstack::riscv64_mcontext_t",
+   "referenced_type" : "_ZTIN11unwindstack18riscv64_mcontext_tE",
+   "self_type" : "_ZTIN11unwindstack18riscv64_mcontext_tE",
+   "size" : 784,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
+  },
+  {
+   "alignment" : 16,
+   "fields" :
+   [
+    {
+     "field_name" : "uc_flags",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "uc_link",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "uc_stack",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIN11unwindstack15riscv64_stack_tE"
+    },
+    {
+     "field_name" : "uc_sigmask",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIN11unwindstack16riscv64_sigset_tE"
+    },
+    {
+     "field_name" : "__glibc_reserved",
+     "field_offset" : 384,
+     "referenced_type" : "_ZTIA120_c"
+    },
+    {
+     "field_name" : "uc_mcontext",
+     "field_offset" : 1408,
+     "referenced_type" : "_ZTIN11unwindstack18riscv64_mcontext_tE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack18riscv64_ucontext_tE",
+   "name" : "unwindstack::riscv64_ucontext_t",
+   "referenced_type" : "_ZTIN11unwindstack18riscv64_ucontext_tE",
+   "self_type" : "_ZTIN11unwindstack18riscv64_ucontext_tE",
+   "size" : 960,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
+  },
+  {
+   "alignment" : 16,
+   "fields" :
+   [
+    {
+     "field_name" : "__f",
+     "referenced_type" : "_ZTIN11unwindstack22__riscv_mc_f_ext_stateE"
+    },
+    {
+     "field_name" : "__d",
+     "referenced_type" : "_ZTIN11unwindstack22__riscv_mc_d_ext_stateE"
+    },
+    {
+     "field_name" : "__q",
+     "referenced_type" : "_ZTIN11unwindstack22__riscv_mc_q_ext_stateE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack19__riscv_mc_fp_stateE",
+   "name" : "unwindstack::__riscv_mc_fp_state",
+   "record_kind" : "union",
+   "referenced_type" : "_ZTIN11unwindstack19__riscv_mc_fp_stateE",
+   "self_type" : "_ZTIN11unwindstack19__riscv_mc_fp_stateE",
+   "size" : 528,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
+  },
+  {
    "alignment" : 8,
    "linker_set_key" : "_ZTIN11unwindstack20GlobalDebugInterfaceINS_3ElfEEE",
    "name" : "unwindstack::GlobalDebugInterface<unwindstack::Elf>",
@@ -10796,6 +11470,74 @@
      "mangled_component_name" : "_ZN11unwindstack20GlobalDebugInterfaceINS_7DexFileEE4FindEPNS_4MapsEm"
     }
    ]
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "__f",
+     "referenced_type" : "_ZTIA32_y"
+    },
+    {
+     "field_name" : "__fcsr",
+     "field_offset" : 2048,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack22__riscv_mc_d_ext_stateE",
+   "name" : "unwindstack::__riscv_mc_d_ext_state",
+   "referenced_type" : "_ZTIN11unwindstack22__riscv_mc_d_ext_stateE",
+   "self_type" : "_ZTIN11unwindstack22__riscv_mc_d_ext_stateE",
+   "size" : 264,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "__f",
+     "referenced_type" : "_ZTIA32_j"
+    },
+    {
+     "field_name" : "__fcsr",
+     "field_offset" : 1024,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack22__riscv_mc_f_ext_stateE",
+   "name" : "unwindstack::__riscv_mc_f_ext_state",
+   "referenced_type" : "_ZTIN11unwindstack22__riscv_mc_f_ext_stateE",
+   "self_type" : "_ZTIN11unwindstack22__riscv_mc_f_ext_stateE",
+   "size" : 132,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
+  },
+  {
+   "alignment" : 16,
+   "fields" :
+   [
+    {
+     "field_name" : "__f",
+     "referenced_type" : "_ZTIA64_y"
+    },
+    {
+     "field_name" : "__fcsr",
+     "field_offset" : 4096,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "__glibc_reserved",
+     "field_offset" : 4128,
+     "referenced_type" : "_ZTIA3_j"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack22__riscv_mc_q_ext_stateE",
+   "name" : "unwindstack::__riscv_mc_q_ext_state",
+   "referenced_type" : "_ZTIN11unwindstack22__riscv_mc_q_ext_stateE",
+   "self_type" : "_ZTIN11unwindstack22__riscv_mc_q_ext_stateE",
+   "size" : 528,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
   },
   {
    "alignment" : 8,
